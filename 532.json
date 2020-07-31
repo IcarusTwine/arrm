@@ -1,0 +1,704 @@
+{
+    "ID": "532",
+    "PlaceName": "The Burden of the Son",
+    "Code": "d2a8_2",
+    "Map": {
+        "ID": "290",
+        "FixedTime": "-1",
+        "SizeFactor": "200",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "219.0",
+                "Icon": "000000",
+                "coords": [
+                    1024,
+                    1156
+                ],
+                "SubText": "The Burden of the Son",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "219.1",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "219.2",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "219.3",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "219.4",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ex1\/02_dra_d2\/alx\/d2a8\/level\/d2a8",
+    "BGM": {
+        "ID": "1001",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Null.scd",
+            "Night": "music\/ffxiv\/BGM_Null.scd",
+            "Battle": "music\/ffxiv\/BGM_Null.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "2",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 6234571,
+                "AssetType": 6,
+                "Name": "LVD_gimmick_0102",
+                "AssetPath": "bg\/ex1\/02_dra_d2\/shared\/for_vfx\/sgvf_d2a8_b0882.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6177907,
+                "AssetType": 6,
+                "Name": "LVD_zone_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0095.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 19.5,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "Sound": [
+            {
+                "LGB_ID": 6241171,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_windmill_w1f3.scd",
+                "Transform": {
+                    "X": -5.009768,
+                    "Y": -20.99386,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.14970679296875,
+                        "Y": 10.829712763671875
+                    },
+                    "Pixel": {
+                        "X": 1014.970679296875,
+                        "Y": 982.9712763671874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6241179,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_windmill_w1f3.scd",
+                "Transform": {
+                    "X": 5.019719,
+                    "Y": 21.04288,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.350492421386718,
+                        "Y": 11.67126859375
+                    },
+                    "Pixel": {
+                        "X": 1035.0492421386718,
+                        "Y": 1067.126859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6241181,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_gear.scd",
+                "Transform": {
+                    "X": -28.47653,
+                    "Y": -0.1351776,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 10.679913217773437,
+                        "Y": 11.2472938078125
+                    },
+                    "Pixel": {
+                        "X": 967.9913217773437,
+                        "Y": 1024.72938078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6241182,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_gear.scd",
+                "Transform": {
+                    "X": 27.19017,
+                    "Y": -0.0937795,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.794334458007812,
+                        "Y": 11.248122578369141
+                    },
+                    "Pixel": {
+                        "X": 1079.4334458007813,
+                        "Y": 1024.8122578369141
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6244486,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_gear.scd",
+                "Transform": {
+                    "X": 0.1910744,
+                    "Y": 32.27299,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.253825219921875,
+                        "Y": 11.896090131835939
+                    },
+                    "Pixel": {
+                        "X": 1025.3825219921875,
+                        "Y": 1089.6090131835938
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6244487,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_gear.scd",
+                "Transform": {
+                    "X": 0.4910744,
+                    "Y": -32.08884,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.259831079296875,
+                        "Y": 10.60759646484375
+                    },
+                    "Pixel": {
+                        "X": 1025.9831079296875,
+                        "Y": 960.759646484375
+                    }
+                }
+            }
+        ],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6540457,
+                "AssetType": 40,
+                "Name": "LVD_zone_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 2.645677e-13,
+                    "Y": -11.27369,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 11.250000000000005,
+                        "Y": 11.024306010742187
+                    },
+                    "Pixel": {
+                        "X": 1025.0000000000005,
+                        "Y": 1002.4306010742187
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [
+            {
+                "LGB_ID": 6236564,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 1731,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 6.25,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1000,
+                            "Y": 1000
+                        },
+                        "2": {
+                            "X": 1050,
+                            "Y": 1000
+                        },
+                        "3": {
+                            "X": 1050,
+                            "Y": 1050
+                        },
+                        "4": {
+                            "X": 1000,
+                            "Y": 1050
+                        }
+                    }
+                }
+            }
+        ],
+        "EventObject": [
+            {
+                "LGB_ID": 6184108,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_0102",
+                "EobjId": "2000139",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0005.sgb"
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": -21.9854,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6220708,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_0102",
+                "EobjId": "2006984",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -0.2318983,
+                    "Y": -1.988388,
+                    "Coords": {
+                        "X": 11.245357504736328,
+                        "Y": 11.210193404296875
+                    },
+                    "Pixel": {
+                        "X": 1024.5357504736328,
+                        "Y": 1021.0193404296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6234569,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_0102",
+                "EobjId": "2006989",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6236690,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_0102",
+                "EobjId": "2006974",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/btl\/shared\/for_vfx\/sgvf_w_btl_b0883.sgb"
+                },
+                "Transform": {
+                    "X": -16.29144,
+                    "Y": 4.361944,
+                    "Coords": {
+                        "X": 10.9238530078125,
+                        "Y": 11.337324074218749
+                    },
+                    "Pixel": {
+                        "X": 992.3853007812501,
+                        "Y": 1033.732407421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6245483,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_0102",
+                "EobjId": "2005313",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6177906,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000182",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 19.5,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [
+            {
+                "LGB_ID": 6212209,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": 12,
+                    "Y": -12,
+                    "Scale": 1.5,
+                    "Coords": {
+                        "X": 11.490234375,
+                        "Y": 11.009765625
+                    },
+                    "Pixel": {
+                        "X": 1049.0234375,
+                        "Y": 1000.9765625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6212210,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": -12,
+                    "Y": 12,
+                    "Scale": 1.5,
+                    "Coords": {
+                        "X": 11.009765625,
+                        "Y": 11.490234375
+                    },
+                    "Pixel": {
+                        "X": 1000.9765625,
+                        "Y": 1049.0234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6212211,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": -12,
+                    "Y": -12,
+                    "Scale": 1.5,
+                    "Coords": {
+                        "X": 11.009765625,
+                        "Y": 11.009765625
+                    },
+                    "Pixel": {
+                        "X": 1000.9765625,
+                        "Y": 1000.9765625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6212212,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": 12,
+                    "Y": 12,
+                    "Scale": 1.5,
+                    "Coords": {
+                        "X": 11.490234375,
+                        "Y": 11.490234375
+                    },
+                    "Pixel": {
+                        "X": 1049.0234375,
+                        "Y": 1049.0234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6239503,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": -18,
+                    "Y": 0,
+                    "Scale": 1.5,
+                    "Coords": {
+                        "X": 10.8896484375,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "X": 988.96484375,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6239504,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": 18,
+                    "Y": 0,
+                    "Scale": 1.5,
+                    "Coords": {
+                        "X": 11.6103515625,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "X": 1061.03515625,
+                        "Y": 1025
+                    }
+                }
+            }
+        ],
+        "CollisionBox": [
+            {
+                "LGB_ID": 6210970,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": 26,
+                    "Y": 0,
+                    "Scale": 0.5749435,
+                    "Coords": {
+                        "X": 11.7705078125,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1076.80078125,
+                            "Y": 998.5
+                        },
+                        "2": {
+                            "X": 1077.30078125,
+                            "Y": 998.5
+                        },
+                        "3": {
+                            "X": 1077.30078125,
+                            "Y": 1051.5
+                        },
+                        "4": {
+                            "X": 1076.80078125,
+                            "Y": 1051.5
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6210971,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": -26,
+                    "Y": 0,
+                    "Scale": 0.5749435,
+                    "Coords": {
+                        "X": 10.7294921875,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 972.69921875,
+                            "Y": 998.5
+                        },
+                        "2": {
+                            "X": 973.19921875,
+                            "Y": 998.5
+                        },
+                        "3": {
+                            "X": 973.19921875,
+                            "Y": 1051.5
+                        },
+                        "4": {
+                            "X": 972.69921875,
+                            "Y": 1051.5
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6210972,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": 0,
+                    "Y": 26,
+                    "Scale": 0.5749435,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 11.7705078125
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 998.5,
+                            "Y": 1076.80078125
+                        },
+                        "2": {
+                            "X": 1051.5,
+                            "Y": 1076.80078125
+                        },
+                        "3": {
+                            "X": 1051.5,
+                            "Y": 1077.30078125
+                        },
+                        "4": {
+                            "X": 998.5,
+                            "Y": 1077.30078125
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6210973,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_0102",
+                "Transform": {
+                    "X": 0,
+                    "Y": -26,
+                    "Scale": 0.5749435,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 10.7294921875
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 998.5,
+                            "Y": 972.69921875
+                        },
+                        "2": {
+                            "X": 1051.5,
+                            "Y": 972.69921875
+                        },
+                        "3": {
+                            "X": 1051.5,
+                            "Y": 973.19921875
+                        },
+                        "4": {
+                            "X": 998.5,
+                            "Y": 973.19921875
+                        }
+                    }
+                }
+            }
+        ],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

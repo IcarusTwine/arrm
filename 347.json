@@ -1,0 +1,274 @@
+{
+    "ID": "347",
+    "PlaceName": "Private Mansion - The Goblet - Ground Floor",
+    "Code": "w1i3",
+    "Map": {
+        "ID": "127",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/wil_w1\/ind\/w1i3\/level\/w1i3",
+    "BGM": {
+        "ID": "1109",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Field_Housing_Day.scd",
+            "Night": "music\/ffxiv\/BGM_Field_Housing_Night.scd",
+            "Battle": "music\/ffxiv\/BGM_Battle_Uru_01.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [],
+        "Sound": [
+            {
+                "LGB_ID": 4495844,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": -8.311111,
+                    "Y": 2.206804,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 5.958615453613281,
+                        "Y": 6.169179181640625
+                    },
+                    "Pixel": {
+                        "X": 991.7230907226563,
+                        "Y": 1033.835836328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4495850,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 8.244555,
+                    "Y": 0.6931067,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 6.290052126464843,
+                        "Y": 6.138875671240234
+                    },
+                    "Pixel": {
+                        "X": 1058.0104252929686,
+                        "Y": 1027.7751342480467
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4496168,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": -10.00885,
+                    "Y": 0.6827627,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 5.924627514648438,
+                        "Y": 6.138668589208985
+                    },
+                    "Pixel": {
+                        "X": 984.9255029296876,
+                        "Y": 1027.733717841797
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4496282,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 0.4721105,
+                    "Y": -14.17226,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 6.134451430908203,
+                        "Y": 5.841277998046875
+                    },
+                    "Pixel": {
+                        "X": 1026.8902861816405,
+                        "Y": 968.255599609375
+                    }
+                }
+            }
+        ],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 4389023,
+                "AssetType": 40,
+                "Name": "LVD_entrance_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.01067476,
+                    "Y": 7.638891,
+                    "Scale": 0.14767515,
+                    "Coords": {
+                        "X": 6.124786296308594,
+                        "Y": 6.277927017089843
+                    },
+                    "Pixel": {
+                        "X": 1024.9572592617187,
+                        "Y": 1055.5854034179686
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4389025,
+                "AssetType": 40,
+                "Name": "LVD_entrance_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0,
+                    "Y": 9.842246,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.322037151367187
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1064.4074302734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4864541,
+                "AssetType": 40,
+                "Name": "LVD_move_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -6.075932,
+                    "Y": -10,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.003362689453125,
+                        "Y": 5.9248046875
+                    },
+                    "Pixel": {
+                        "X": 1000.672537890625,
+                        "Y": 984.9609375
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 4389024,
+                "AssetType": 45,
+                "Name": "LVD_entrance_01",
+                "EobjId": "2002738",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "WarpID": "131149",
+                    "WarpName": "",
+                    "WarpQuestion": "Leave the estate hall?"
+                },
+                "Transform": {
+                    "X": 0.01592956,
+                    "Y": 11.54403,
+                    "Coords": {
+                        "X": 6.125318902324219,
+                        "Y": 6.356106069335938
+                    },
+                    "Pixel": {
+                        "X": 1025.0637804648438,
+                        "Y": 1071.2212138671878
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4389026,
+                "AssetType": 45,
+                "Name": "LVD_entrance_02",
+                "EobjId": "2002740",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/evt\/shared\/for_vfx\/sgvf_w_evt_0150.sgb"
+                },
+                "Transform": {
+                    "X": -2.049331,
+                    "Y": 19.23588,
+                    "Coords": {
+                        "X": 6.0839733540039065,
+                        "Y": 6.51009330078125
+                    },
+                    "Pixel": {
+                        "X": 1016.7946708007813,
+                        "Y": 1102.01866015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5005363,
+                "AssetType": 45,
+                "Name": "LVD_move_01",
+                "EobjId": "2004626",
+                "EobjName": "Entrance To Additional Chambers",
+                "EobjData": {
+                    "CustomTalk": "721074"
+                },
+                "Transform": {
+                    "X": -6,
+                    "Y": -10.44121,
+                    "Coords": {
+                        "X": 6.0048828125,
+                        "Y": 5.915971870117187
+                    },
+                    "Pixel": {
+                        "X": 1000.9765625,
+                        "Y": 983.1943740234374
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

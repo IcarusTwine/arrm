@@ -1,0 +1,264 @@
+{
+    "ID": "692",
+    "PlaceName": "Deltascape V2.0",
+    "Code": "z3o3",
+    "Map": {
+        "ID": "391",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Dimensional Disruption"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ex2\/05_zon_z3\/ome\/z3o3\/level\/z3o3",
+    "BGM": {
+        "ID": "1001",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Null.scd",
+            "Night": "music\/ffxiv\/BGM_Null.scd",
+            "Battle": "music\/ffxiv\/BGM_Null.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "2",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 6910926,
+                "AssetType": 6,
+                "Name": "LVD_zone_0102",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0095.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 15,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "Sound": [],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [
+            {
+                "LGB_ID": 7007386,
+                "AssetType": 13,
+                "Name": "EnvBox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/zon_z3\/z3_ome\/sound_z3o5.essb",
+                "Transform": {
+                    "X": 1.981419,
+                    "Y": -205.5898,
+                    "Scale": 1000,
+                    "Coords": {
+                        "X": 6.164667079589844,
+                        "Y": 2.00918857421875
+                    },
+                    "Pixel": {
+                        "X": 1032.9334159179687,
+                        "Y": 201.83771484374998
+                    }
+                }
+            }
+        ],
+        "PopRange": [
+            {
+                "LGB_ID": 6952602,
+                "AssetType": 40,
+                "Name": "LVD_zone_0102",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0,
+                    "Y": 15,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.42529296875
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1085.05859375
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [
+            {
+                "LGB_ID": 6954043,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 3,
+                "PlaceName": 2280,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 10,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            }
+        ],
+        "EventObject": [
+            {
+                "LGB_ID": 6911202,
+                "AssetType": 45,
+                "Name": "LVD_Boss_0102",
+                "EobjId": "2008482",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bg\/ex2\/05_zon_z3\/shared\/for_vfx\/sgvf_z3o2_b1178.sgb"
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6915009,
+                "AssetType": 45,
+                "Name": "LVD_Boss_0102",
+                "EobjId": "2007457",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6910924,
+                "AssetType": 45,
+                "Name": "LVD_zone_0102",
+                "EobjId": "2000182",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 15,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6910925,
+                "AssetType": 45,
+                "Name": "LVD_zone_0102",
+                "EobjId": "2000139",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0005.sgb"
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": -16,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [
+            {
+                "LGB_ID": 6912977,
+                "AssetType": 49,
+                "Name": "LVD_zone_0102",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 10,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            }
+        ],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

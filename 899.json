@@ -1,0 +1,4918 @@
+{
+    "ID": "899",
+    "PlaceName": "The Falling City of Nym",
+    "Code": "s1e8",
+    "Map": {
+        "ID": "601",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/sea_s1\/evt\/s1e8\/level\/s1e8",
+    "BGM": {
+        "ID": "251",
+        "BGM": "music\/ffxiv\/BGM_GlodSaucer_GATE.scd"
+    },
+    "ExclusiveType": "3",
+    "LGB_Data": {
+        "Vfx": [
+            {
+                "LGB_ID": 8223866,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/common\/vfx\/eff\/s1bigsmok1_o.avfx",
+                "Transform": {
+                    "X": 649.1001,
+                    "Y": -1197.735,
+                    "Coords": {
+                        "X": 19.119679736328123,
+                        "Y": -17.853093261718747
+                    },
+                    "Pixel": {
+                        "X": 3623.9359472656247,
+                        "Y": -3770.6186523437495
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 8223905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/vfx\/eff\/w_watr003_8y.avfx",
+                "Transform": {
+                    "X": 120.7238,
+                    "Y": -199.7931,
+                    "Coords": {
+                        "X": 8.541833886718749,
+                        "Y": 2.1252357910156245
+                    },
+                    "Pixel": {
+                        "X": 1508.3667773437496,
+                        "Y": 225.04715820312492
+                    }
+                },
+                "Color": {
+                    "R": 231,
+                    "G": 255,
+                    "B": 185
+                }
+            },
+            {
+                "LGB_ID": 8223917,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/common\/vfx\/eff\/s1f5taki04_y.avfx",
+                "Transform": {
+                    "X": 121.3601,
+                    "Y": -200.2444,
+                    "Coords": {
+                        "X": 8.554572314453125,
+                        "Y": 2.1162009765625
+                    },
+                    "Pixel": {
+                        "X": 1510.9144628906251,
+                        "Y": 223.24019531249996
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 235,
+                    "B": 204
+                }
+            },
+            {
+                "LGB_ID": 8223866,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/common\/vfx\/eff\/s1bigsmok1_o.avfx",
+                "Transform": {
+                    "X": 649.1001,
+                    "Y": -1197.735,
+                    "Coords": {
+                        "X": 19.119679736328123,
+                        "Y": -17.853093261718747
+                    },
+                    "Pixel": {
+                        "X": 3623.9359472656247,
+                        "Y": -3770.6186523437495
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 8223905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/vfx\/eff\/w_watr003_8y.avfx",
+                "Transform": {
+                    "X": 120.7238,
+                    "Y": -199.7931,
+                    "Coords": {
+                        "X": 8.541833886718749,
+                        "Y": 2.1252357910156245
+                    },
+                    "Pixel": {
+                        "X": 1508.3667773437496,
+                        "Y": 225.04715820312492
+                    }
+                },
+                "Color": {
+                    "R": 231,
+                    "G": 255,
+                    "B": 185
+                }
+            },
+            {
+                "LGB_ID": 8223917,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/common\/vfx\/eff\/s1f5taki04_y.avfx",
+                "Transform": {
+                    "X": 121.3601,
+                    "Y": -200.2444,
+                    "Coords": {
+                        "X": 8.554572314453125,
+                        "Y": 2.1162009765625
+                    },
+                    "Pixel": {
+                        "X": 1510.9144628906251,
+                        "Y": 223.24019531249996
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 235,
+                    "B": 204
+                }
+            }
+        ],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 8249121,
+                "AssetType": 6,
+                "Name": "LVD_course_1-1",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 36.2186,
+                    "Y": 189.9851,
+                    "Coords": {
+                        "X": 6.8500793945312495,
+                        "Y": 9.928412646484375
+                    },
+                    "Pixel": {
+                        "X": 1170.0158789062498,
+                        "Y": 1785.6825292968751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251150,
+                "AssetType": 6,
+                "Name": "LVD_course_1-1",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 44.5198,
+                    "Y": 195.9886,
+                    "Coords": {
+                        "X": 7.01626552734375,
+                        "Y": 10.048599902343751
+                    },
+                    "Pixel": {
+                        "X": 1203.25310546875,
+                        "Y": 1809.7199804687502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251151,
+                "AssetType": 6,
+                "Name": "LVD_course_1-1",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 93.8034,
+                    "Y": 173.2723,
+                    "Coords": {
+                        "X": 8.002900097656251,
+                        "Y": 9.593830224609375
+                    },
+                    "Pixel": {
+                        "X": 1400.5800195312504,
+                        "Y": 1718.766044921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251160,
+                "AssetType": 6,
+                "Name": "LVD_course_1-2",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 36.2057,
+                    "Y": 189.9999,
+                    "Coords": {
+                        "X": 6.849821142578125,
+                        "Y": 9.928708935546876
+                    },
+                    "Pixel": {
+                        "X": 1169.9642285156249,
+                        "Y": 1785.741787109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251167,
+                "AssetType": 6,
+                "Name": "LVD_course_1-2",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 44.4966,
+                    "Y": 195.9962,
+                    "Coords": {
+                        "X": 7.01580107421875,
+                        "Y": 10.04875205078125
+                    },
+                    "Pixel": {
+                        "X": 1203.16021484375,
+                        "Y": 1809.75041015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251168,
+                "AssetType": 6,
+                "Name": "LVD_course_1-2",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 93.7984,
+                    "Y": 173.3142,
+                    "Coords": {
+                        "X": 8.0028,
+                        "Y": 9.59466904296875
+                    },
+                    "Pixel": {
+                        "X": 1400.5600000000002,
+                        "Y": 1718.93380859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251182,
+                "AssetType": 6,
+                "Name": "LVD_course_1-3",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 36.196,
+                    "Y": 189.978,
+                    "Coords": {
+                        "X": 6.849626953125001,
+                        "Y": 9.9282705078125
+                    },
+                    "Pixel": {
+                        "X": 1169.925390625,
+                        "Y": 1785.6541015625003
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251183,
+                "AssetType": 6,
+                "Name": "LVD_course_1-3",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 44.5026,
+                    "Y": 196.0096,
+                    "Coords": {
+                        "X": 7.0159211914062505,
+                        "Y": 10.0490203125
+                    },
+                    "Pixel": {
+                        "X": 1203.1842382812501,
+                        "Y": 1809.8040624999999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251184,
+                "AssetType": 6,
+                "Name": "LVD_course_1-3",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 93.8057,
+                    "Y": 173.2846,
+                    "Coords": {
+                        "X": 8.002946142578125,
+                        "Y": 9.59407646484375
+                    },
+                    "Pixel": {
+                        "X": 1400.589228515625,
+                        "Y": 1718.81529296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251197,
+                "AssetType": 6,
+                "Name": "LVD_course_2-1",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 95.9884,
+                    "Y": 172.0096,
+                    "Coords": {
+                        "X": 8.046642773437501,
+                        "Y": 9.5685515625
+                    },
+                    "Pixel": {
+                        "X": 1409.3285546875002,
+                        "Y": 1713.7103124999999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251326,
+                "AssetType": 6,
+                "Name": "LVD_course_2-2",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 96,
+                    "Y": 172,
+                    "Coords": {
+                        "X": 8.046875,
+                        "Y": 9.568359375
+                    },
+                    "Pixel": {
+                        "X": 1409.375,
+                        "Y": 1713.671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251341,
+                "AssetType": 6,
+                "Name": "LVD_course_2-3",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 96,
+                    "Y": 172,
+                    "Coords": {
+                        "X": 8.046875,
+                        "Y": 9.568359375
+                    },
+                    "Pixel": {
+                        "X": 1409.375,
+                        "Y": 1713.671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251356,
+                "AssetType": 6,
+                "Name": "LVD_course_3-1",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 114.2057,
+                    "Y": 113.6372,
+                    "Coords": {
+                        "X": 8.411344580078126,
+                        "Y": 8.399963476562501
+                    },
+                    "Pixel": {
+                        "X": 1482.268916015625,
+                        "Y": 1479.9926953125002
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251357,
+                "AssetType": 6,
+                "Name": "LVD_course_3-1",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 143.2893,
+                    "Y": 113.7234,
+                    "Coords": {
+                        "X": 8.993584619140625,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1598.7169238281251,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251358,
+                "AssetType": 6,
+                "Name": "LVD_course_3-1",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 96.7,
+                    "Y": 172.8956,
+                    "Coords": {
+                        "X": 8.060888671874999,
+                        "Y": 9.5862888671875
+                    },
+                    "Pixel": {
+                        "X": 1412.1777343749998,
+                        "Y": 1717.2577734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251371,
+                "AssetType": 6,
+                "Name": "LVD_course_3-2",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 114.2039,
+                    "Y": 113.6362,
+                    "Coords": {
+                        "X": 8.411308544921875,
+                        "Y": 8.39994345703125
+                    },
+                    "Pixel": {
+                        "X": 1482.261708984375,
+                        "Y": 1479.9886914062502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251372,
+                "AssetType": 6,
+                "Name": "LVD_course_3-2",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 143.2893,
+                    "Y": 113.7234,
+                    "Coords": {
+                        "X": 8.993584619140625,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1598.7169238281251,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251373,
+                "AssetType": 6,
+                "Name": "LVD_course_3-2",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 96.7,
+                    "Y": 172.9,
+                    "Coords": {
+                        "X": 8.060888671874999,
+                        "Y": 9.586376953124999
+                    },
+                    "Pixel": {
+                        "X": 1412.1777343749998,
+                        "Y": 1717.2753906249998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251386,
+                "AssetType": 6,
+                "Name": "LVD_course_3-3",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 114.2039,
+                    "Y": 113.6362,
+                    "Coords": {
+                        "X": 8.411308544921875,
+                        "Y": 8.39994345703125
+                    },
+                    "Pixel": {
+                        "X": 1482.261708984375,
+                        "Y": 1479.9886914062502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251387,
+                "AssetType": 6,
+                "Name": "LVD_course_3-3",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 143.2888,
+                    "Y": 113.7254,
+                    "Coords": {
+                        "X": 8.993574609375,
+                        "Y": 8.40172919921875
+                    },
+                    "Pixel": {
+                        "X": 1598.714921875,
+                        "Y": 1480.34583984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251388,
+                "AssetType": 6,
+                "Name": "LVD_course_3-3",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1928.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 96.7,
+                    "Y": 172.9,
+                    "Coords": {
+                        "X": 8.060888671874999,
+                        "Y": 9.586376953124999
+                    },
+                    "Pixel": {
+                        "X": 1412.1777343749998,
+                        "Y": 1717.2753906249998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8240880,
+                "AssetType": 6,
+                "Name": "LVD_zone_02",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1484.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 6.0097,
+                    "Y": 6.4911,
+                    "Coords": {
+                        "X": 6.245311376953125,
+                        "Y": 6.254948779296876
+                    },
+                    "Pixel": {
+                        "X": 1049.062275390625,
+                        "Y": 1050.9897558593752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8230738,
+                "AssetType": 6,
+                "Name": "LVD_zone_02",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b1927.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 114.3,
+                    "Y": 208.65,
+                    "Coords": {
+                        "X": 8.413232421875001,
+                        "Y": 10.302075195312499
+                    },
+                    "Pixel": {
+                        "X": 1482.6464843750002,
+                        "Y": 1860.4150390624998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223894,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 78.2998,
+                    "Y": 118.9734,
+                    "Coords": {
+                        "X": 7.69252529296875,
+                        "Y": 8.506791699218748
+                    },
+                    "Pixel": {
+                        "X": 1338.5050585937502,
+                        "Y": 1501.3583398437497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223895,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 143.0873,
+                    "Y": 141.2206,
+                    "Coords": {
+                        "X": 8.989540673828126,
+                        "Y": 8.95217021484375
+                    },
+                    "Pixel": {
+                        "X": 1597.9081347656252,
+                        "Y": 1590.4340429687502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223896,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 87.74286,
+                    "Y": 133.7994,
+                    "Coords": {
+                        "X": 7.8815709277343755,
+                        "Y": 8.80360126953125
+                    },
+                    "Pixel": {
+                        "X": 1376.314185546875,
+                        "Y": 1560.7202539062498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223897,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 78.92566,
+                    "Y": 141.8531,
+                    "Coords": {
+                        "X": 7.705054716796875,
+                        "Y": 8.964832568359377
+                    },
+                    "Pixel": {
+                        "X": 1341.010943359375,
+                        "Y": 1592.9665136718754
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223899,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 134.9418,
+                    "Y": 148.4506,
+                    "Coords": {
+                        "X": 8.82647158203125,
+                        "Y": 9.09691142578125
+                    },
+                    "Pixel": {
+                        "X": 1565.29431640625,
+                        "Y": 1619.3822851562502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223900,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 89.65048,
+                    "Y": 272.2619,
+                    "Coords": {
+                        "X": 7.9197605859375,
+                        "Y": 11.575555615234375
+                    },
+                    "Pixel": {
+                        "X": 1383.9521171875,
+                        "Y": 2115.111123046875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223902,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 80.24808,
+                    "Y": 263.3567,
+                    "Coords": {
+                        "X": 7.7315289453125,
+                        "Y": 11.397277685546875
+                    },
+                    "Pixel": {
+                        "X": 1346.3057890625,
+                        "Y": 2079.455537109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223903,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 75.07413,
+                    "Y": 275.0637,
+                    "Coords": {
+                        "X": 7.627948891601562,
+                        "Y": 11.631646337890624
+                    },
+                    "Pixel": {
+                        "X": 1325.5897783203125,
+                        "Y": 2126.329267578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223894,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 78.2998,
+                    "Y": 118.9734,
+                    "Coords": {
+                        "X": 7.69252529296875,
+                        "Y": 8.506791699218748
+                    },
+                    "Pixel": {
+                        "X": 1338.5050585937502,
+                        "Y": 1501.3583398437497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223895,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 143.0873,
+                    "Y": 141.2206,
+                    "Coords": {
+                        "X": 8.989540673828126,
+                        "Y": 8.95217021484375
+                    },
+                    "Pixel": {
+                        "X": 1597.9081347656252,
+                        "Y": 1590.4340429687502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223896,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 87.74286,
+                    "Y": 133.7994,
+                    "Coords": {
+                        "X": 7.8815709277343755,
+                        "Y": 8.80360126953125
+                    },
+                    "Pixel": {
+                        "X": 1376.314185546875,
+                        "Y": 1560.7202539062498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223897,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 78.92566,
+                    "Y": 141.8531,
+                    "Coords": {
+                        "X": 7.705054716796875,
+                        "Y": 8.964832568359377
+                    },
+                    "Pixel": {
+                        "X": 1341.010943359375,
+                        "Y": 1592.9665136718754
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223899,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 134.9418,
+                    "Y": 148.4506,
+                    "Coords": {
+                        "X": 8.82647158203125,
+                        "Y": 9.09691142578125
+                    },
+                    "Pixel": {
+                        "X": 1565.29431640625,
+                        "Y": 1619.3822851562502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223900,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 89.65048,
+                    "Y": 272.2619,
+                    "Coords": {
+                        "X": 7.9197605859375,
+                        "Y": 11.575555615234375
+                    },
+                    "Pixel": {
+                        "X": 1383.9521171875,
+                        "Y": 2115.111123046875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223902,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 80.24808,
+                    "Y": 263.3567,
+                    "Coords": {
+                        "X": 7.7315289453125,
+                        "Y": 11.397277685546875
+                    },
+                    "Pixel": {
+                        "X": 1346.3057890625,
+                        "Y": 2079.455537109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8223903,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/sea_s1\/shared\/for_vfx\/sgvf_s1f5_sand01.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 75.07413,
+                    "Y": 275.0637,
+                    "Coords": {
+                        "X": 7.627948891601562,
+                        "Y": 11.631646337890624
+                    },
+                    "Pixel": {
+                        "X": 1325.5897783203125,
+                        "Y": 2126.329267578125
+                    }
+                }
+            }
+        ],
+        "Sound": [
+            {
+                "LGB_ID": 8338105,
+                "AssetType": 7,
+                "Name": "Spot",
+                "AssetPath": "bgcommon\/sound\/spot_wnd\/spot_wnd_Blizard_Loop_s.scd",
+                "Transform": {
+                    "X": 83.76575,
+                    "Y": 158.3914,
+                    "Scale": 4.989685,
+                    "Coords": {
+                        "X": 7.801951049804688,
+                        "Y": 9.29592158203125
+                    },
+                    "Pixel": {
+                        "X": 1360.3902099609377,
+                        "Y": 1659.18431640625
+                    }
+                }
+            }
+        ],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 8249123,
+                "AssetType": 40,
+                "Name": "LVD_course_1-1",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 61.90349,
+                    "Y": 206.5193,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.364278852539062,
+                        "Y": 10.259419580078125
+                    },
+                    "Pixel": {
+                        "X": 1272.8557705078124,
+                        "Y": 1851.8839160156251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251146,
+                "AssetType": 40,
+                "Name": "LVD_course_1-1",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 34.48651,
+                    "Y": 196.1926,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.815403764648438,
+                        "Y": 10.05268388671875
+                    },
+                    "Pixel": {
+                        "X": 1163.0807529296876,
+                        "Y": 1810.53677734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251147,
+                "AssetType": 40,
+                "Name": "LVD_course_1-1",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 88.30861,
+                    "Y": 185.1412,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.8928969775390625,
+                        "Y": 9.8314400390625
+                    },
+                    "Pixel": {
+                        "X": 1378.5793955078125,
+                        "Y": 1766.2880078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251177,
+                "AssetType": 40,
+                "Name": "LVD_course_1-2",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 62.30051,
+                    "Y": 206.3779,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.372227006835939,
+                        "Y": 10.256588818359376
+                    },
+                    "Pixel": {
+                        "X": 1274.4454013671877,
+                        "Y": 1851.3177636718751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251178,
+                "AssetType": 40,
+                "Name": "LVD_course_1-2",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 34.4865,
+                    "Y": 196.1926,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.815403564453124,
+                        "Y": 10.05268388671875
+                    },
+                    "Pixel": {
+                        "X": 1163.080712890625,
+                        "Y": 1810.53677734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251179,
+                "AssetType": 40,
+                "Name": "LVD_course_1-2",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 88.3086,
+                    "Y": 185.1412,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.892896777343751,
+                        "Y": 9.8314400390625
+                    },
+                    "Pixel": {
+                        "X": 1378.5793554687502,
+                        "Y": 1766.2880078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251192,
+                "AssetType": 40,
+                "Name": "LVD_course_1-3",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 61.70579,
+                    "Y": 206.3042,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.360320991210937,
+                        "Y": 10.25511337890625
+                    },
+                    "Pixel": {
+                        "X": 1272.0641982421873,
+                        "Y": 1851.02267578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251193,
+                "AssetType": 40,
+                "Name": "LVD_course_1-3",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 34.4865,
+                    "Y": 196.1926,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.815403564453124,
+                        "Y": 10.05268388671875
+                    },
+                    "Pixel": {
+                        "X": 1163.080712890625,
+                        "Y": 1810.53677734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251194,
+                "AssetType": 40,
+                "Name": "LVD_course_1-3",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 88.3086,
+                    "Y": 185.1412,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.892896777343751,
+                        "Y": 9.8314400390625
+                    },
+                    "Pixel": {
+                        "X": 1378.5793554687502,
+                        "Y": 1766.2880078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251207,
+                "AssetType": 40,
+                "Name": "LVD_course_2-1",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 109.7338,
+                    "Y": 180.0414,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.32181923828125,
+                        "Y": 9.72934443359375
+                    },
+                    "Pixel": {
+                        "X": 1464.36384765625,
+                        "Y": 1745.86888671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251336,
+                "AssetType": 40,
+                "Name": "LVD_course_2-2",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 98.8939,
+                    "Y": 165.6924,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.104809521484375,
+                        "Y": 9.4420841796875
+                    },
+                    "Pixel": {
+                        "X": 1420.961904296875,
+                        "Y": 1688.4168359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251351,
+                "AssetType": 40,
+                "Name": "LVD_course_2-3",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 98.8939,
+                    "Y": 165.6924,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.104809521484375,
+                        "Y": 9.4420841796875
+                    },
+                    "Pixel": {
+                        "X": 1420.961904296875,
+                        "Y": 1688.4168359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251366,
+                "AssetType": 40,
+                "Name": "LVD_course_3-1",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 140.3191,
+                    "Y": 116.7947,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.934122607421875,
+                        "Y": 8.463175146484375
+                    },
+                    "Pixel": {
+                        "X": 1586.824521484375,
+                        "Y": 1492.635029296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251367,
+                "AssetType": 40,
+                "Name": "LVD_course_3-1",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 108.8056,
+                    "Y": 114.4974,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.303237109375,
+                        "Y": 8.41718427734375
+                    },
+                    "Pixel": {
+                        "X": 1460.6474218750002,
+                        "Y": 1483.43685546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251368,
+                "AssetType": 40,
+                "Name": "LVD_course_3-1",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 111.614,
+                    "Y": 146.3085,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.3594599609375,
+                        "Y": 9.054027587890625
+                    },
+                    "Pixel": {
+                        "X": 1471.8919921875,
+                        "Y": 1610.8055175781249
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251381,
+                "AssetType": 40,
+                "Name": "LVD_course_3-2",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 139.379,
+                    "Y": 117.2856,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.91530224609375,
+                        "Y": 8.473002734375001
+                    },
+                    "Pixel": {
+                        "X": 1583.0604492187501,
+                        "Y": 1494.6005468750002
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251382,
+                "AssetType": 40,
+                "Name": "LVD_course_3-2",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 108.9257,
+                    "Y": 114.8206,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.305641455078124,
+                        "Y": 8.42365458984375
+                    },
+                    "Pixel": {
+                        "X": 1461.1282910156249,
+                        "Y": 1484.73091796875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251383,
+                "AssetType": 40,
+                "Name": "LVD_course_3-2",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 111.8059,
+                    "Y": 146.3575,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.363301708984375,
+                        "Y": 9.055008544921874
+                    },
+                    "Pixel": {
+                        "X": 1472.660341796875,
+                        "Y": 1611.0017089843748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251396,
+                "AssetType": 40,
+                "Name": "LVD_course_3-3",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 139.5494,
+                    "Y": 117.9788,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.91871357421875,
+                        "Y": 8.4868802734375
+                    },
+                    "Pixel": {
+                        "X": 1583.7427148437498,
+                        "Y": 1497.3760546874998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251397,
+                "AssetType": 40,
+                "Name": "LVD_course_3-3",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 109.5749,
+                    "Y": 115.165,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.318638134765624,
+                        "Y": 8.43054931640625
+                    },
+                    "Pixel": {
+                        "X": 1463.7276269531249,
+                        "Y": 1486.10986328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251398,
+                "AssetType": 40,
+                "Name": "LVD_course_3-3",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 111.6259,
+                    "Y": 148.7187,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.359698193359375,
+                        "Y": 9.102278662109375
+                    },
+                    "Pixel": {
+                        "X": 1471.939638671875,
+                        "Y": 1620.4557324218752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8240898,
+                "AssetType": 40,
+                "Name": "LVD_zone_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 31.56091,
+                    "Y": 41.73709,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.756834624023437,
+                        "Y": 6.9605569775390626
+                    },
+                    "Pixel": {
+                        "X": 1151.3669248046874,
+                        "Y": 1192.1113955078124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251134,
+                "AssetType": 40,
+                "Name": "LVD_zone_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 31.5609,
+                    "Y": 41.7371,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.756834423828125,
+                        "Y": 6.960557177734375
+                    },
+                    "Pixel": {
+                        "X": 1151.366884765625,
+                        "Y": 1192.111435546875
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 8249124,
+                "AssetType": 45,
+                "Name": "LVD_course_1-1",
+                "EobjId": "2010955",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116976"
+                },
+                "Transform": {
+                    "X": 36.95407,
+                    "Y": 188.6534,
+                    "Coords": {
+                        "X": 6.864803159179687,
+                        "Y": 9.90175263671875
+                    },
+                    "Pixel": {
+                        "X": 1172.9606318359374,
+                        "Y": 1780.3505273437502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258727,
+                "AssetType": 45,
+                "Name": "LVD_course_1-1",
+                "EobjId": "2010966",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116978"
+                },
+                "Transform": {
+                    "X": 93.6019,
+                    "Y": 173.3299,
+                    "Coords": {
+                        "X": 7.998866162109375,
+                        "Y": 9.594983349609375
+                    },
+                    "Pixel": {
+                        "X": 1399.773232421875,
+                        "Y": 1718.996669921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258726,
+                "AssetType": 45,
+                "Name": "LVD_course_1-1",
+                "EobjId": "2010965",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116977"
+                },
+                "Transform": {
+                    "X": 44.6239,
+                    "Y": 196.058,
+                    "Coords": {
+                        "X": 7.018349560546874,
+                        "Y": 10.0499892578125
+                    },
+                    "Pixel": {
+                        "X": 1203.669912109375,
+                        "Y": 1809.9978515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258733,
+                "AssetType": 45,
+                "Name": "LVD_course_1-2",
+                "EobjId": "2010967",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116979"
+                },
+                "Transform": {
+                    "X": 36.2548,
+                    "Y": 189.8525,
+                    "Coords": {
+                        "X": 6.8508041015625,
+                        "Y": 9.925758056640625
+                    },
+                    "Pixel": {
+                        "X": 1170.1608203125,
+                        "Y": 1785.151611328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258734,
+                "AssetType": 45,
+                "Name": "LVD_course_1-2",
+                "EobjId": "2010968",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116980"
+                },
+                "Transform": {
+                    "X": 44.5458,
+                    "Y": 196.0331,
+                    "Coords": {
+                        "X": 7.01678603515625,
+                        "Y": 10.049490771484376
+                    },
+                    "Pixel": {
+                        "X": 1203.35720703125,
+                        "Y": 1809.8981542968752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258735,
+                "AssetType": 45,
+                "Name": "LVD_course_1-2",
+                "EobjId": "2010969",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116981"
+                },
+                "Transform": {
+                    "X": 93.6019,
+                    "Y": 173.3299,
+                    "Coords": {
+                        "X": 7.998866162109375,
+                        "Y": 9.594983349609375
+                    },
+                    "Pixel": {
+                        "X": 1399.773232421875,
+                        "Y": 1718.996669921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258740,
+                "AssetType": 45,
+                "Name": "LVD_course_1-3",
+                "EobjId": "2010970",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116982"
+                },
+                "Transform": {
+                    "X": 36.2548,
+                    "Y": 189.8525,
+                    "Coords": {
+                        "X": 6.8508041015625,
+                        "Y": 9.925758056640625
+                    },
+                    "Pixel": {
+                        "X": 1170.1608203125,
+                        "Y": 1785.151611328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258741,
+                "AssetType": 45,
+                "Name": "LVD_course_1-3",
+                "EobjId": "2010971",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116983"
+                },
+                "Transform": {
+                    "X": 44.5458,
+                    "Y": 196.0331,
+                    "Coords": {
+                        "X": 7.01678603515625,
+                        "Y": 10.049490771484376
+                    },
+                    "Pixel": {
+                        "X": 1203.35720703125,
+                        "Y": 1809.8981542968752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258742,
+                "AssetType": 45,
+                "Name": "LVD_course_1-3",
+                "EobjId": "2010972",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116984"
+                },
+                "Transform": {
+                    "X": 93.6019,
+                    "Y": 173.3299,
+                    "Coords": {
+                        "X": 7.998866162109375,
+                        "Y": 9.594983349609375
+                    },
+                    "Pixel": {
+                        "X": 1399.773232421875,
+                        "Y": 1718.996669921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258749,
+                "AssetType": 45,
+                "Name": "LVD_course_2-1",
+                "EobjId": "2010973",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116985"
+                },
+                "Transform": {
+                    "X": 95.97883,
+                    "Y": 172.0067,
+                    "Coords": {
+                        "X": 8.046451186523438,
+                        "Y": 9.568493505859376
+                    },
+                    "Pixel": {
+                        "X": 1409.2902373046875,
+                        "Y": 1713.6987011718752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258753,
+                "AssetType": 45,
+                "Name": "LVD_course_2-2",
+                "EobjId": "2010974",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116986"
+                },
+                "Transform": {
+                    "X": 96.2943,
+                    "Y": 171.918,
+                    "Coords": {
+                        "X": 8.052766748046874,
+                        "Y": 9.5667177734375
+                    },
+                    "Pixel": {
+                        "X": 1410.553349609375,
+                        "Y": 1713.3435546874998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258761,
+                "AssetType": 45,
+                "Name": "LVD_course_2-3",
+                "EobjId": "2010975",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116987"
+                },
+                "Transform": {
+                    "X": 97.27625,
+                    "Y": 171.1299,
+                    "Coords": {
+                        "X": 8.072424926757812,
+                        "Y": 9.550940380859375
+                    },
+                    "Pixel": {
+                        "X": 1414.4849853515623,
+                        "Y": 1710.188076171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258789,
+                "AssetType": 45,
+                "Name": "LVD_course_3-1",
+                "EobjId": "2010976",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116988"
+                },
+                "Transform": {
+                    "X": 114.1865,
+                    "Y": 113.7234,
+                    "Coords": {
+                        "X": 8.410960205078126,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1482.1920410156254,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258790,
+                "AssetType": 45,
+                "Name": "LVD_course_3-1",
+                "EobjId": "2010977",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116989"
+                },
+                "Transform": {
+                    "X": 143.2893,
+                    "Y": 113.7234,
+                    "Coords": {
+                        "X": 8.993584619140625,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1598.7169238281251,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258791,
+                "AssetType": 45,
+                "Name": "LVD_course_3-1",
+                "EobjId": "2010978",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116990"
+                },
+                "Transform": {
+                    "X": 96.299,
+                    "Y": 173.4501,
+                    "Coords": {
+                        "X": 8.05286083984375,
+                        "Y": 9.597389697265626
+                    },
+                    "Pixel": {
+                        "X": 1410.57216796875,
+                        "Y": 1719.4779394531251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258793,
+                "AssetType": 45,
+                "Name": "LVD_course_3-2",
+                "EobjId": "2010979",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116991"
+                },
+                "Transform": {
+                    "X": 114.1865,
+                    "Y": 113.7234,
+                    "Coords": {
+                        "X": 8.410960205078126,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1482.1920410156254,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258794,
+                "AssetType": 45,
+                "Name": "LVD_course_3-2",
+                "EobjId": "2010980",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116992"
+                },
+                "Transform": {
+                    "X": 143.267,
+                    "Y": 113.6949,
+                    "Coords": {
+                        "X": 8.99313818359375,
+                        "Y": 8.401118603515625
+                    },
+                    "Pixel": {
+                        "X": 1598.62763671875,
+                        "Y": 1480.223720703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258795,
+                "AssetType": 45,
+                "Name": "LVD_course_3-2",
+                "EobjId": "2010981",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116993"
+                },
+                "Transform": {
+                    "X": 96.299,
+                    "Y": 173.4501,
+                    "Coords": {
+                        "X": 8.05286083984375,
+                        "Y": 9.597389697265626
+                    },
+                    "Pixel": {
+                        "X": 1410.57216796875,
+                        "Y": 1719.4779394531251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258804,
+                "AssetType": 45,
+                "Name": "LVD_course_3-3",
+                "EobjId": "2010982",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116994"
+                },
+                "Transform": {
+                    "X": 114.1865,
+                    "Y": 113.7234,
+                    "Coords": {
+                        "X": 8.410960205078126,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1482.1920410156254,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258805,
+                "AssetType": 45,
+                "Name": "LVD_course_3-3",
+                "EobjId": "2010983",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116995"
+                },
+                "Transform": {
+                    "X": 143.267,
+                    "Y": 113.6644,
+                    "Coords": {
+                        "X": 8.99313818359375,
+                        "Y": 8.400508007812501
+                    },
+                    "Pixel": {
+                        "X": 1598.62763671875,
+                        "Y": 1480.1016015625003
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8258806,
+                "AssetType": 45,
+                "Name": "LVD_course_3-3",
+                "EobjId": "2010984",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116996"
+                },
+                "Transform": {
+                    "X": 96.299,
+                    "Y": 173.4501,
+                    "Coords": {
+                        "X": 8.05286083984375,
+                        "Y": 9.597389697265626
+                    },
+                    "Pixel": {
+                        "X": 1410.57216796875,
+                        "Y": 1719.4779394531251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8241896,
+                "AssetType": 45,
+                "Name": "LVD_zone_02",
+                "EobjId": "2009601",
+                "EobjName": "Goal",
+                "EobjData": {
+                    "VFX": null
+                },
+                "Transform": {
+                    "X": 114.3,
+                    "Y": 208.65,
+                    "Coords": {
+                        "X": 8.413232421875001,
+                        "Y": 10.302075195312499
+                    },
+                    "Pixel": {
+                        "X": 1482.6464843750002,
+                        "Y": 1860.4150390624998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8240884,
+                "AssetType": 45,
+                "Name": "LVD_zone_02",
+                "EobjId": "2010950",
+                "EobjName": "",
+                "EobjData": {
+                    "Data": "1116967"
+                },
+                "Transform": {
+                    "X": 6.955927,
+                    "Y": 2.364318,
+                    "Coords": {
+                        "X": 6.264254397949218,
+                        "Y": 6.172332538085938
+                    },
+                    "Pixel": {
+                        "X": 1052.8508795898435,
+                        "Y": 1034.4665076171877
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [
+            {
+                "LGB_ID": 8249122,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 36.21864,
+                    "Y": 189.9851,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 6.8500801953125,
+                        "Y": 9.928412646484375
+                    },
+                    "Pixel": {
+                        "X": 1170.0160390624999,
+                        "Y": 1785.6825292968751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249302,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 23.1974,
+                    "Y": 74.4807,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.589401074218751,
+                        "Y": 7.6160687011718755
+                    },
+                    "Pixel": {
+                        "X": 1117.88021484375,
+                        "Y": 1323.213740234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249303,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 32.2233,
+                    "Y": 67.67666,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.770095361328125,
+                        "Y": 7.4798550097656245
+                    },
+                    "Pixel": {
+                        "X": 1154.019072265625,
+                        "Y": 1295.9710019531249
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249304,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 17.96682,
+                    "Y": 87.18018,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.484687314453125,
+                        "Y": 7.870306337890625
+                    },
+                    "Pixel": {
+                        "X": 1096.937462890625,
+                        "Y": 1374.061267578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249305,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 15.0451,
+                    "Y": 85.2729,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.426195849609375,
+                        "Y": 7.832123486328125
+                    },
+                    "Pixel": {
+                        "X": 1085.239169921875,
+                        "Y": 1366.424697265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249306,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 15.3871,
+                    "Y": 121.5761,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.433042529296874,
+                        "Y": 8.558896533203125
+                    },
+                    "Pixel": {
+                        "X": 1086.6085058593749,
+                        "Y": 1511.779306640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249307,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 8.3853,
+                    "Y": 119.4938,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.292869775390626,
+                        "Y": 8.517209863281249
+                    },
+                    "Pixel": {
+                        "X": 1058.5739550781252,
+                        "Y": 1503.4419726562496
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249308,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 16.5199,
+                    "Y": 164.8987,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.455720654296875,
+                        "Y": 9.426194677734374
+                    },
+                    "Pixel": {
+                        "X": 1091.1441308593749,
+                        "Y": 1685.238935546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249309,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 64.20229,
+                    "Y": 207.7792,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.410299750976563,
+                        "Y": 10.2846421875
+                    },
+                    "Pixel": {
+                        "X": 1282.0599501953125,
+                        "Y": 1856.9284375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249310,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 15.33142,
+                    "Y": 132.6649,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.431927841796875,
+                        "Y": 8.780889111328126
+                    },
+                    "Pixel": {
+                        "X": 1086.385568359375,
+                        "Y": 1556.177822265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249311,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": -1.045555,
+                    "Y": 133.9476,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.104068479003906,
+                        "Y": 8.806568164062499
+                    },
+                    "Pixel": {
+                        "X": 1020.8136958007811,
+                        "Y": 1561.3136328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249312,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 11.67013,
+                    "Y": 178.1546,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.358630532226562,
+                        "Y": 9.69157158203125
+                    },
+                    "Pixel": {
+                        "X": 1071.7261064453123,
+                        "Y": 1738.3143164062499
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249313,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 16.94314,
+                    "Y": 184.6597,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.464193720703125,
+                        "Y": 9.821800634765625
+                    },
+                    "Pixel": {
+                        "X": 1092.8387441406248,
+                        "Y": 1764.360126953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249314,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 33.9444,
+                    "Y": 174.1948,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.804550976562499,
+                        "Y": 9.6122982421875
+                    },
+                    "Pixel": {
+                        "X": 1160.9101953124998,
+                        "Y": 1722.4596484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249315,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 36.7313,
+                    "Y": 179.103,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.860343408203125,
+                        "Y": 9.71055810546875
+                    },
+                    "Pixel": {
+                        "X": 1172.068681640625,
+                        "Y": 1742.1116210937503
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249316,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 116.2698,
+                    "Y": 189.2553,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.452666894531252,
+                        "Y": 9.913802392578125
+                    },
+                    "Pixel": {
+                        "X": 1490.5333789062504,
+                        "Y": 1782.760478515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249317,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 93.8162,
+                    "Y": 206.162,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.00315634765625,
+                        "Y": 10.2522666015625
+                    },
+                    "Pixel": {
+                        "X": 1400.63126953125,
+                        "Y": 1850.4533203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251142,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 44.51979,
+                    "Y": 195.9886,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 7.016265327148438,
+                        "Y": 10.048599902343751
+                    },
+                    "Pixel": {
+                        "X": 1203.2530654296875,
+                        "Y": 1809.7199804687502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251143,
+                "AssetType": 49,
+                "Name": "LVD_course_1-1",
+                "Transform": {
+                    "X": 93.80343,
+                    "Y": 173.2723,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.002900698242186,
+                        "Y": 9.593830224609375
+                    },
+                    "Pixel": {
+                        "X": 1400.5801396484371,
+                        "Y": 1718.766044921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249341,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 32.2819,
+                    "Y": 67.7591,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.771268505859375,
+                        "Y": 7.4815054199218745
+                    },
+                    "Pixel": {
+                        "X": 1154.253701171875,
+                        "Y": 1296.3010839843748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249342,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 22.38718,
+                    "Y": 74.20982,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.573180849609375,
+                        "Y": 7.610645810546875
+                    },
+                    "Pixel": {
+                        "X": 1114.6361699218749,
+                        "Y": 1322.1291621093749
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249343,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 13.779,
+                    "Y": 87.85207,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.40084912109375,
+                        "Y": 7.883757260742188
+                    },
+                    "Pixel": {
+                        "X": 1080.1698242187501,
+                        "Y": 1376.7514521484377
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249344,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 16.3386,
+                    "Y": 122.1111,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.4520911132812495,
+                        "Y": 8.569606982421874
+                    },
+                    "Pixel": {
+                        "X": 1090.41822265625,
+                        "Y": 1513.9213964843748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249345,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 1.421,
+                    "Y": 119.0997,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.15344775390625,
+                        "Y": 8.509320166015625
+                    },
+                    "Pixel": {
+                        "X": 1030.68955078125,
+                        "Y": 1501.864033203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249346,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 8.4276,
+                    "Y": 119.4969,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.293716601562499,
+                        "Y": 8.517271923828124
+                    },
+                    "Pixel": {
+                        "X": 1058.7433203125,
+                        "Y": 1503.4543847656248
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249347,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 16.6782,
+                    "Y": 165.1752,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.45888974609375,
+                        "Y": 9.431730078125
+                    },
+                    "Pixel": {
+                        "X": 1091.77794921875,
+                        "Y": 1686.3460156249998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249348,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 31.1997,
+                    "Y": 190.3896,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.749603369140625,
+                        "Y": 9.936510546874999
+                    },
+                    "Pixel": {
+                        "X": 1149.920673828125,
+                        "Y": 1787.3021093749999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249349,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 15.3314,
+                    "Y": 132.6649,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.431927441406249,
+                        "Y": 8.780889111328126
+                    },
+                    "Pixel": {
+                        "X": 1086.3854882812498,
+                        "Y": 1556.177822265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249350,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": -1.5265,
+                    "Y": 134.1341,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.094440185546875,
+                        "Y": 8.810301806640624
+                    },
+                    "Pixel": {
+                        "X": 1018.8880371093751,
+                        "Y": 1562.0603613281246
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249351,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 14.7957,
+                    "Y": 183.4819,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.421202978515625,
+                        "Y": 9.798221630859375
+                    },
+                    "Pixel": {
+                        "X": 1084.240595703125,
+                        "Y": 1759.644326171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249352,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 20.2298,
+                    "Y": 188.7304,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.52999111328125,
+                        "Y": 9.903294140625
+                    },
+                    "Pixel": {
+                        "X": 1105.99822265625,
+                        "Y": 1780.6588281250001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249353,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 11.74448,
+                    "Y": 132.023,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.360118984375,
+                        "Y": 8.76803857421875
+                    },
+                    "Pixel": {
+                        "X": 1072.023796875,
+                        "Y": 1553.6077148437498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249354,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 33.4155,
+                    "Y": 172.1246,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.793962646484375,
+                        "Y": 9.57085380859375
+                    },
+                    "Pixel": {
+                        "X": 1158.792529296875,
+                        "Y": 1714.1707617187499
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249355,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 116.1974,
+                    "Y": 189.0101,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.45121748046875,
+                        "Y": 9.908893603515624
+                    },
+                    "Pixel": {
+                        "X": 1490.24349609375,
+                        "Y": 1781.778720703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249356,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 93.8132,
+                    "Y": 206.1241,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.0030962890625,
+                        "Y": 10.251507861328125
+                    },
+                    "Pixel": {
+                        "X": 1400.6192578124999,
+                        "Y": 1850.301572265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251172,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 36.20566,
+                    "Y": 189.9999,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 6.8498203417968755,
+                        "Y": 9.928708935546876
+                    },
+                    "Pixel": {
+                        "X": 1169.964068359375,
+                        "Y": 1785.741787109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251173,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 44.49662,
+                    "Y": 195.9962,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 7.0158014746093755,
+                        "Y": 10.04875205078125
+                    },
+                    "Pixel": {
+                        "X": 1203.160294921875,
+                        "Y": 1809.75041015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251174,
+                "AssetType": 49,
+                "Name": "LVD_course_1-2",
+                "Transform": {
+                    "X": 93.79844,
+                    "Y": 173.3142,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.002800800781252,
+                        "Y": 9.59466904296875
+                    },
+                    "Pixel": {
+                        "X": 1400.5601601562503,
+                        "Y": 1718.93380859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249375,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 32.1971,
+                    "Y": 67.26115,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.769570849609375,
+                        "Y": 7.471536694335938
+                    },
+                    "Pixel": {
+                        "X": 1153.9141699218749,
+                        "Y": 1294.3073388671876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249376,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 23.5836,
+                    "Y": 71.5588,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.5971326171874995,
+                        "Y": 7.557573632812501
+                    },
+                    "Pixel": {
+                        "X": 1119.4265234375,
+                        "Y": 1311.5147265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249377,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 16.82804,
+                    "Y": 88.30457,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.4618894726562495,
+                        "Y": 7.892816098632813
+                    },
+                    "Pixel": {
+                        "X": 1092.37789453125,
+                        "Y": 1378.5632197265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249378,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 15.48319,
+                    "Y": 83.30061,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.434966206054687,
+                        "Y": 7.792639165039063
+                    },
+                    "Pixel": {
+                        "X": 1086.9932412109374,
+                        "Y": 1358.5278330078127
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249379,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 19.7928,
+                    "Y": 99.5605,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.521242578125,
+                        "Y": 8.118154541015624
+                    },
+                    "Pixel": {
+                        "X": 1104.248515625,
+                        "Y": 1423.6309082031248
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249380,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 10.9065,
+                    "Y": 122.4302,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.343343017578125,
+                        "Y": 8.57599521484375
+                    },
+                    "Pixel": {
+                        "X": 1068.668603515625,
+                        "Y": 1515.19904296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249381,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 22,
+                    "Y": 168,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.5654296875,
+                        "Y": 9.48828125
+                    },
+                    "Pixel": {
+                        "X": 1113.0859375,
+                        "Y": 1697.65625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249382,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 32,
+                    "Y": 191.2903,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.765625,
+                        "Y": 9.954542138671876
+                    },
+                    "Pixel": {
+                        "X": 1153.125,
+                        "Y": 1790.9084277343752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249383,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 15.3314,
+                    "Y": 132.6649,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.431927441406249,
+                        "Y": 8.780889111328126
+                    },
+                    "Pixel": {
+                        "X": 1086.3854882812498,
+                        "Y": 1556.177822265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249384,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": -1.526499,
+                    "Y": 134.1341,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.094440205566406,
+                        "Y": 8.810301806640624
+                    },
+                    "Pixel": {
+                        "X": 1018.8880411132812,
+                        "Y": 1562.0603613281246
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249385,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 10.871,
+                    "Y": 176.7182,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.34263232421875,
+                        "Y": 9.662815527343751
+                    },
+                    "Pixel": {
+                        "X": 1068.5264648437499,
+                        "Y": 1732.56310546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249386,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 16.2532,
+                    "Y": 185.275,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.4503814453125,
+                        "Y": 9.834118652343749
+                    },
+                    "Pixel": {
+                        "X": 1090.0762890624999,
+                        "Y": 1766.8237304687498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249387,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 107.7945,
+                    "Y": 186.0869,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.282995361328124,
+                        "Y": 9.850372509765625
+                    },
+                    "Pixel": {
+                        "X": 1456.599072265625,
+                        "Y": 1770.074501953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249388,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 97.8001,
+                    "Y": 201.2163,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.082912158203126,
+                        "Y": 10.153256005859374
+                    },
+                    "Pixel": {
+                        "X": 1416.5824316406251,
+                        "Y": 1830.6512011718748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249389,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 117.0179,
+                    "Y": 190.7793,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.467643505859375,
+                        "Y": 9.944312158203125
+                    },
+                    "Pixel": {
+                        "X": 1493.528701171875,
+                        "Y": 1788.8624316406251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249390,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 93.7786,
+                    "Y": 206.1012,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.002403613281249,
+                        "Y": 10.2510494140625
+                    },
+                    "Pixel": {
+                        "X": 1400.4807226562498,
+                        "Y": 1850.2098828125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251187,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 36.19595,
+                    "Y": 189.978,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 6.849625952148437,
+                        "Y": 9.9282705078125
+                    },
+                    "Pixel": {
+                        "X": 1169.9251904296875,
+                        "Y": 1785.6541015625003
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251188,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 44.50264,
+                    "Y": 196.0096,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 7.0159219921875,
+                        "Y": 10.0490203125
+                    },
+                    "Pixel": {
+                        "X": 1203.1843984375,
+                        "Y": 1809.8040624999999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251189,
+                "AssetType": 49,
+                "Name": "LVD_course_1-3",
+                "Transform": {
+                    "X": 93.80567,
+                    "Y": 173.2846,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.002945541992187,
+                        "Y": 9.59407646484375
+                    },
+                    "Pixel": {
+                        "X": 1400.5891083984372,
+                        "Y": 1718.81529296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249505,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 47.199,
+                    "Y": 64.5257,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.06990185546875,
+                        "Y": 7.416774267578125
+                    },
+                    "Pixel": {
+                        "X": 1213.98037109375,
+                        "Y": 1283.354853515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249506,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 51.0739,
+                    "Y": 82.898,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.147475537109375,
+                        "Y": 7.7845791015625005
+                    },
+                    "Pixel": {
+                        "X": 1229.495107421875,
+                        "Y": 1356.9158203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249507,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 45.3933,
+                    "Y": 102.6011,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.033752587890625,
+                        "Y": 8.179025927734376
+                    },
+                    "Pixel": {
+                        "X": 1206.750517578125,
+                        "Y": 1435.8051855468752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249508,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 64.5123,
+                    "Y": 102.1758,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.416506005859374,
+                        "Y": 8.17051162109375
+                    },
+                    "Pixel": {
+                        "X": 1283.301201171875,
+                        "Y": 1434.10232421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249509,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 70.39468,
+                    "Y": 100.0124,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.53426849609375,
+                        "Y": 8.1272013671875
+                    },
+                    "Pixel": {
+                        "X": 1306.85369921875,
+                        "Y": 1425.4402734374999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249510,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 77.375,
+                    "Y": 121.8937,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.67401123046875,
+                        "Y": 8.565254736328125
+                    },
+                    "Pixel": {
+                        "X": 1334.80224609375,
+                        "Y": 1513.050947265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249511,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 80.01483,
+                    "Y": 133.0767,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.726859389648438,
+                        "Y": 8.789133154296874
+                    },
+                    "Pixel": {
+                        "X": 1345.3718779296876,
+                        "Y": 1557.8266308593747
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249512,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 99.8716,
+                    "Y": 144.2395,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.1243826171875,
+                        "Y": 9.012607177734376
+                    },
+                    "Pixel": {
+                        "X": 1424.8765234375,
+                        "Y": 1602.5214355468752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249513,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 41.44561,
+                    "Y": 88.95659,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.954721684570313,
+                        "Y": 7.9058692333984375
+                    },
+                    "Pixel": {
+                        "X": 1190.9443369140624,
+                        "Y": 1381.1738466796876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249514,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 46.63464,
+                    "Y": 96.69587,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.0586036328125,
+                        "Y": 8.060805991210938
+                    },
+                    "Pixel": {
+                        "X": 1211.7207265625,
+                        "Y": 1412.1611982421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249515,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 72.4727,
+                    "Y": 110.4808,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.575869482421876,
+                        "Y": 8.336773828125
+                    },
+                    "Pixel": {
+                        "X": 1315.173896484375,
+                        "Y": 1467.354765625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249516,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 92.1953,
+                    "Y": 132.4901,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.970706689453125,
+                        "Y": 8.777389697265624
+                    },
+                    "Pixel": {
+                        "X": 1394.141337890625,
+                        "Y": 1555.477939453125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249517,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 101.4823,
+                    "Y": 153.5396,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.156628076171875,
+                        "Y": 9.1987908203125
+                    },
+                    "Pixel": {
+                        "X": 1431.3256152343752,
+                        "Y": 1639.7581640624999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249518,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 94.3969,
+                    "Y": 150.6074,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.014781689453125,
+                        "Y": 9.14008955078125
+                    },
+                    "Pixel": {
+                        "X": 1402.956337890625,
+                        "Y": 1628.0179101562499
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249519,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 93.59418,
+                    "Y": 220.2364,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.998711611328125,
+                        "Y": 10.5340294921875
+                    },
+                    "Pixel": {
+                        "X": 1399.742322265625,
+                        "Y": 1906.8058984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249520,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 123.3376,
+                    "Y": 191.9412,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.5941609375,
+                        "Y": 9.9675728515625
+                    },
+                    "Pixel": {
+                        "X": 1518.8321875,
+                        "Y": 1793.5145703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251202,
+                "AssetType": 49,
+                "Name": "LVD_course_2-1",
+                "Transform": {
+                    "X": 95.98843,
+                    "Y": 172.0096,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.046643374023438,
+                        "Y": 9.5685515625
+                    },
+                    "Pixel": {
+                        "X": 1409.3286748046876,
+                        "Y": 1713.7103124999999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249537,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 41.6016,
+                    "Y": 64.1877,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.95784453125,
+                        "Y": 7.410007666015625
+                    },
+                    "Pixel": {
+                        "X": 1191.56890625,
+                        "Y": 1282.001533203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249538,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 25.1938,
+                    "Y": 77.1546,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.629368066406251,
+                        "Y": 7.6695989257812505
+                    },
+                    "Pixel": {
+                        "X": 1125.87361328125,
+                        "Y": 1333.91978515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249539,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 44.0295,
+                    "Y": 98.9604,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.0064499511718745,
+                        "Y": 8.1061408203125
+                    },
+                    "Pixel": {
+                        "X": 1201.289990234375,
+                        "Y": 1421.2281640625001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249540,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 46.6607,
+                    "Y": 106.1738,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.059125341796875,
+                        "Y": 8.25054970703125
+                    },
+                    "Pixel": {
+                        "X": 1211.825068359375,
+                        "Y": 1450.10994140625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249541,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 71.17596,
+                    "Y": 99.40376,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.549909355468751,
+                        "Y": 8.1150166796875
+                    },
+                    "Pixel": {
+                        "X": 1309.9818710937502,
+                        "Y": 1423.0033359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249542,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 86.52677,
+                    "Y": 124.8396,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.8572253759765625,
+                        "Y": 8.624230273437501
+                    },
+                    "Pixel": {
+                        "X": 1371.4450751953125,
+                        "Y": 1524.8460546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249543,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 79.93044,
+                    "Y": 133.7913,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.725169941406249,
+                        "Y": 8.803439111328125
+                    },
+                    "Pixel": {
+                        "X": 1345.0339882812498,
+                        "Y": 1560.6878222656248
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249544,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 99.8643,
+                    "Y": 144.1561,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.124236474609376,
+                        "Y": 9.010937548828126
+                    },
+                    "Pixel": {
+                        "X": 1424.8472949218751,
+                        "Y": 1602.1875097656252
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249545,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 35.6541,
+                    "Y": 90.7905,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.838778369140624,
+                        "Y": 7.942583251953125
+                    },
+                    "Pixel": {
+                        "X": 1167.7556738281248,
+                        "Y": 1388.516650390625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249546,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 46.51717,
+                    "Y": 96.64142,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.056251938476563,
+                        "Y": 8.059715927734374
+                    },
+                    "Pixel": {
+                        "X": 1211.2503876953126,
+                        "Y": 1411.9431855468747
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249547,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 72.49265,
+                    "Y": 110.3963,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.576268872070313,
+                        "Y": 8.335082177734375
+                    },
+                    "Pixel": {
+                        "X": 1315.2537744140625,
+                        "Y": 1467.0164355468748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249548,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 92.211,
+                    "Y": 132.6488,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.97102099609375,
+                        "Y": 8.780566796875
+                    },
+                    "Pixel": {
+                        "X": 1394.20419921875,
+                        "Y": 1556.113359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249549,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 101.4823,
+                    "Y": 153.5396,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.156628076171875,
+                        "Y": 9.1987908203125
+                    },
+                    "Pixel": {
+                        "X": 1431.3256152343752,
+                        "Y": 1639.7581640624999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249550,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 94.3621,
+                    "Y": 150.634,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.014085009765626,
+                        "Y": 9.1406220703125
+                    },
+                    "Pixel": {
+                        "X": 1402.8170019531253,
+                        "Y": 1628.1244140625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249551,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 93.53017,
+                    "Y": 220.3137,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.9974301611328125,
+                        "Y": 10.535577001953126
+                    },
+                    "Pixel": {
+                        "X": 1399.4860322265624,
+                        "Y": 1907.1154003906252
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249552,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 123.5471,
+                    "Y": 191.767,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.598355029296876,
+                        "Y": 9.96408544921875
+                    },
+                    "Pixel": {
+                        "X": 1519.671005859375,
+                        "Y": 1792.81708984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251331,
+                "AssetType": 49,
+                "Name": "LVD_course_2-2",
+                "Transform": {
+                    "X": 96,
+                    "Y": 172,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.046875,
+                        "Y": 9.568359375
+                    },
+                    "Pixel": {
+                        "X": 1409.375,
+                        "Y": 1713.671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249570,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 47.1879,
+                    "Y": 64.4201,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.069679638671875,
+                        "Y": 7.414660205078125
+                    },
+                    "Pixel": {
+                        "X": 1213.9359277343751,
+                        "Y": 1282.932041015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249571,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 53.8304,
+                    "Y": 84.9238,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.202659375,
+                        "Y": 7.825134667968751
+                    },
+                    "Pixel": {
+                        "X": 1240.531875,
+                        "Y": 1365.02693359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249572,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 46.7242,
+                    "Y": 106.1304,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.06039658203125,
+                        "Y": 8.249680859375001
+                    },
+                    "Pixel": {
+                        "X": 1212.07931640625,
+                        "Y": 1449.9361718750001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249573,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 48.83246,
+                    "Y": 137.6796,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.102602958984375,
+                        "Y": 8.8812810546875
+                    },
+                    "Pixel": {
+                        "X": 1220.520591796875,
+                        "Y": 1576.2562109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249574,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 52.0168,
+                    "Y": 154.001,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.166351953125,
+                        "Y": 9.208027832031249
+                    },
+                    "Pixel": {
+                        "X": 1233.270390625,
+                        "Y": 1641.6055664062496
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249575,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 86.47236,
+                    "Y": 124.6958,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.8561361132812495,
+                        "Y": 8.621351464843752
+                    },
+                    "Pixel": {
+                        "X": 1371.22722265625,
+                        "Y": 1524.2702929687503
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249576,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 80.00615,
+                    "Y": 132.789,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.726685620117188,
+                        "Y": 8.783373535156251
+                    },
+                    "Pixel": {
+                        "X": 1345.3371240234376,
+                        "Y": 1556.6747070312501
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249577,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 100.0729,
+                    "Y": 144.374,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.128412548828125,
+                        "Y": 9.015299804687501
+                    },
+                    "Pixel": {
+                        "X": 1425.6825097656251,
+                        "Y": 1603.0599609375004
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249578,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 41.4456,
+                    "Y": 88.9566,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.954721484375,
+                        "Y": 7.905869433593749
+                    },
+                    "Pixel": {
+                        "X": 1190.944296875,
+                        "Y": 1381.1738867187498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249579,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 46.37037,
+                    "Y": 96.74858,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.053313071289062,
+                        "Y": 8.061861220703125
+                    },
+                    "Pixel": {
+                        "X": 1210.6626142578125,
+                        "Y": 1412.372244140625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249580,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 40.8782,
+                    "Y": 120.0355,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 6.94336240234375,
+                        "Y": 8.528054443359375
+                    },
+                    "Pixel": {
+                        "X": 1188.6724804687499,
+                        "Y": 1505.610888671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249581,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 91.9032,
+                    "Y": 132.8394,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.964858984375,
+                        "Y": 8.784382519531249
+                    },
+                    "Pixel": {
+                        "X": 1392.9717968749999,
+                        "Y": 1556.8765039062498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249582,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 101.4823,
+                    "Y": 153.5396,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.156628076171875,
+                        "Y": 9.1987908203125
+                    },
+                    "Pixel": {
+                        "X": 1431.3256152343752,
+                        "Y": 1639.7581640624999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249583,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 94.4352,
+                    "Y": 150.6741,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.015548437500001,
+                        "Y": 9.141424853515625
+                    },
+                    "Pixel": {
+                        "X": 1403.1096875000003,
+                        "Y": 1628.284970703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249584,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 93.51074,
+                    "Y": 220.2688,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.997041181640625,
+                        "Y": 10.534678125
+                    },
+                    "Pixel": {
+                        "X": 1399.408236328125,
+                        "Y": 1906.9356249999998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249585,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 123.355,
+                    "Y": 191.8895,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.59450927734375,
+                        "Y": 9.966537841796875
+                    },
+                    "Pixel": {
+                        "X": 1518.90185546875,
+                        "Y": 1793.307568359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251346,
+                "AssetType": 49,
+                "Name": "LVD_course_2-3",
+                "Transform": {
+                    "X": 96,
+                    "Y": 172,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.046875,
+                        "Y": 9.568359375
+                    },
+                    "Pixel": {
+                        "X": 1409.375,
+                        "Y": 1713.671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249603,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 56.40582,
+                    "Y": 43.64194,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.254218076171875,
+                        "Y": 6.998691181640624
+                    },
+                    "Pixel": {
+                        "X": 1250.843615234375,
+                        "Y": 1199.738236328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249604,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 61.67387,
+                    "Y": 57.46709,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.3596819677734375,
+                        "Y": 7.275464204101562
+                    },
+                    "Pixel": {
+                        "X": 1271.9363935546876,
+                        "Y": 1255.0928408203124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249605,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 76.8413,
+                    "Y": 54.1576,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.663326806640625,
+                        "Y": 7.209209765625
+                    },
+                    "Pixel": {
+                        "X": 1332.665361328125,
+                        "Y": 1241.8419531250001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249606,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 93.04613,
+                    "Y": 67.32491,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.987739907226563,
+                        "Y": 7.472813139648437
+                    },
+                    "Pixel": {
+                        "X": 1397.5479814453126,
+                        "Y": 1294.5626279296876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249607,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 99.52374,
+                    "Y": 83.09261,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.117418623046873,
+                        "Y": 7.788475102539062
+                    },
+                    "Pixel": {
+                        "X": 1423.4837246093748,
+                        "Y": 1357.6950205078124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249608,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 94.31812,
+                    "Y": 107.264,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.01320455078125,
+                        "Y": 8.272375
+                    },
+                    "Pixel": {
+                        "X": 1402.64091015625,
+                        "Y": 1454.4750000000001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249609,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 141.3241,
+                    "Y": 118.7451,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.954242236328124,
+                        "Y": 8.502221240234373
+                    },
+                    "Pixel": {
+                        "X": 1590.8484472656248,
+                        "Y": 1500.4442480468747
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249610,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 113.043,
+                    "Y": 149.8094,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.38806787109375,
+                        "Y": 9.12411396484375
+                    },
+                    "Pixel": {
+                        "X": 1477.6135742187498,
+                        "Y": 1624.8227929687498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249611,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 69.39945,
+                    "Y": 56.86408,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.5143444580078125,
+                        "Y": 7.2633922265625
+                    },
+                    "Pixel": {
+                        "X": 1302.8688916015626,
+                        "Y": 1252.6784453125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249612,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 68.40285,
+                    "Y": 59.818,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.4943929931640625,
+                        "Y": 7.322528320312499
+                    },
+                    "Pixel": {
+                        "X": 1298.8785986328126,
+                        "Y": 1264.5056640624998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249613,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 82.79886,
+                    "Y": 61.48465,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.782594365234375,
+                        "Y": 7.355893872070312
+                    },
+                    "Pixel": {
+                        "X": 1356.518873046875,
+                        "Y": 1271.1787744140624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249614,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 97.6842,
+                    "Y": 102.8061,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.080591894531251,
+                        "Y": 8.183129931640625
+                    },
+                    "Pixel": {
+                        "X": 1416.1183789062502,
+                        "Y": 1436.625986328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249615,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 98.8243,
+                    "Y": 108.3425,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.103416162109376,
+                        "Y": 8.293966064453125
+                    },
+                    "Pixel": {
+                        "X": 1420.6832324218751,
+                        "Y": 1458.793212890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249616,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 142.3744,
+                    "Y": 129.2198,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.975268750000001,
+                        "Y": 8.71191982421875
+                    },
+                    "Pixel": {
+                        "X": 1595.0537500000003,
+                        "Y": 1542.38396484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249617,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 97.2293,
+                    "Y": 205.6926,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.071485009765624,
+                        "Y": 10.24286943359375
+                    },
+                    "Pixel": {
+                        "X": 1414.297001953125,
+                        "Y": 1848.57388671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249618,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 118.3335,
+                    "Y": 188.4559,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.493981201171875,
+                        "Y": 9.897798779296876
+                    },
+                    "Pixel": {
+                        "X": 1498.796240234375,
+                        "Y": 1779.5597558593752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251361,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 114.2057,
+                    "Y": 113.6372,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.411344580078126,
+                        "Y": 8.399963476562501
+                    },
+                    "Pixel": {
+                        "X": 1482.268916015625,
+                        "Y": 1479.9926953125002
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251362,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 143.2893,
+                    "Y": 113.7234,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.993584619140625,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1598.7169238281251,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251363,
+                "AssetType": 49,
+                "Name": "LVD_course_3-1",
+                "Transform": {
+                    "X": 96.7,
+                    "Y": 172.8956,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.060888671874999,
+                        "Y": 9.5862888671875
+                    },
+                    "Pixel": {
+                        "X": 1412.1777343749998,
+                        "Y": 1717.2577734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249645,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 59.5748,
+                    "Y": 45.3752,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.317659570312499,
+                        "Y": 7.033390234375
+                    },
+                    "Pixel": {
+                        "X": 1263.5319140625,
+                        "Y": 1206.678046875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249646,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 61.36912,
+                    "Y": 58.24712,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.353581015625,
+                        "Y": 7.2910800390625
+                    },
+                    "Pixel": {
+                        "X": 1270.716203125,
+                        "Y": 1258.2160078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249647,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 76.8413,
+                    "Y": 54.1576,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.663326806640625,
+                        "Y": 7.209209765625
+                    },
+                    "Pixel": {
+                        "X": 1332.665361328125,
+                        "Y": 1241.8419531250001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249648,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 93.6072,
+                    "Y": 66.8534,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.998972265625,
+                        "Y": 7.463373730468749
+                    },
+                    "Pixel": {
+                        "X": 1399.794453125,
+                        "Y": 1292.67474609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249649,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 99.42793,
+                    "Y": 83.05583,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.115500551757812,
+                        "Y": 7.7877387841796875
+                    },
+                    "Pixel": {
+                        "X": 1423.1001103515623,
+                        "Y": 1357.5477568359374
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249650,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 78.6982,
+                    "Y": 90.4172,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.700501074218749,
+                        "Y": 7.9351099609375
+                    },
+                    "Pixel": {
+                        "X": 1340.1002148437499,
+                        "Y": 1387.0219921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249651,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 71,
+                    "Y": 99.643,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.54638671875,
+                        "Y": 8.11980615234375
+                    },
+                    "Pixel": {
+                        "X": 1309.27734375,
+                        "Y": 1423.96123046875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249652,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 123,
+                    "Y": 139.4028,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.58740234375,
+                        "Y": 8.9157787109375
+                    },
+                    "Pixel": {
+                        "X": 1517.48046875,
+                        "Y": 1583.1557421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249653,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 69.3995,
+                    "Y": 56.8641,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.514345458984375,
+                        "Y": 7.2633926269531255
+                    },
+                    "Pixel": {
+                        "X": 1302.869091796875,
+                        "Y": 1252.678525390625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249654,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 68.4029,
+                    "Y": 59.818,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.494393994140625,
+                        "Y": 7.322528320312499
+                    },
+                    "Pixel": {
+                        "X": 1298.878798828125,
+                        "Y": 1264.5056640624998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249655,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 82.7989,
+                    "Y": 61.4847,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.782595166015625,
+                        "Y": 7.355894873046875
+                    },
+                    "Pixel": {
+                        "X": 1356.519033203125,
+                        "Y": 1271.178974609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249656,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 93.61357,
+                    "Y": 114.8201,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.999099790039062,
+                        "Y": 8.423644580078125
+                    },
+                    "Pixel": {
+                        "X": 1399.8199580078124,
+                        "Y": 1484.7289160156251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249657,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 99.619,
+                    "Y": 108.3425,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.11932568359375,
+                        "Y": 8.293966064453125
+                    },
+                    "Pixel": {
+                        "X": 1423.8651367187501,
+                        "Y": 1458.793212890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249658,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 142.5834,
+                    "Y": 129.3822,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.97945283203125,
+                        "Y": 8.71517099609375
+                    },
+                    "Pixel": {
+                        "X": 1595.89056640625,
+                        "Y": 1543.03419921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249659,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 97.2185,
+                    "Y": 205.6533,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.071268798828125,
+                        "Y": 10.242082666015625
+                    },
+                    "Pixel": {
+                        "X": 1414.253759765625,
+                        "Y": 1848.416533203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249660,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 118.172,
+                    "Y": 188.3616,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.490748046875002,
+                        "Y": 9.8959109375
+                    },
+                    "Pixel": {
+                        "X": 1498.1496093750004,
+                        "Y": 1779.1821875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251376,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 114.2039,
+                    "Y": 113.6362,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.411308544921875,
+                        "Y": 8.39994345703125
+                    },
+                    "Pixel": {
+                        "X": 1482.261708984375,
+                        "Y": 1479.9886914062502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251377,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 143.2893,
+                    "Y": 113.7234,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.993584619140625,
+                        "Y": 8.401689160156248
+                    },
+                    "Pixel": {
+                        "X": 1598.7169238281251,
+                        "Y": 1480.3378320312497
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251378,
+                "AssetType": 49,
+                "Name": "LVD_course_3-2",
+                "Transform": {
+                    "X": 96.7,
+                    "Y": 172.9,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.060888671874999,
+                        "Y": 9.586376953124999
+                    },
+                    "Pixel": {
+                        "X": 1412.1777343749998,
+                        "Y": 1717.2753906249998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249682,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 56.4058,
+                    "Y": 43.6419,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.25421767578125,
+                        "Y": 6.998690380859375
+                    },
+                    "Pixel": {
+                        "X": 1250.84353515625,
+                        "Y": 1199.738076171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249683,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 61.6739,
+                    "Y": 57.4671,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.359682568359375,
+                        "Y": 7.2754644042968755
+                    },
+                    "Pixel": {
+                        "X": 1271.936513671875,
+                        "Y": 1255.092880859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249684,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 76.8413,
+                    "Y": 54.1576,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.663326806640625,
+                        "Y": 7.209209765625
+                    },
+                    "Pixel": {
+                        "X": 1332.665361328125,
+                        "Y": 1241.8419531250001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249685,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 102.549,
+                    "Y": 87.55388,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.17798291015625,
+                        "Y": 7.87778763671875
+                    },
+                    "Pixel": {
+                        "X": 1435.59658203125,
+                        "Y": 1375.55752734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249686,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 99.256,
+                    "Y": 76.6351,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.11205859375,
+                        "Y": 7.659198779296874
+                    },
+                    "Pixel": {
+                        "X": 1422.4117187499999,
+                        "Y": 1331.839755859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249687,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 90.9995,
+                    "Y": 102.5971,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.946767333984376,
+                        "Y": 8.178945849609375
+                    },
+                    "Pixel": {
+                        "X": 1389.3534667968752,
+                        "Y": 1435.789169921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249688,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 110.1919,
+                    "Y": 108.411,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.330990185546876,
+                        "Y": 8.295337402343751
+                    },
+                    "Pixel": {
+                        "X": 1466.198037109375,
+                        "Y": 1459.0674804687503
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249689,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 132.9557,
+                    "Y": 140.6637,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.786710791015626,
+                        "Y": 8.941021337890625
+                    },
+                    "Pixel": {
+                        "X": 1557.342158203125,
+                        "Y": 1588.204267578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249690,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 69.3995,
+                    "Y": 56.8641,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.514345458984375,
+                        "Y": 7.2633926269531255
+                    },
+                    "Pixel": {
+                        "X": 1302.869091796875,
+                        "Y": 1252.678525390625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249691,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 68.4029,
+                    "Y": 59.818,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.494393994140625,
+                        "Y": 7.322528320312499
+                    },
+                    "Pixel": {
+                        "X": 1298.878798828125,
+                        "Y": 1264.5056640624998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249692,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 82.7989,
+                    "Y": 61.4847,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.782595166015625,
+                        "Y": 7.355894873046875
+                    },
+                    "Pixel": {
+                        "X": 1356.519033203125,
+                        "Y": 1271.178974609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249693,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 97.6302,
+                    "Y": 102.9212,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.07951083984375,
+                        "Y": 8.185434179687501
+                    },
+                    "Pixel": {
+                        "X": 1415.9021679687498,
+                        "Y": 1437.0868359375002
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249694,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 98.9528,
+                    "Y": 108.1543,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.105988671875,
+                        "Y": 8.290198388671875
+                    },
+                    "Pixel": {
+                        "X": 1421.197734375,
+                        "Y": 1458.0396777343751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249695,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 142.6918,
+                    "Y": 129.1224,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.98162294921875,
+                        "Y": 8.709969921875
+                    },
+                    "Pixel": {
+                        "X": 1596.32458984375,
+                        "Y": 1541.993984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249696,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 97.2538,
+                    "Y": 205.6813,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.07197548828125,
+                        "Y": 10.242643212890624
+                    },
+                    "Pixel": {
+                        "X": 1414.39509765625,
+                        "Y": 1848.5286425781246
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8249697,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 118.2455,
+                    "Y": 188.3734,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 8.492219482421875,
+                        "Y": 9.896147167968751
+                    },
+                    "Pixel": {
+                        "X": 1498.443896484375,
+                        "Y": 1779.2294335937502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251391,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 114.2039,
+                    "Y": 113.6362,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.411308544921875,
+                        "Y": 8.39994345703125
+                    },
+                    "Pixel": {
+                        "X": 1482.261708984375,
+                        "Y": 1479.9886914062502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251392,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 143.2888,
+                    "Y": 113.7254,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.993574609375,
+                        "Y": 8.40172919921875
+                    },
+                    "Pixel": {
+                        "X": 1598.714921875,
+                        "Y": 1480.34583984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8251393,
+                "AssetType": 49,
+                "Name": "LVD_course_3-3",
+                "Transform": {
+                    "X": 96.7,
+                    "Y": 172.9,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.060888671874999,
+                        "Y": 9.586376953124999
+                    },
+                    "Pixel": {
+                        "X": 1412.1777343749998,
+                        "Y": 1717.2753906249998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8240885,
+                "AssetType": 49,
+                "Name": "LVD_zone_02",
+                "Transform": {
+                    "X": 6.009696,
+                    "Y": 6.491105,
+                    "Scale": 1.5,
+                    "Coords": {
+                        "X": 6.245311296875,
+                        "Y": 6.254948879394531
+                    },
+                    "Pixel": {
+                        "X": 1049.062259375,
+                        "Y": 1050.9897758789061
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8240897,
+                "AssetType": 49,
+                "Name": "LVD_zone_02",
+                "Transform": {
+                    "X": 114.3,
+                    "Y": 208.65,
+                    "Scale": 0.75,
+                    "Coords": {
+                        "X": 8.413232421875001,
+                        "Y": 10.302075195312499
+                    },
+                    "Pixel": {
+                        "X": 1482.6464843750002,
+                        "Y": 1860.4150390624998
+                    }
+                }
+            }
+        ],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

@@ -1,0 +1,813 @@
+{
+    "ID": "568",
+    "PlaceName": "Leofard's Chambers",
+    "Code": "a2e4",
+    "Map": {
+        "ID": "306",
+        "FixedTime": "-1",
+        "SizeFactor": "800",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "True",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "235.0",
+                "Icon": "060441",
+                "coords": [
+                    1024,
+                    1105
+                ],
+                "SubText": "The Parrock",
+                "SubtextOrientation": "down",
+                "Type": "1",
+                "Data": "'TerritoryType' => 567"
+            },
+            {
+                "Key": "235.1",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "235.2",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "235.3",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "235.4",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "235.5",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ex1\/03_abr_a2\/evt\/a2e4\/level\/a2e4",
+    "BGM": {
+        "ID": "1195",
+        "BGM": {
+            "Day": "music\/ex1\/BGM_EX1_Field_SkyPirates.scd",
+            "Night": "music\/ex1\/BGM_EX1_Field_SkyPirates.scd",
+            "Battle": "music\/ex1\/BGM_EX1_Field_SkyPirates.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [],
+        "Sound": [
+            {
+                "LGB_ID": 6148350,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/sea\/sea_spot_s1d3_a1_swit1.scd",
+                "Transform": {
+                    "X": 8.985391,
+                    "Y": 0.2379932,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 3.7423833159179685,
+                        "Y": 3.5672645123046878
+                    },
+                    "Pixel": {
+                        "X": 1096.9533263671874,
+                        "Y": 1026.9058049218752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148351,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_itoguruma.scd",
+                "Transform": {
+                    "X": -0.03861369,
+                    "Y": -8.602513,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 3.561726972026367,
+                        "Y": 3.390281722167969
+                    },
+                    "Pixel": {
+                        "X": 1024.6907888105468,
+                        "Y": 956.1126888671876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148352,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_crane_creak.scd",
+                "Transform": {
+                    "X": 0.3117037,
+                    "Y": 1.556199,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 3.5687401619628907,
+                        "Y": 3.5936543745117184
+                    },
+                    "Pixel": {
+                        "X": 1027.4960647851562,
+                        "Y": 1037.4617498046873
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148356,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_itoguruma.scd",
+                "Transform": {
+                    "X": -0.002660185,
+                    "Y": 9.488051,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 3.5624467443432617,
+                        "Y": 3.752446333496094
+                    },
+                    "Pixel": {
+                        "X": 1024.9786977373046,
+                        "Y": 1100.9785333984375
+                    }
+                }
+            }
+        ],
+        "EventNPC": [
+            {
+                "LGB_ID": 6279470,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017199",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": -0.02742432,
+                    "Y": 0.3649154,
+                    "Coords": {
+                        "X": 3.56195097796875,
+                        "Y": 3.5698054352539064
+                    },
+                    "Pixel": {
+                        "X": 1024.7803911875,
+                        "Y": 1027.9221741015626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258637,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_003",
+                "EnpcBase": "1017142",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 1.596361,
+                    "Y": -2.221426,
+                    "Coords": {
+                        "X": 3.5944583989257812,
+                        "Y": 3.5180280927734375
+                    },
+                    "Pixel": {
+                        "X": 1037.7833595703125,
+                        "Y": 1007.211237109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258638,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_003",
+                "EnpcBase": "1017144",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 3.112765,
+                    "Y": -1.452591,
+                    "Coords": {
+                        "X": 3.624816096191406,
+                        "Y": 3.5334198090820315
+                    },
+                    "Pixel": {
+                        "X": 1049.9264384765625,
+                        "Y": 1013.3679236328126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258639,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_003",
+                "EnpcBase": "1017143",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 2.987291,
+                    "Y": 0.7542273,
+                    "Coords": {
+                        "X": 3.6223041655273436,
+                        "Y": 3.577599277001953
+                    },
+                    "Pixel": {
+                        "X": 1048.9216662109375,
+                        "Y": 1031.0397108007812
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258641,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_003",
+                "EnpcBase": "1017155",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 0.1151599,
+                    "Y": 0.5680253,
+                    "Coords": {
+                        "X": 3.564805447216797,
+                        "Y": 3.57387160024414
+                    },
+                    "Pixel": {
+                        "X": 1025.922178886719,
+                        "Y": 1029.548640097656
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258642,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_003",
+                "EnpcBase": "1017156",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": -1.74068,
+                    "Y": 3.850097,
+                    "Coords": {
+                        "X": 3.52765240234375,
+                        "Y": 3.6395771372070316
+                    },
+                    "Pixel": {
+                        "X": 1011.0609609375,
+                        "Y": 1055.8308548828127
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258643,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_003",
+                "EnpcBase": "1017157",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 0.04173845,
+                    "Y": 2.870623,
+                    "Coords": {
+                        "X": 3.5633355842041015,
+                        "Y": 3.6199685268554687
+                    },
+                    "Pixel": {
+                        "X": 1025.3342336816406,
+                        "Y": 1047.9874107421874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6261329,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm202_002",
+                "EnpcBase": "1017200",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": -3.260952,
+                    "Y": 2.143454,
+                    "Coords": {
+                        "X": 3.49721726953125,
+                        "Y": 3.6054109443359375
+                    },
+                    "Pixel": {
+                        "X": 998.8869078124999,
+                        "Y": 1042.164377734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6448948,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018060",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 0.1011338,
+                    "Y": 0.5284433,
+                    "Coords": {
+                        "X": 3.5645246512695317,
+                        "Y": 3.573079187158203
+                    },
+                    "Pixel": {
+                        "X": 1025.8098605078126,
+                        "Y": 1029.2316748632811
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6448949,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018061",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": -1.756401,
+                    "Y": 3.080021,
+                    "Coords": {
+                        "X": 3.527337675292969,
+                        "Y": 3.624160576660156
+                    },
+                    "Pixel": {
+                        "X": 1010.9350701171875,
+                        "Y": 1049.6642306640624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6448950,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018062",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 0.03761793,
+                    "Y": 3.937768,
+                    "Coords": {
+                        "X": 3.5632530933251956,
+                        "Y": 3.64133226953125
+                    },
+                    "Pixel": {
+                        "X": 1025.3012373300783,
+                        "Y": 1056.5329078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6448951,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018063",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": 2.125194,
+                    "Y": 5.385782,
+                    "Coords": {
+                        "X": 3.6050453876953124,
+                        "Y": 3.6703208310546875
+                    },
+                    "Pixel": {
+                        "X": 1042.018155078125,
+                        "Y": 1068.128332421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6448954,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018072",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": -1.23875,
+                    "Y": -1.959015,
+                    "Coords": {
+                        "X": 3.5377008056640626,
+                        "Y": 3.5232814379882815
+                    },
+                    "Pixel": {
+                        "X": 1015.080322265625,
+                        "Y": 1009.3125751953127
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6448956,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018073",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": -2.418762,
+                    "Y": -1.584808,
+                    "Coords": {
+                        "X": 3.5140775185546875,
+                        "Y": 3.5307728867187502
+                    },
+                    "Pixel": {
+                        "X": 1005.631007421875,
+                        "Y": 1012.3091546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258637",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017142",
+                "EventID": "0",
+                "EnpcBase": "1017142",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "1.59636",
+                    "Y": "-2.22143",
+                    "Coords": {
+                        "X": 3.59445837890625,
+                        "Y": 3.5180280126953125
+                    },
+                    "Pixel": {
+                        "X": 1037.7833515625,
+                        "Y": 1007.211205078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258638",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017144",
+                "EventID": "0",
+                "EnpcBase": "1017144",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "3.11277",
+                    "Y": "-1.45259",
+                    "Coords": {
+                        "X": 3.624816196289063,
+                        "Y": 3.5334198291015624
+                    },
+                    "Pixel": {
+                        "X": 1049.9264785156251,
+                        "Y": 1013.367931640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258639",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017143",
+                "EventID": "0",
+                "EnpcBase": "1017143",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "2.98729",
+                    "Y": "0.754227",
+                    "Coords": {
+                        "X": 3.6223041455078127,
+                        "Y": 3.5775992709960933
+                    },
+                    "Pixel": {
+                        "X": 1048.9216582031252,
+                        "Y": 1031.0397083984374
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258641",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017155",
+                "EventID": "0",
+                "EnpcBase": "1017155",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "0.11516",
+                    "Y": "0.568025",
+                    "Coords": {
+                        "X": 3.56480544921875,
+                        "Y": 3.5738715942382813
+                    },
+                    "Pixel": {
+                        "X": 1025.9221796875,
+                        "Y": 1029.5486376953124
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258642",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017156",
+                "EventID": "0",
+                "EnpcBase": "1017156",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "-1.74068",
+                    "Y": "3.8501",
+                    "Coords": {
+                        "X": 3.52765240234375,
+                        "Y": 3.639577197265625
+                    },
+                    "Pixel": {
+                        "X": 1011.0609609375,
+                        "Y": 1055.8308789062498
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258643",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017157",
+                "EventID": "0",
+                "EnpcBase": "1017157",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "0.0417385",
+                    "Y": "2.87062",
+                    "Coords": {
+                        "X": 3.563335585205078,
+                        "Y": 3.619968466796875
+                    },
+                    "Pixel": {
+                        "X": 1025.3342340820313,
+                        "Y": 1047.98738671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6261329",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017200",
+                "EventID": "0",
+                "EnpcBase": "1017200",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "-3.26095",
+                    "Y": "2.14345",
+                    "Coords": {
+                        "X": 3.4972173095703125,
+                        "Y": 3.6054108642578124
+                    },
+                    "Pixel": {
+                        "X": 998.886923828125,
+                        "Y": 1042.164345703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6279470",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017199",
+                "EventID": "0",
+                "EnpcBase": "1017199",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "-0.0274243",
+                    "Y": "0.364915",
+                    "Coords": {
+                        "X": 3.5619509783691403,
+                        "Y": 3.5698054272460937
+                    },
+                    "Pixel": {
+                        "X": 1024.7803913476562,
+                        "Y": 1027.9221708984376
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6448948",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018060",
+                "EventID": "0",
+                "EnpcBase": "1018060",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "0.101134",
+                    "Y": "0.528443",
+                    "Coords": {
+                        "X": 3.5645246552734378,
+                        "Y": 3.573079181152344
+                    },
+                    "Pixel": {
+                        "X": 1025.809862109375,
+                        "Y": 1029.2316724609377
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6448949",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018061",
+                "EventID": "0",
+                "EnpcBase": "1018061",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "-1.7564",
+                    "Y": "3.08002",
+                    "Coords": {
+                        "X": 3.5273376953125,
+                        "Y": 3.624160556640625
+                    },
+                    "Pixel": {
+                        "X": 1010.935078125,
+                        "Y": 1049.6642226562499
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6448950",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018062",
+                "EventID": "0",
+                "EnpcBase": "1018062",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "0.0376179",
+                    "Y": "3.93777",
+                    "Coords": {
+                        "X": 3.563253092724609,
+                        "Y": 3.6413323095703127
+                    },
+                    "Pixel": {
+                        "X": 1025.3012370898437,
+                        "Y": 1056.5329238281251
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6448951",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018063",
+                "EventID": "0",
+                "EnpcBase": "1018063",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": "2.12519",
+                    "Y": "5.38578",
+                    "Coords": {
+                        "X": 3.6050453076171878,
+                        "Y": 3.6703207910156253
+                    },
+                    "Pixel": {
+                        "X": 1042.0181230468752,
+                        "Y": 1068.1283164062502
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6448954",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018072",
+                "EventID": "0",
+                "EnpcBase": "1018072",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "-1.23875",
+                    "Y": "-1.95902",
+                    "Coords": {
+                        "X": 3.5377008056640626,
+                        "Y": 3.523281337890625
+                    },
+                    "Pixel": {
+                        "X": 1015.080322265625,
+                        "Y": 1009.3125351562501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6448956",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018073",
+                "EventID": "0",
+                "EnpcBase": "1018073",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "-2.41876",
+                    "Y": "-1.58481",
+                    "Coords": {
+                        "X": 3.51407755859375,
+                        "Y": 3.5307728466796875
+                    },
+                    "Pixel": {
+                        "X": 1005.6310234375,
+                        "Y": 1012.309138671875
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6256675,
+                "AssetType": 40,
+                "Name": "EVT_PUBLIC_POS_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.1150424,
+                    "Y": 7.630733,
+                    "Scale": 0.1,
+                    "Coords": {
+                        "X": 3.5601969050781253,
+                        "Y": 3.715263697753906
+                    },
+                    "Pixel": {
+                        "X": 1024.07876203125,
+                        "Y": 1086.1054791015624
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 6258636,
+                "AssetType": 45,
+                "Name": "EVT_PUBLIC_EOBJ_01",
+                "EobjId": "2007076",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "WarpID": "131226",
+                    "WarpName": "",
+                    "WarpQuestion": "Exit Leofard's chambers?"
+                },
+                "Transform": {
+                    "X": -0.0001697629,
+                    "Y": 9.420536,
+                    "Coords": {
+                        "X": 3.5624966014263184,
+                        "Y": 3.75109471484375
+                    },
+                    "Pixel": {
+                        "X": 1024.9986405705274,
+                        "Y": 1100.4378859375001
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

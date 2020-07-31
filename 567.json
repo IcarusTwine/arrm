@@ -1,0 +1,3628 @@
+{
+    "ID": "567",
+    "PlaceName": "The Parrock",
+    "Code": "a2e3",
+    "Map": {
+        "ID": "305",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "True",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [
+            "67821",
+            "67909"
+        ],
+        "MapMarker": [
+            {
+                "Key": "234.0",
+                "Icon": "060442",
+                "coords": [
+                    1120,
+                    931
+                ],
+                "SubText": "Leofard's Chambers",
+                "SubtextOrientation": "top",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "234.1",
+                "Icon": "060441",
+                "coords": [
+                    1206,
+                    1095
+                ],
+                "SubText": "The Sea of Clouds",
+                "SubtextOrientation": "right",
+                "Type": "1",
+                "Data": "'TerritoryType' => 401"
+            },
+            {
+                "Key": "234.2",
+                "Icon": "060467",
+                "coords": [
+                    1097,
+                    1131
+                ],
+                "SubText": "",
+                "SubtextOrientation": "down",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "234.3",
+                "Icon": "060467",
+                "coords": [
+                    1013,
+                    1131
+                ],
+                "SubText": "",
+                "SubtextOrientation": "down",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "234.4",
+                "Icon": "060428",
+                "coords": [
+                    1215,
+                    1226
+                ],
+                "SubText": "The Weeping City of Mhach",
+                "SubtextOrientation": "right",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "234.5",
+                "Icon": "060467",
+                "coords": [
+                    1113,
+                    949
+                ],
+                "SubText": "",
+                "SubtextOrientation": "down",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "234.6",
+                "Icon": "060428",
+                "coords": [
+                    1215,
+                    1240
+                ],
+                "SubText": "Dun Scaith",
+                "SubtextOrientation": "right",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "234.7",
+                "Icon": "000000",
+                "coords": [
+                    1216,
+                    1233
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "2",
+                "Data": "'TerritoryType' => 556"
+            },
+            {
+                "Key": "234.8",
+                "Icon": "000000",
+                "coords": [
+                    1216,
+                    1233
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "2",
+                "Data": "'TerritoryType' => 627"
+            },
+            {
+                "Key": "234.9",
+                "Icon": "000000",
+                "coords": [
+                    1110,
+                    947
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "2",
+                "Data": "'TerritoryType' => 568"
+            }
+        ]
+    },
+    "BGPath": "ex1\/03_abr_a2\/evt\/a2e3\/level\/a2e3",
+    "BGM": {
+        "ID": "1195",
+        "BGM": {
+            "Day": "music\/ex1\/BGM_EX1_Field_SkyPirates.scd",
+            "Night": "music\/ex1\/BGM_EX1_Field_SkyPirates.scd",
+            "Battle": "music\/ex1\/BGM_EX1_Field_SkyPirates.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [
+            {
+                "LGB_ID": 6100512,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ex1\/03_abr_a2\/common\/vfx\/eff\/a2e3smok01_y.avfx",
+                "Transform": {
+                    "X": -2.396947,
+                    "Y": 15.92772,
+                    "Coords": {
+                        "X": 6.077014244628906,
+                        "Y": 6.443865488281251
+                    },
+                    "Pixel": {
+                        "X": 1015.4028489257812,
+                        "Y": 1088.7730976562502
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6100511,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ex1\/03_abr_a2\/common\/vfx\/eff\/a2e3smok02_y.avfx",
+                "Transform": {
+                    "X": 28.82478,
+                    "Y": -21.53603,
+                    "Coords": {
+                        "X": 6.702058583984375,
+                        "Y": 5.693858774414062
+                    },
+                    "Pixel": {
+                        "X": 1140.411716796875,
+                        "Y": 938.7717548828125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6100512,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ex1\/03_abr_a2\/common\/vfx\/eff\/a2e3smok01_y.avfx",
+                "Transform": {
+                    "X": -2.396947,
+                    "Y": 15.92772,
+                    "Coords": {
+                        "X": 6.077014244628906,
+                        "Y": 6.443865488281251
+                    },
+                    "Pixel": {
+                        "X": 1015.4028489257812,
+                        "Y": 1088.7730976562502
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6100511,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ex1\/03_abr_a2\/common\/vfx\/eff\/a2e3smok02_y.avfx",
+                "Transform": {
+                    "X": 28.82478,
+                    "Y": -21.53603,
+                    "Coords": {
+                        "X": 6.702058583984375,
+                        "Y": 5.693858774414062
+                    },
+                    "Pixel": {
+                        "X": 1140.411716796875,
+                        "Y": 938.7717548828125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            }
+        ],
+        "PositionMarker": [
+            {
+                "LGB_ID": "6720053",
+                "AssetType": "5",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-10.8199",
+                    "Y": "2.0882",
+                    "Coords": {
+                        "X": 5.9083906738281255,
+                        "Y": 6.166804785156249
+                    },
+                    "Pixel": {
+                        "X": 981.6781347656251,
+                        "Y": 1033.3609570312499
+                    }
+                }
+            }
+        ],
+        "Gimmick": [],
+        "Sound": [
+            {
+                "LGB_ID": 6148338,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/sea\/sea_spot_s1d3_a2_gear4.scd",
+                "Transform": {
+                    "X": 53.08678,
+                    "Y": 26.82606,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 7.187772451171875,
+                        "Y": 6.662045146484375
+                    },
+                    "Pixel": {
+                        "X": 1237.554490234375,
+                        "Y": 1132.409029296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148339,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/sea\/sea_spot_s1d3_a1_swit1.scd",
+                "Transform": {
+                    "X": 26.87045,
+                    "Y": -19.13095,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.662933813476562,
+                        "Y": 5.7420073486328125
+                    },
+                    "Pixel": {
+                        "X": 1132.5867626953125,
+                        "Y": 948.4014697265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148340,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/sea\/sea_spot_s1d3_a1_swit1.scd",
+                "Transform": {
+                    "X": -5.466542,
+                    "Y": 21.46338,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.015562391601563,
+                        "Y": 6.554686806640626
+                    },
+                    "Pixel": {
+                        "X": 1003.1124783203126,
+                        "Y": 1110.9373613281252
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148341,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_crane_creak.scd",
+                "Transform": {
+                    "X": -12.41735,
+                    "Y": 59.25653,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 5.876410473632813,
+                        "Y": 7.311287954101562
+                    },
+                    "Pixel": {
+                        "X": 975.2820947265626,
+                        "Y": 1262.2575908203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148342,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_crane_creak.scd",
+                "Transform": {
+                    "X": 2.531986,
+                    "Y": 62.54387,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.175689172851563,
+                        "Y": 7.377098959960937
+                    },
+                    "Pixel": {
+                        "X": 1035.1378345703124,
+                        "Y": 1275.4197919921874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148343,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_wind_blow_2ch.scd",
+                "Transform": {
+                    "X": 42.68267,
+                    "Y": 26.96144,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.979487045898438,
+                        "Y": 6.664755390624999
+                    },
+                    "Pixel": {
+                        "X": 1195.8974091796877,
+                        "Y": 1132.9510781249999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148344,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_wind_blow_2ch.scd",
+                "Transform": {
+                    "X": 12.03453,
+                    "Y": 0.8701091,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.365925649414063,
+                        "Y": 6.142419176318359
+                    },
+                    "Pixel": {
+                        "X": 1073.1851298828126,
+                        "Y": 1028.4838352636718
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148345,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_crane_creak.scd",
+                "Transform": {
+                    "X": 36.41999,
+                    "Y": -22.06559,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.854111127929687,
+                        "Y": 5.683257231445313
+                    },
+                    "Pixel": {
+                        "X": 1170.8222255859373,
+                        "Y": 936.6514462890626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148347,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_crane_creak.scd",
+                "Transform": {
+                    "X": 36.26379,
+                    "Y": -20.07904,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.850984077148437,
+                        "Y": 5.72302703125
+                    },
+                    "Pixel": {
+                        "X": 1170.1968154296874,
+                        "Y": 944.60540625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6148349,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_crane_creak.scd",
+                "Transform": {
+                    "X": 37.98676,
+                    "Y": 26.8455,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.88547712890625,
+                        "Y": 6.6624343261718755
+                    },
+                    "Pixel": {
+                        "X": 1177.09542578125,
+                        "Y": 1132.486865234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6364446,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/sea\/sea_spot_s1d3_a1_swit1.scd",
+                "Transform": {
+                    "X": -6.195651,
+                    "Y": 51.31607,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.000965971191406,
+                        "Y": 7.152323666992188
+                    },
+                    "Pixel": {
+                        "X": 1000.1931942382813,
+                        "Y": 1230.4647333984376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6364449,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/sea\/sea_spot_s1d3_a2_gear4.scd",
+                "Transform": {
+                    "X": -20.59089,
+                    "Y": 26.02879,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 5.712780034179687,
+                        "Y": 6.646084174804688
+                    },
+                    "Pixel": {
+                        "X": 942.5560068359374,
+                        "Y": 1129.2168349609376
+                    }
+                }
+            }
+        ],
+        "EventNPC": [
+            {
+                "LGB_ID": 6258876,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017176",
+                "EnpcName": "Redbill tarboy",
+                "Transform": {
+                    "X": 19.81684,
+                    "Y": 25.63601,
+                    "Coords": {
+                        "X": 6.521723847656251,
+                        "Y": 6.638220903320312
+                    },
+                    "Pixel": {
+                        "X": 1104.3447695312502,
+                        "Y": 1127.6441806640626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258877,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017174",
+                "EnpcName": "Redbill engineer",
+                "Transform": {
+                    "X": 28.44544,
+                    "Y": 18.37391,
+                    "Coords": {
+                        "X": 6.694464375000001,
+                        "Y": 6.492837065429688
+                    },
+                    "Pixel": {
+                        "X": 1138.8928750000002,
+                        "Y": 1098.5674130859377
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258878,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017175",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 28.78675,
+                    "Y": 19.96937,
+                    "Coords": {
+                        "X": 6.701297241210937,
+                        "Y": 6.524777426757813
+                    },
+                    "Pixel": {
+                        "X": 1140.2594482421873,
+                        "Y": 1104.9554853515626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258879,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017177",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 54.26479,
+                    "Y": 26.63159,
+                    "Coords": {
+                        "X": 7.211355659179688,
+                        "Y": 6.658151948242188
+                    },
+                    "Pixel": {
+                        "X": 1242.2711318359375,
+                        "Y": 1131.6303896484376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258880,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017178",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 17.12687,
+                    "Y": 36.14314,
+                    "Coords": {
+                        "X": 6.467871909179688,
+                        "Y": 6.848568720703125
+                    },
+                    "Pixel": {
+                        "X": 1093.5743818359376,
+                        "Y": 1169.713744140625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258881,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017179",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -0.2569237,
+                    "Y": 21.54497,
+                    "Coords": {
+                        "X": 6.119856507958985,
+                        "Y": 6.556320200195312
+                    },
+                    "Pixel": {
+                        "X": 1023.9713015917969,
+                        "Y": 1111.2640400390624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6258882,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017180",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 6.881775,
+                    "Y": 52.16584,
+                    "Coords": {
+                        "X": 6.262769909667969,
+                        "Y": 7.1693356640625
+                    },
+                    "Pixel": {
+                        "X": 1052.5539819335938,
+                        "Y": 1233.8671328125001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6266399,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017251",
+                "EnpcName": "Redbill cook",
+                "Transform": {
+                    "X": -2.654758,
+                    "Y": 41.98523,
+                    "Coords": {
+                        "X": 6.071852989257812,
+                        "Y": 6.965524624023438
+                    },
+                    "Pixel": {
+                        "X": 1014.3705978515625,
+                        "Y": 1193.1049248046875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6266400,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017252",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -6.651263,
+                    "Y": 47.06647,
+                    "Coords": {
+                        "X": 5.991844832519531,
+                        "Y": 7.067248666992187
+                    },
+                    "Pixel": {
+                        "X": 998.3689665039062,
+                        "Y": 1213.4497333984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6266401,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017253",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -12.14232,
+                    "Y": 33.44195,
+                    "Coords": {
+                        "X": 5.8819164453125,
+                        "Y": 6.794492163085938
+                    },
+                    "Pixel": {
+                        "X": 976.3832890625,
+                        "Y": 1158.8984326171876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6266443,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017260",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -26.04718,
+                    "Y": 22.84271,
+                    "Coords": {
+                        "X": 5.603547666015625,
+                        "Y": 6.582300346679688
+                    },
+                    "Pixel": {
+                        "X": 920.7095332031249,
+                        "Y": 1116.4600693359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6266402,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017254",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 20.6873,
+                    "Y": 44.93774,
+                    "Coords": {
+                        "X": 6.539150048828125,
+                        "Y": 7.024632490234375
+                    },
+                    "Pixel": {
+                        "X": 1107.830009765625,
+                        "Y": 1204.9264980468752
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6266442,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017261",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 47.96643,
+                    "Y": 15.73523,
+                    "Coords": {
+                        "X": 7.0852654443359375,
+                        "Y": 6.440011928710938
+                    },
+                    "Pixel": {
+                        "X": 1217.0530888671874,
+                        "Y": 1088.0023857421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6339578,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017522",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 23.9633,
+                    "Y": -12.43232,
+                    "Coords": {
+                        "X": 6.604734033203125,
+                        "Y": 5.8761107812499995
+                    },
+                    "Pixel": {
+                        "X": 1120.946806640625,
+                        "Y": 975.2221562499999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6339586,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017526",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": -0.233826,
+                    "Y": 54.83701,
+                    "Coords": {
+                        "X": 6.120318913085938,
+                        "Y": 7.222811235351563
+                    },
+                    "Pixel": {
+                        "X": 1024.0637826171876,
+                        "Y": 1244.5622470703127
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6339588,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017527",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": 28.0387,
+                    "Y": 30.64526,
+                    "Coords": {
+                        "X": 6.686321630859375,
+                        "Y": 6.738503740234375
+                    },
+                    "Pixel": {
+                        "X": 1137.264326171875,
+                        "Y": 1147.7007480468749
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6349304,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017530",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 16.81867,
+                    "Y": 27.50277,
+                    "Coords": {
+                        "X": 6.461701889648437,
+                        "Y": 6.675592563476562
+                    },
+                    "Pixel": {
+                        "X": 1092.3403779296875,
+                        "Y": 1135.1185126953123
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6349313,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017531",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -4.191179,
+                    "Y": 46.7298,
+                    "Coords": {
+                        "X": 6.041094561035156,
+                        "Y": 7.06050869140625
+                    },
+                    "Pixel": {
+                        "X": 1008.2189122070313,
+                        "Y": 1212.10173828125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6352997,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017537",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 30.96246,
+                    "Y": 15.65376,
+                    "Coords": {
+                        "X": 6.7448539355468755,
+                        "Y": 6.4383809375
+                    },
+                    "Pixel": {
+                        "X": 1148.9707871093751,
+                        "Y": 1087.6761875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6352998,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017538",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 38.9168,
+                    "Y": 16.82655,
+                    "Coords": {
+                        "X": 6.904096093750001,
+                        "Y": 6.461859643554687
+                    },
+                    "Pixel": {
+                        "X": 1180.8192187500001,
+                        "Y": 1092.3719287109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6385434,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1017557",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 14.77317,
+                    "Y": 25.8868,
+                    "Coords": {
+                        "X": 6.420751938476562,
+                        "Y": 6.6432416015625
+                    },
+                    "Pixel": {
+                        "X": 1084.1503876953125,
+                        "Y": 1128.6483203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6620913,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1018058",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 28.58681,
+                    "Y": 30.99213,
+                    "Coords": {
+                        "X": 6.697294536132813,
+                        "Y": 6.745447915039062
+                    },
+                    "Pixel": {
+                        "X": 1139.4589072265626,
+                        "Y": 1149.0895830078123
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6620927,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1018652",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 14.7732,
+                    "Y": 25.8868,
+                    "Coords": {
+                        "X": 6.4207525390625,
+                        "Y": 6.6432416015625
+                    },
+                    "Pixel": {
+                        "X": 1084.1505078124999,
+                        "Y": 1128.6483203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6620934,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1018653",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 16.8187,
+                    "Y": 27.5028,
+                    "Coords": {
+                        "X": 6.461702490234375,
+                        "Y": 6.6755931640625
+                    },
+                    "Pixel": {
+                        "X": 1092.340498046875,
+                        "Y": 1135.1186328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6620935,
+                "AssetType": 8,
+                "Name": "EVT_PUBLIC_ENPC_01",
+                "EnpcBase": "1018654",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 16.8187,
+                    "Y": 27.5028,
+                    "Coords": {
+                        "X": 6.461702490234375,
+                        "Y": 6.6755931640625
+                    },
+                    "Pixel": {
+                        "X": 1092.340498046875,
+                        "Y": 1135.1186328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256342,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017141",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 23.22556,
+                    "Y": -15.84224,
+                    "Coords": {
+                        "X": 6.589964824218749,
+                        "Y": 5.80784578125
+                    },
+                    "Pixel": {
+                        "X": 1117.9929648437499,
+                        "Y": 961.56915625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256343,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017149",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 35.60363,
+                    "Y": 25.84004,
+                    "Coords": {
+                        "X": 6.837767983398438,
+                        "Y": 6.64230548828125
+                    },
+                    "Pixel": {
+                        "X": 1167.5535966796876,
+                        "Y": 1128.4610976562499
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256344,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017150",
+                "EnpcName": "Talons deckswab",
+                "Transform": {
+                    "X": 37.22782,
+                    "Y": 27.35326,
+                    "Coords": {
+                        "X": 6.870283505859375,
+                        "Y": 6.672599443359375
+                    },
+                    "Pixel": {
+                        "X": 1174.0567011718751,
+                        "Y": 1134.519888671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256345,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017151",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 36.84746,
+                    "Y": 28.68884,
+                    "Coords": {
+                        "X": 6.862668876953125,
+                        "Y": 6.699337128906251
+                    },
+                    "Pixel": {
+                        "X": 1172.5337753906251,
+                        "Y": 1139.8674257812502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256346,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017153",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 35.93704,
+                    "Y": 24.79253,
+                    "Coords": {
+                        "X": 6.844442695312501,
+                        "Y": 6.621334829101563
+                    },
+                    "Pixel": {
+                        "X": 1168.8885390625,
+                        "Y": 1124.2669658203124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256347,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017154",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": 33.61438,
+                    "Y": 27.54806,
+                    "Coords": {
+                        "X": 6.797944130859374,
+                        "Y": 6.676499248046875
+                    },
+                    "Pixel": {
+                        "X": 1159.5888261718749,
+                        "Y": 1135.299849609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256348,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017158",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 46.74255,
+                    "Y": 43.21436,
+                    "Coords": {
+                        "X": 7.060763940429688,
+                        "Y": 6.99013123046875
+                    },
+                    "Pixel": {
+                        "X": 1212.1527880859376,
+                        "Y": 1198.02624609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256349,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017159",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 49.1897,
+                    "Y": 42.74987,
+                    "Coords": {
+                        "X": 7.109754736328125,
+                        "Y": 6.9808323583984375
+                    },
+                    "Pixel": {
+                        "X": 1221.950947265625,
+                        "Y": 1196.1664716796874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256356,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017161",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 49.44148,
+                    "Y": 56.81536,
+                    "Coords": {
+                        "X": 7.114795253906251,
+                        "Y": 7.2624168749999995
+                    },
+                    "Pixel": {
+                        "X": 1222.9590507812502,
+                        "Y": 1252.4833749999998
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256357,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017162",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 51.13383,
+                    "Y": 51.97602,
+                    "Coords": {
+                        "X": 7.148675307617188,
+                        "Y": 7.165535556640625
+                    },
+                    "Pixel": {
+                        "X": 1229.7350615234375,
+                        "Y": 1233.107111328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256359,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017163",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 46.69703,
+                    "Y": 44.99255,
+                    "Coords": {
+                        "X": 7.059852651367187,
+                        "Y": 7.025729760742188
+                    },
+                    "Pixel": {
+                        "X": 1211.9705302734374,
+                        "Y": 1205.1459521484376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256371,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017165",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 48.15948,
+                    "Y": 37.55169,
+                    "Coords": {
+                        "X": 7.089130214843751,
+                        "Y": 6.876767231445313
+                    },
+                    "Pixel": {
+                        "X": 1217.8260429687502,
+                        "Y": 1175.3534462890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256385,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm201_001",
+                "EnpcBase": "1017152",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 33.74897,
+                    "Y": 26.81684,
+                    "Coords": {
+                        "X": 6.800638559570312,
+                        "Y": 6.661860566406251
+                    },
+                    "Pixel": {
+                        "X": 1160.1277119140625,
+                        "Y": 1132.3721132812502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6261328,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm202_001",
+                "EnpcBase": "1017168",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 47.77163,
+                    "Y": 39.08325,
+                    "Coords": {
+                        "X": 7.081365639648438,
+                        "Y": 6.907428344726563
+                    },
+                    "Pixel": {
+                        "X": 1216.2731279296877,
+                        "Y": 1181.4856689453127
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6352701,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm202_001",
+                "EnpcBase": "1017536",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 46.70884,
+                    "Y": 45.0003,
+                    "Coords": {
+                        "X": 7.06008908203125,
+                        "Y": 7.025884912109374
+                    },
+                    "Pixel": {
+                        "X": 1212.01781640625,
+                        "Y": 1205.1769824218748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449846,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018064",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 7.644714,
+                    "Y": 8.804443,
+                    "Coords": {
+                        "X": 6.278043590820313,
+                        "Y": 6.301260821777344
+                    },
+                    "Pixel": {
+                        "X": 1055.6087181640626,
+                        "Y": 1060.2521643554687
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449847,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018068",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 7.001764,
+                    "Y": 8.531291,
+                    "Coords": {
+                        "X": 6.265172033203124,
+                        "Y": 6.295792446777344
+                    },
+                    "Pixel": {
+                        "X": 1053.0344066406249,
+                        "Y": 1059.1584893554686
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449848,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018069",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": 8.388601,
+                    "Y": 8.939923,
+                    "Coords": {
+                        "X": 6.292935859863281,
+                        "Y": 6.303973067871095
+                    },
+                    "Pixel": {
+                        "X": 1058.5871719726563,
+                        "Y": 1060.7946135742188
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449851,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018070",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 5.728977,
+                    "Y": 8.433591,
+                    "Coords": {
+                        "X": 6.239691434082031,
+                        "Y": 6.293836538574219
+                    },
+                    "Pixel": {
+                        "X": 1047.9382868164062,
+                        "Y": 1058.7673077148438
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449854,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018065",
+                "EnpcName": "Radlia",
+                "Transform": {
+                    "X": 5.574019,
+                    "Y": 12.17512,
+                    "Coords": {
+                        "X": 6.2365892475585945,
+                        "Y": 6.3687401953125
+                    },
+                    "Pixel": {
+                        "X": 1047.3178495117188,
+                        "Y": 1073.7480390625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449856,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018066",
+                "EnpcName": "Talons deckswab",
+                "Transform": {
+                    "X": 5.742735,
+                    "Y": 13.58486,
+                    "Coords": {
+                        "X": 6.2399668627929685,
+                        "Y": 6.396962529296875
+                    },
+                    "Pixel": {
+                        "X": 1047.9933725585938,
+                        "Y": 1079.392505859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449857,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018067",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 4.254466,
+                    "Y": 13.00177,
+                    "Coords": {
+                        "X": 6.210172415039062,
+                        "Y": 6.385289340820313
+                    },
+                    "Pixel": {
+                        "X": 1042.0344830078125,
+                        "Y": 1077.0578681640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449862,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018075",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 45.76536,
+                    "Y": 42.78959,
+                    "Coords": {
+                        "X": 7.0412010546875,
+                        "Y": 6.981627534179687
+                    },
+                    "Pixel": {
+                        "X": 1208.2402109375,
+                        "Y": 1196.3255068359374
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449863,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018076",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 45.57297,
+                    "Y": 49.16488,
+                    "Coords": {
+                        "X": 7.037349497070313,
+                        "Y": 7.1092578515625
+                    },
+                    "Pixel": {
+                        "X": 1207.4698994140626,
+                        "Y": 1221.8515703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449866,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018077",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 46.2295,
+                    "Y": 48.79158,
+                    "Coords": {
+                        "X": 7.050492919921876,
+                        "Y": 7.101784560546875
+                    },
+                    "Pixel": {
+                        "X": 1210.0985839843752,
+                        "Y": 1220.3569121093751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449867,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018078",
+                "EnpcName": "Radlia",
+                "Transform": {
+                    "X": 47.21594,
+                    "Y": 48.81724,
+                    "Coords": {
+                        "X": 7.070240986328125,
+                        "Y": 7.102298261718749
+                    },
+                    "Pixel": {
+                        "X": 1214.048197265625,
+                        "Y": 1220.45965234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449868,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018079",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 47.40979,
+                    "Y": 41.88599,
+                    "Coords": {
+                        "X": 7.074121772460937,
+                        "Y": 6.963537885742188
+                    },
+                    "Pixel": {
+                        "X": 1214.8243544921875,
+                        "Y": 1192.7075771484376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449869,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018080",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 48.10263,
+                    "Y": 41.01025,
+                    "Coords": {
+                        "X": 7.087992104492187,
+                        "Y": 6.946005981445312
+                    },
+                    "Pixel": {
+                        "X": 1217.5984208984373,
+                        "Y": 1189.2011962890624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449870,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018081",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 48.37337,
+                    "Y": 42.31361,
+                    "Coords": {
+                        "X": 7.093412192382813,
+                        "Y": 6.9720986376953125
+                    },
+                    "Pixel": {
+                        "X": 1218.6824384765625,
+                        "Y": 1194.4197275390625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449871,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018082",
+                "EnpcName": "Radlia",
+                "Transform": {
+                    "X": 45.86757,
+                    "Y": 43.53506,
+                    "Coords": {
+                        "X": 7.043247250976562,
+                        "Y": 6.996551494140625
+                    },
+                    "Pixel": {
+                        "X": 1208.6494501953125,
+                        "Y": 1199.3102988281248
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6480315,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018098",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 5.945455,
+                    "Y": 25.47204,
+                    "Coords": {
+                        "X": 6.244025222167968,
+                        "Y": 6.63493830078125
+                    },
+                    "Pixel": {
+                        "X": 1048.8050444335936,
+                        "Y": 1126.9876601562498
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6480316,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018099",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -7.517224,
+                    "Y": 33.87167,
+                    "Coords": {
+                        "X": 5.97450869921875,
+                        "Y": 6.803094956054688
+                    },
+                    "Pixel": {
+                        "X": 994.90173984375,
+                        "Y": 1160.6189912109376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6480320,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018101",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -6.512619,
+                    "Y": 33.10388,
+                    "Coords": {
+                        "X": 5.994620420410156,
+                        "Y": 6.78772416015625
+                    },
+                    "Pixel": {
+                        "X": 998.9240840820312,
+                        "Y": 1157.54483203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6480378,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018100",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 3.572175,
+                    "Y": 27.61123,
+                    "Coords": {
+                        "X": 6.196513269042969,
+                        "Y": 6.677763881835937
+                    },
+                    "Pixel": {
+                        "X": 1039.3026538085937,
+                        "Y": 1135.5527763671876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6505175,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018102",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 55.2671,
+                    "Y": 57.99657,
+                    "Coords": {
+                        "X": 7.231421435546876,
+                        "Y": 7.286064145507813
+                    },
+                    "Pixel": {
+                        "X": 1246.284287109375,
+                        "Y": 1257.2128291015624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6514082,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018074",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": 46.54278,
+                    "Y": 42.90246,
+                    "Coords": {
+                        "X": 7.056764638671875,
+                        "Y": 6.983887138671875
+                    },
+                    "Pixel": {
+                        "X": 1211.352927734375,
+                        "Y": 1196.7774277343751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6515810,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018071",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 52.52052,
+                    "Y": 51.89293,
+                    "Coords": {
+                        "X": 7.17643619140625,
+                        "Y": 7.163872133789062
+                    },
+                    "Pixel": {
+                        "X": 1235.28723828125,
+                        "Y": 1232.7744267578123
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6515852,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018294",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 51.16526,
+                    "Y": 47.40896,
+                    "Coords": {
+                        "X": 7.149304521484375,
+                        "Y": 7.07410515625
+                    },
+                    "Pixel": {
+                        "X": 1229.8609042968749,
+                        "Y": 1214.82103125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6515857,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018293",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 25.1351,
+                    "Y": 33.069,
+                    "Coords": {
+                        "X": 6.628192919921876,
+                        "Y": 6.787025878906251
+                    },
+                    "Pixel": {
+                        "X": 1125.6385839843751,
+                        "Y": 1157.4051757812501
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6631345,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm301_001",
+                "EnpcBase": "1018716",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -6.775297,
+                    "Y": 34.80226,
+                    "Coords": {
+                        "X": 5.989361729980469,
+                        "Y": 6.821724931640625
+                    },
+                    "Pixel": {
+                        "X": 997.8723459960937,
+                        "Y": 1164.344986328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6481359,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm302_002",
+                "EnpcBase": "1018083",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": 45.23272,
+                    "Y": 25.7811,
+                    "Coords": {
+                        "X": 7.030537851562499,
+                        "Y": 6.6411255371093745
+                    },
+                    "Pixel": {
+                        "X": 1206.1075703124998,
+                        "Y": 1128.2251074218748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6481360,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm302_002",
+                "EnpcBase": "1018084",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": 46.29594,
+                    "Y": 25.50884,
+                    "Coords": {
+                        "X": 7.0518230175781245,
+                        "Y": 6.63567501953125
+                    },
+                    "Pixel": {
+                        "X": 1210.3646035156248,
+                        "Y": 1127.1350039062502
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6481361,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm302_002",
+                "EnpcBase": "1018085",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": 44.87056,
+                    "Y": 25.00628,
+                    "Coords": {
+                        "X": 7.023287578125,
+                        "Y": 6.62561400390625
+                    },
+                    "Pixel": {
+                        "X": 1204.657515625,
+                        "Y": 1125.1228007812501
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6481362,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm302_002",
+                "EnpcBase": "1018086",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": 44.65936,
+                    "Y": 24.41085,
+                    "Coords": {
+                        "X": 7.019059453125,
+                        "Y": 6.613693774414062
+                    },
+                    "Pixel": {
+                        "X": 1203.811890625,
+                        "Y": 1122.7387548828124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6515896,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm302_002",
+                "EnpcBase": "1018292",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 50.74257,
+                    "Y": 53.66129,
+                    "Coords": {
+                        "X": 7.140842465820312,
+                        "Y": 7.199273872070313
+                    },
+                    "Pixel": {
+                        "X": 1228.1684931640625,
+                        "Y": 1239.8547744140626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6515899,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm302_002",
+                "EnpcBase": "1018292",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 51.28602,
+                    "Y": 52.60732,
+                    "Coords": {
+                        "X": 7.151722080078125,
+                        "Y": 7.17817388671875
+                    },
+                    "Pixel": {
+                        "X": 1230.344416015625,
+                        "Y": 1235.63477734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6515950,
+                "AssetType": 8,
+                "Name": "QST_HeaVnm302_002",
+                "EnpcBase": "1018295",
+                "EnpcName": "Radlia",
+                "Transform": {
+                    "X": 48.38261,
+                    "Y": 52.14725,
+                    "Coords": {
+                        "X": 7.093597172851562,
+                        "Y": 7.168963500976562
+                    },
+                    "Pixel": {
+                        "X": 1218.7194345703124,
+                        "Y": 1233.7927001953124
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256342",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017141",
+                "EventID": "0",
+                "EnpcBase": "1017141",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "23.2256",
+                    "Y": "-15.8422",
+                    "Coords": {
+                        "X": 6.589965625,
+                        "Y": 5.80784658203125
+                    },
+                    "Pixel": {
+                        "X": 1117.993125,
+                        "Y": 961.5693164062501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256343",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017149",
+                "EventID": "0",
+                "EnpcBase": "1017149",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "35.6036",
+                    "Y": "25.84",
+                    "Coords": {
+                        "X": 6.8377673828125,
+                        "Y": 6.642304687499999
+                    },
+                    "Pixel": {
+                        "X": 1167.5534765625,
+                        "Y": 1128.4609374999998
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256344",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017150",
+                "EventID": "0",
+                "EnpcBase": "1017150",
+                "EnpcName": "Talons deckswab",
+                "Transform": {
+                    "X": "37.2278",
+                    "Y": "27.3533",
+                    "Coords": {
+                        "X": 6.87028310546875,
+                        "Y": 6.672600244140625
+                    },
+                    "Pixel": {
+                        "X": 1174.05662109375,
+                        "Y": 1134.520048828125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256345",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017151",
+                "EventID": "0",
+                "EnpcBase": "1017151",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "36.8475",
+                    "Y": "28.6888",
+                    "Coords": {
+                        "X": 6.862669677734375,
+                        "Y": 6.699336328125001
+                    },
+                    "Pixel": {
+                        "X": 1172.533935546875,
+                        "Y": 1139.867265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256346",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017153",
+                "EventID": "0",
+                "EnpcBase": "1017153",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "35.937",
+                    "Y": "24.7925",
+                    "Coords": {
+                        "X": 6.844441894531251,
+                        "Y": 6.621334228515625
+                    },
+                    "Pixel": {
+                        "X": 1168.8883789062502,
+                        "Y": 1124.266845703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256347",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017154",
+                "EventID": "0",
+                "EnpcBase": "1017154",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": "33.6144",
+                    "Y": "27.5481",
+                    "Coords": {
+                        "X": 6.79794453125,
+                        "Y": 6.6765000488281245
+                    },
+                    "Pixel": {
+                        "X": 1159.58890625,
+                        "Y": 1135.300009765625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256348",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017158",
+                "EventID": "0",
+                "EnpcBase": "1017158",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "46.7425",
+                    "Y": "43.2144",
+                    "Coords": {
+                        "X": 7.0607629394531255,
+                        "Y": 6.99013203125
+                    },
+                    "Pixel": {
+                        "X": 1212.152587890625,
+                        "Y": 1198.02640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256349",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017159",
+                "EventID": "0",
+                "EnpcBase": "1017159",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "49.1897",
+                    "Y": "42.7499",
+                    "Coords": {
+                        "X": 7.109754736328125,
+                        "Y": 6.980832958984376
+                    },
+                    "Pixel": {
+                        "X": 1221.950947265625,
+                        "Y": 1196.166591796875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256356",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017161",
+                "EventID": "0",
+                "EnpcBase": "1017161",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "49.4415",
+                    "Y": "56.8154",
+                    "Coords": {
+                        "X": 7.114795654296875,
+                        "Y": 7.262417675781251
+                    },
+                    "Pixel": {
+                        "X": 1222.9591308593751,
+                        "Y": 1252.4835351562501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256357",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017162",
+                "EventID": "0",
+                "EnpcBase": "1017162",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "51.1338",
+                    "Y": "51.976",
+                    "Coords": {
+                        "X": 7.14867470703125,
+                        "Y": 7.16553515625
+                    },
+                    "Pixel": {
+                        "X": 1229.73494140625,
+                        "Y": 1233.1070312499999
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256359",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017163",
+                "EventID": "0",
+                "EnpcBase": "1017163",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "46.697",
+                    "Y": "44.9925",
+                    "Coords": {
+                        "X": 7.05985205078125,
+                        "Y": 7.0257287597656255
+                    },
+                    "Pixel": {
+                        "X": 1211.97041015625,
+                        "Y": 1205.145751953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256371",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017165",
+                "EventID": "0",
+                "EnpcBase": "1017165",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "48.1595",
+                    "Y": "37.5517",
+                    "Coords": {
+                        "X": 7.0891306152343745,
+                        "Y": 6.876767431640625
+                    },
+                    "Pixel": {
+                        "X": 1217.826123046875,
+                        "Y": 1175.353486328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256385",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017152",
+                "EventID": "0",
+                "EnpcBase": "1017152",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "33.749",
+                    "Y": "26.8168",
+                    "Coords": {
+                        "X": 6.80063916015625,
+                        "Y": 6.661859765625
+                    },
+                    "Pixel": {
+                        "X": 1160.1278320312501,
+                        "Y": 1132.371953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258876",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017176",
+                "EventID": "0",
+                "EnpcBase": "1017176",
+                "EnpcName": "Redbill tarboy",
+                "Transform": {
+                    "X": "19.8168",
+                    "Y": "25.636",
+                    "Coords": {
+                        "X": 6.521723046875,
+                        "Y": 6.6382207031250005
+                    },
+                    "Pixel": {
+                        "X": 1104.344609375,
+                        "Y": 1127.644140625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258877",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017174",
+                "EventID": "0",
+                "EnpcBase": "1017174",
+                "EnpcName": "Redbill engineer",
+                "Transform": {
+                    "X": "28.4454",
+                    "Y": "18.3739",
+                    "Coords": {
+                        "X": 6.69446357421875,
+                        "Y": 6.492836865234374
+                    },
+                    "Pixel": {
+                        "X": 1138.89271484375,
+                        "Y": 1098.567373046875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258878",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017175",
+                "EventID": "0",
+                "EnpcBase": "1017175",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "28.7868",
+                    "Y": "19.9694",
+                    "Coords": {
+                        "X": 6.7012982421875,
+                        "Y": 6.52477802734375
+                    },
+                    "Pixel": {
+                        "X": 1140.2596484375,
+                        "Y": 1104.95560546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258879",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017177",
+                "EventID": "0",
+                "EnpcBase": "1017177",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "54.2648",
+                    "Y": "26.6316",
+                    "Coords": {
+                        "X": 7.211355859375,
+                        "Y": 6.6581521484375
+                    },
+                    "Pixel": {
+                        "X": 1242.271171875,
+                        "Y": 1131.6304296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258880",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017178",
+                "EventID": "0",
+                "EnpcBase": "1017178",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "17.1269",
+                    "Y": "36.1431",
+                    "Coords": {
+                        "X": 6.467872509765624,
+                        "Y": 6.848567919921875
+                    },
+                    "Pixel": {
+                        "X": 1093.5745019531248,
+                        "Y": 1169.713583984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258881",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017179",
+                "EventID": "0",
+                "EnpcBase": "1017179",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "-0.256924",
+                    "Y": "21.545",
+                    "Coords": {
+                        "X": 6.119856501953125,
+                        "Y": 6.556320800781251
+                    },
+                    "Pixel": {
+                        "X": 1023.971300390625,
+                        "Y": 1111.26416015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6258882",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017180",
+                "EventID": "0",
+                "EnpcBase": "1017180",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "6.88177",
+                    "Y": "52.1658",
+                    "Coords": {
+                        "X": 6.262769809570313,
+                        "Y": 7.16933486328125
+                    },
+                    "Pixel": {
+                        "X": 1052.5539619140625,
+                        "Y": 1233.86697265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6261328",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017168",
+                "EventID": "0",
+                "EnpcBase": "1017168",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "47.7716",
+                    "Y": "39.0832",
+                    "Coords": {
+                        "X": 7.0813650390625,
+                        "Y": 6.907427343749999
+                    },
+                    "Pixel": {
+                        "X": 1216.2730078125,
+                        "Y": 1181.4854687499999
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6266399",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017251",
+                "EventID": "0",
+                "EnpcBase": "1017251",
+                "EnpcName": "Redbill cook",
+                "Transform": {
+                    "X": "-2.65476",
+                    "Y": "41.9852",
+                    "Coords": {
+                        "X": 6.07185294921875,
+                        "Y": 6.9655240234375
+                    },
+                    "Pixel": {
+                        "X": 1014.3705898437499,
+                        "Y": 1193.1048046875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6266400",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017252",
+                "EventID": "0",
+                "EnpcBase": "1017252",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "-6.65126",
+                    "Y": "47.0665",
+                    "Coords": {
+                        "X": 5.991844892578125,
+                        "Y": 7.067249267578125
+                    },
+                    "Pixel": {
+                        "X": 998.3689785156249,
+                        "Y": 1213.4498535156251
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6266401",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017253",
+                "EventID": "0",
+                "EnpcBase": "1017253",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "-12.1423",
+                    "Y": "33.442",
+                    "Coords": {
+                        "X": 5.881916845703125,
+                        "Y": 6.7944931640625
+                    },
+                    "Pixel": {
+                        "X": 976.383369140625,
+                        "Y": 1158.8986328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6266402",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017254",
+                "EventID": "0",
+                "EnpcBase": "1017254",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "20.6873",
+                    "Y": "44.9377",
+                    "Coords": {
+                        "X": 6.539150048828125,
+                        "Y": 7.024631689453125
+                    },
+                    "Pixel": {
+                        "X": 1107.830009765625,
+                        "Y": 1204.926337890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6339588",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017527",
+                "EventID": "0",
+                "EnpcBase": "1017527",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": "28.0387",
+                    "Y": "30.6453",
+                    "Coords": {
+                        "X": 6.686321630859375,
+                        "Y": 6.738504541015625
+                    },
+                    "Pixel": {
+                        "X": 1137.264326171875,
+                        "Y": 1147.700908203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6352701",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017536",
+                "EventID": "0",
+                "EnpcBase": "1017536",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "46.7088",
+                    "Y": "45.0003",
+                    "Coords": {
+                        "X": 7.06008828125,
+                        "Y": 7.025884912109374
+                    },
+                    "Pixel": {
+                        "X": 1212.0176562499998,
+                        "Y": 1205.1769824218748
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6385434",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1017557",
+                "EventID": "0",
+                "EnpcBase": "1017557",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "14.7732",
+                    "Y": "25.8868",
+                    "Coords": {
+                        "X": 6.4207525390625,
+                        "Y": 6.6432416015625
+                    },
+                    "Pixel": {
+                        "X": 1084.1505078124999,
+                        "Y": 1128.6483203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449846",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018064",
+                "EventID": "0",
+                "EnpcBase": "1018064",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "7.64471",
+                    "Y": "8.80444",
+                    "Coords": {
+                        "X": 6.278043510742187,
+                        "Y": 6.30126076171875
+                    },
+                    "Pixel": {
+                        "X": 1055.6087021484373,
+                        "Y": 1060.2521523437501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449847",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018068",
+                "EventID": "0",
+                "EnpcBase": "1018068",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "7.00176",
+                    "Y": "8.53129",
+                    "Coords": {
+                        "X": 6.265171953125,
+                        "Y": 6.295792426757813
+                    },
+                    "Pixel": {
+                        "X": 1053.034390625,
+                        "Y": 1059.1584853515626
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449848",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018069",
+                "EventID": "0",
+                "EnpcBase": "1018069",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": "8.3886",
+                    "Y": "8.93992",
+                    "Coords": {
+                        "X": 6.29293583984375,
+                        "Y": 6.303973007812501
+                    },
+                    "Pixel": {
+                        "X": 1058.58716796875,
+                        "Y": 1060.7946015625002
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449851",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018070",
+                "EventID": "0",
+                "EnpcBase": "1018070",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "5.72898",
+                    "Y": "8.43359",
+                    "Coords": {
+                        "X": 6.239691494140625,
+                        "Y": 6.293836518554687
+                    },
+                    "Pixel": {
+                        "X": 1047.938298828125,
+                        "Y": 1058.7673037109373
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449854",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018065",
+                "EventID": "0",
+                "EnpcBase": "1018065",
+                "EnpcName": "Radlia",
+                "Transform": {
+                    "X": "5.57402",
+                    "Y": "12.1751",
+                    "Coords": {
+                        "X": 6.236589267578125,
+                        "Y": 6.368739794921875
+                    },
+                    "Pixel": {
+                        "X": 1047.317853515625,
+                        "Y": 1073.747958984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449856",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018066",
+                "EventID": "0",
+                "EnpcBase": "1018066",
+                "EnpcName": "Talons deckswab",
+                "Transform": {
+                    "X": "5.74273",
+                    "Y": "13.5849",
+                    "Coords": {
+                        "X": 6.239966762695312,
+                        "Y": 6.396963330078125
+                    },
+                    "Pixel": {
+                        "X": 1047.9933525390625,
+                        "Y": 1079.392666015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449857",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018067",
+                "EventID": "0",
+                "EnpcBase": "1018067",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "4.25447",
+                    "Y": "13.0018",
+                    "Coords": {
+                        "X": 6.210172495117188,
+                        "Y": 6.38528994140625
+                    },
+                    "Pixel": {
+                        "X": 1042.0344990234375,
+                        "Y": 1077.0579882812501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449862",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018075",
+                "EventID": "0",
+                "EnpcBase": "1018075",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "45.7654",
+                    "Y": "42.7896",
+                    "Coords": {
+                        "X": 7.04120185546875,
+                        "Y": 6.981627734375
+                    },
+                    "Pixel": {
+                        "X": 1208.2403710937501,
+                        "Y": 1196.325546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449863",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018076",
+                "EventID": "0",
+                "EnpcBase": "1018076",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "45.573",
+                    "Y": "49.1649",
+                    "Coords": {
+                        "X": 7.037350097656249,
+                        "Y": 7.109258251953125
+                    },
+                    "Pixel": {
+                        "X": 1207.4700195312498,
+                        "Y": 1221.8516503906249
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449866",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018077",
+                "EventID": "0",
+                "EnpcBase": "1018077",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "46.2295",
+                    "Y": "48.7916",
+                    "Coords": {
+                        "X": 7.050492919921876,
+                        "Y": 7.101784960937501
+                    },
+                    "Pixel": {
+                        "X": 1210.0985839843752,
+                        "Y": 1220.3569921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449867",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018078",
+                "EventID": "0",
+                "EnpcBase": "1018078",
+                "EnpcName": "Radlia",
+                "Transform": {
+                    "X": "47.2159",
+                    "Y": "48.8172",
+                    "Coords": {
+                        "X": 7.070240185546875,
+                        "Y": 7.102297460937501
+                    },
+                    "Pixel": {
+                        "X": 1214.048037109375,
+                        "Y": 1220.4594921875002
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449868",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018079",
+                "EventID": "0",
+                "EnpcBase": "1018079",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "47.4098",
+                    "Y": "41.886",
+                    "Coords": {
+                        "X": 7.0741219726562505,
+                        "Y": 6.9635380859375005
+                    },
+                    "Pixel": {
+                        "X": 1214.8243945312502,
+                        "Y": 1192.7076171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449869",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018080",
+                "EventID": "0",
+                "EnpcBase": "1018080",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "48.1026",
+                    "Y": "41.0103",
+                    "Coords": {
+                        "X": 7.08799150390625,
+                        "Y": 6.946006982421876
+                    },
+                    "Pixel": {
+                        "X": 1217.59830078125,
+                        "Y": 1189.2013964843752
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449870",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018081",
+                "EventID": "0",
+                "EnpcBase": "1018081",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "48.3734",
+                    "Y": "42.3136",
+                    "Coords": {
+                        "X": 7.09341279296875,
+                        "Y": 6.972098437500001
+                    },
+                    "Pixel": {
+                        "X": 1218.68255859375,
+                        "Y": 1194.4196875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449871",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018082",
+                "EventID": "0",
+                "EnpcBase": "1018082",
+                "EnpcName": "Radlia",
+                "Transform": {
+                    "X": "45.8676",
+                    "Y": "43.5351",
+                    "Coords": {
+                        "X": 7.0432478515625,
+                        "Y": 6.996552294921875
+                    },
+                    "Pixel": {
+                        "X": 1208.6495703125,
+                        "Y": 1199.310458984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6480315",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018098",
+                "EventID": "0",
+                "EnpcBase": "1018098",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "5.94546",
+                    "Y": "25.472",
+                    "Coords": {
+                        "X": 6.2440253222656255,
+                        "Y": 6.6349374999999995
+                    },
+                    "Pixel": {
+                        "X": 1048.8050644531252,
+                        "Y": 1126.9875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6480316",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018099",
+                "EventID": "0",
+                "EnpcBase": "1018099",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "-7.51722",
+                    "Y": "33.8717",
+                    "Coords": {
+                        "X": 5.974508779296875,
+                        "Y": 6.803095556640624
+                    },
+                    "Pixel": {
+                        "X": 994.901755859375,
+                        "Y": 1160.6191113281247
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6480320",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018101",
+                "EventID": "0",
+                "EnpcBase": "1018101",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "-6.51262",
+                    "Y": "33.1039",
+                    "Coords": {
+                        "X": 5.994620400390625,
+                        "Y": 6.7877245605468755
+                    },
+                    "Pixel": {
+                        "X": 998.924080078125,
+                        "Y": 1157.544912109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6480378",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018100",
+                "EventID": "0",
+                "EnpcBase": "1018100",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "3.57218",
+                    "Y": "27.6112",
+                    "Coords": {
+                        "X": 6.196513369140625,
+                        "Y": 6.67776328125
+                    },
+                    "Pixel": {
+                        "X": 1039.302673828125,
+                        "Y": 1135.55265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6481359",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018083",
+                "EventID": "0",
+                "EnpcBase": "1018083",
+                "EnpcName": "Leofard",
+                "Transform": {
+                    "X": "45.2327",
+                    "Y": "25.7811",
+                    "Coords": {
+                        "X": 7.030537451171876,
+                        "Y": 6.6411255371093745
+                    },
+                    "Pixel": {
+                        "X": 1206.107490234375,
+                        "Y": 1128.2251074218748
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6481360",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018084",
+                "EventID": "0",
+                "EnpcBase": "1018084",
+                "EnpcName": "Stacia",
+                "Transform": {
+                    "X": "46.2959",
+                    "Y": "25.5088",
+                    "Coords": {
+                        "X": 7.051822216796875,
+                        "Y": 6.63567421875
+                    },
+                    "Pixel": {
+                        "X": 1210.364443359375,
+                        "Y": 1127.13484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6481361",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018085",
+                "EventID": "0",
+                "EnpcBase": "1018085",
+                "EnpcName": "Cait Sith",
+                "Transform": {
+                    "X": "44.8706",
+                    "Y": "25.0063",
+                    "Coords": {
+                        "X": 7.02328837890625,
+                        "Y": 6.625614404296876
+                    },
+                    "Pixel": {
+                        "X": 1204.65767578125,
+                        "Y": 1125.122880859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6481362",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018086",
+                "EventID": "0",
+                "EnpcBase": "1018086",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": "44.6594",
+                    "Y": "24.4109",
+                    "Coords": {
+                        "X": 7.01906025390625,
+                        "Y": 6.613694775390625
+                    },
+                    "Pixel": {
+                        "X": 1203.81205078125,
+                        "Y": 1122.738955078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6505175",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018102",
+                "EventID": "0",
+                "EnpcBase": "1018102",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "55.2671",
+                    "Y": "57.9966",
+                    "Coords": {
+                        "X": 7.231421435546876,
+                        "Y": 7.28606474609375
+                    },
+                    "Pixel": {
+                        "X": 1246.284287109375,
+                        "Y": 1257.21294921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6514082",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018074",
+                "EventID": "0",
+                "EnpcBase": "1018074",
+                "EnpcName": "Utata",
+                "Transform": {
+                    "X": "46.5428",
+                    "Y": "42.9025",
+                    "Coords": {
+                        "X": 7.0567650390625,
+                        "Y": 6.983887939453125
+                    },
+                    "Pixel": {
+                        "X": 1211.3530078125,
+                        "Y": 1196.777587890625
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6256320,
+                "AssetType": 40,
+                "Name": "EVT_PUBLIC_POS_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 44.33199,
+                    "Y": 19.06862,
+                    "Scale": 0.05,
+                    "Coords": {
+                        "X": 7.012505659179688,
+                        "Y": 6.506744833984375
+                    },
+                    "Pixel": {
+                        "X": 1202.5011318359375,
+                        "Y": 1101.348966796875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256326,
+                "AssetType": 40,
+                "Name": "EVT_PUBLIC_POS_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 19.92437,
+                    "Y": 26.92938,
+                    "Scale": 0.05,
+                    "Coords": {
+                        "X": 6.523876547851563,
+                        "Y": 6.664113564453125
+                    },
+                    "Pixel": {
+                        "X": 1104.7753095703126,
+                        "Y": 1132.8227128906249
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256327,
+                "AssetType": 40,
+                "Name": "EVT_PUBLIC_POS_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.4320587,
+                    "Y": 29.63824,
+                    "Scale": 0.05,
+                    "Coords": {
+                        "X": 6.116350387353515,
+                        "Y": 6.718343671875
+                    },
+                    "Pixel": {
+                        "X": 1023.2700774707031,
+                        "Y": 1143.668734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256329,
+                "AssetType": 40,
+                "Name": "EVT_PUBLIC_POS_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 21.17775,
+                    "Y": -16.74438,
+                    "Scale": 0.05,
+                    "Coords": {
+                        "X": 6.548968627929687,
+                        "Y": 5.789785361328125
+                    },
+                    "Pixel": {
+                        "X": 1109.7937255859374,
+                        "Y": 957.957072265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256341,
+                "AssetType": 40,
+                "Name": "QST_HeaVnm201_001",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 47.52887,
+                    "Y": 46.44664,
+                    "Scale": 0.05,
+                    "Coords": {
+                        "X": 7.076505698242187,
+                        "Y": 7.0548399609375
+                    },
+                    "Pixel": {
+                        "X": 1215.3011396484374,
+                        "Y": 1210.9679921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6260610,
+                "AssetType": 40,
+                "Name": "QST_HeaVnm201_001",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 49.60143,
+                    "Y": 38.32447,
+                    "Scale": 0.05,
+                    "Coords": {
+                        "X": 7.1179973779296875,
+                        "Y": 6.892237924804688
+                    },
+                    "Pixel": {
+                        "X": 1223.5994755859374,
+                        "Y": 1178.4475849609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449872,
+                "AssetType": 40,
+                "Name": "QST_HeaVnm301_001",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 47.03529,
+                    "Y": 48.02266,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.066624458007813,
+                        "Y": 7.086391142578124
+                    },
+                    "Pixel": {
+                        "X": 1213.3248916015625,
+                        "Y": 1217.278228515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6449934,
+                "AssetType": 40,
+                "Name": "QST_HeaVnm301_001",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 48.49929,
+                    "Y": 41.73605,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.095933051757812,
+                        "Y": 6.960536157226562
+                    },
+                    "Pixel": {
+                        "X": 1219.1866103515624,
+                        "Y": 1192.1072314453124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6470783,
+                "AssetType": 40,
+                "Name": "QST_HeaVnm301_001",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 8.557447,
+                    "Y": 6.230565,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.296316077636719,
+                        "Y": 6.249732990722657
+                    },
+                    "Pixel": {
+                        "X": 1059.2632155273438,
+                        "Y": 1049.9465981445314
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6481358,
+                "AssetType": 40,
+                "Name": "QST_HeaVnm302_002",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 43.24188,
+                    "Y": 28.76522,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.99068216796875,
+                        "Y": 6.700866220703125
+                    },
+                    "Pixel": {
+                        "X": 1198.1364335937499,
+                        "Y": 1140.173244140625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6644209,
+                "AssetType": 40,
+                "Name": "QST_HeaVnm302_002",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 49.17047,
+                    "Y": 38.37287,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 7.109369760742188,
+                        "Y": 6.893206870117187
+                    },
+                    "Pixel": {
+                        "X": 1221.8739521484376,
+                        "Y": 1178.6413740234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256320",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "44.332",
+                    "Y": "19.0686",
+                    "Scale": 0.0125,
+                    "Coords": {
+                        "X": 7.012505859375,
+                        "Y": 6.50674443359375
+                    },
+                    "Pixel": {
+                        "X": 1202.501171875,
+                        "Y": 1101.34888671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6256341",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "47.5289",
+                    "Y": "46.4466",
+                    "Scale": 0.0125,
+                    "Coords": {
+                        "X": 7.076506298828125,
+                        "Y": 7.0548391601562495
+                    },
+                    "Pixel": {
+                        "X": 1215.301259765625,
+                        "Y": 1210.9678320312498
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6260610",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "49.6014",
+                    "Y": "38.3245",
+                    "Scale": 0.0125,
+                    "Coords": {
+                        "X": 7.11799677734375,
+                        "Y": 6.892238525390625
+                    },
+                    "Pixel": {
+                        "X": 1223.59935546875,
+                        "Y": 1178.447705078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449872",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "47.0353",
+                    "Y": "48.0227",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 7.066624658203125,
+                        "Y": 7.0863919433593745
+                    },
+                    "Pixel": {
+                        "X": 1213.324931640625,
+                        "Y": 1217.2783886718748
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6449934",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "48.4993",
+                    "Y": "41.736",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 7.0959332519531255,
+                        "Y": 6.96053515625
+                    },
+                    "Pixel": {
+                        "X": 1219.1866503906251,
+                        "Y": 1192.1070312499999
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6470783",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "8.55745",
+                    "Y": "6.23057",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.296316137695313,
+                        "Y": 6.249733090820312
+                    },
+                    "Pixel": {
+                        "X": 1059.2632275390627,
+                        "Y": 1049.9466181640623
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6481358",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "43.2419",
+                    "Y": "28.7652",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.990682568359375,
+                        "Y": 6.7008658203125
+                    },
+                    "Pixel": {
+                        "X": 1198.136513671875,
+                        "Y": 1140.1731640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6644209",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "49.1705",
+                    "Y": "38.3729",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 7.109370361328125,
+                        "Y": 6.893207470703126
+                    },
+                    "Pixel": {
+                        "X": 1221.874072265625,
+                        "Y": 1178.6414941406251
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 6255547,
+                "AssetType": 45,
+                "Name": "EVT_PUBLIC_EOBJ_01",
+                "EobjId": "2007075",
+                "EobjName": "Entrance To Leofard's Chambers",
+                "EobjData": {
+                    "CustomTalk": "853288"
+                },
+                "Transform": {
+                    "X": 22.34343,
+                    "Y": -18.78459,
+                    "Coords": {
+                        "X": 6.572304995117188,
+                        "Y": 5.748941313476562
+                    },
+                    "Pixel": {
+                        "X": 1114.4609990234376,
+                        "Y": 949.7882626953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6255548,
+                "AssetType": 45,
+                "Name": "EVT_PUBLIC_EOBJ_01",
+                "EobjId": "2007077",
+                "EobjName": "Passage To Coldwind",
+                "EobjData": {
+                    "WarpID": "131224",
+                    "WarpName": "",
+                    "WarpQuestion": "Return to Coldwind?"
+                },
+                "Transform": {
+                    "X": 45.56148,
+                    "Y": 17.63319,
+                    "Coords": {
+                        "X": 7.037119472656251,
+                        "Y": 6.478008198242188
+                    },
+                    "Pixel": {
+                        "X": 1207.4238945312502,
+                        "Y": 1095.6016396484376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256304,
+                "AssetType": 45,
+                "Name": "EVT_PUBLIC_EOBJ_01",
+                "EobjId": "2007080",
+                "EobjName": "Passage To The Parrock",
+                "EobjData": {
+                    "WarpID": "131227",
+                    "WarpName": "",
+                    "WarpQuestion": "Exit the airship landing?"
+                },
+                "Transform": {
+                    "X": 18.19791,
+                    "Y": 26.85483,
+                    "Coords": {
+                        "X": 6.489313627929687,
+                        "Y": 6.6626211083984375
+                    },
+                    "Pixel": {
+                        "X": 1097.8627255859374,
+                        "Y": 1132.5242216796876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6256305,
+                "AssetType": 45,
+                "Name": "EVT_PUBLIC_EOBJ_01",
+                "EobjId": "2007081",
+                "EobjName": "Landing Gate",
+                "EobjData": {
+                    "WarpID": "131228",
+                    "WarpName": "",
+                    "WarpQuestion": "Enter the airship landing?"
+                },
+                "Transform": {
+                    "X": -2.775915,
+                    "Y": 26.637,
+                    "Coords": {
+                        "X": 6.069427482910156,
+                        "Y": 6.65826025390625
+                    },
+                    "Pixel": {
+                        "X": 1013.8854965820312,
+                        "Y": 1131.65205078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6262540,
+                "AssetType": 45,
+                "Name": "QST_HeaVnm201_001",
+                "EobjId": "2007120",
+                "EobjName": "",
+                "EobjData": {
+                    "QuestID": "67821",
+                    "QuestName": "The Weeping City"
+                },
+                "Transform": {
+                    "X": 57.7995,
+                    "Y": 39.49283,
+                    "Coords": {
+                        "X": 7.282118896484375,
+                        "Y": 6.915627944335938
+                    },
+                    "Pixel": {
+                        "X": 1256.423779296875,
+                        "Y": 1183.1255888671876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6265604,
+                "AssetType": 45,
+                "Name": "QST_HeaVnm201_001",
+                "EobjId": "2007167",
+                "EobjName": "Entrance",
+                "EobjData": {
+                    "CustomTalk": "853363"
+                },
+                "Transform": {
+                    "X": 46.78709,
+                    "Y": 51.95479,
+                    "Coords": {
+                        "X": 7.061655610351562,
+                        "Y": 7.165110541992187
+                    },
+                    "Pixel": {
+                        "X": 1212.3311220703124,
+                        "Y": 1233.0221083984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6505159,
+                "AssetType": 45,
+                "Name": "QST_HeaVnm301_001",
+                "EobjId": "2007448",
+                "EobjName": "",
+                "EobjData": {
+                    "CustomTalk": "853337"
+                },
+                "Transform": {
+                    "X": 56.4878,
+                    "Y": 54.7617,
+                    "Coords": {
+                        "X": 7.25585927734375,
+                        "Y": 7.221303564453125
+                    },
+                    "Pixel": {
+                        "X": 1251.17185546875,
+                        "Y": 1244.260712890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6505177,
+                "AssetType": 45,
+                "Name": "QST_HeaVnm301_001",
+                "EobjId": "2007447",
+                "EobjName": "",
+                "EobjData": {
+                    "CustomTalk": "853337"
+                },
+                "Transform": {
+                    "X": -10.81991,
+                    "Y": 2.088242,
+                    "Coords": {
+                        "X": 5.908390473632813,
+                        "Y": 6.166805625976562
+                    },
+                    "Pixel": {
+                        "X": 981.6780947265626,
+                        "Y": 1033.3611251953125
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [
+            {
+                "LGB_ID": 6343302,
+                "AssetType": 68,
+                "Name": "EVT_PUBLIC_POS_01",
+                "Transform": {
+                    "X": 29.16268,
+                    "Y": 28.3879,
+                    "Coords": {
+                        "X": 6.708823183593751,
+                        "Y": 6.693312451171875
+                    },
+                    "Pixel": {
+                        "X": 1141.7646367187501,
+                        "Y": 1138.662490234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6349292,
+                "AssetType": 68,
+                "Name": "EVT_PUBLIC_POS_01",
+                "Transform": {
+                    "X": -4.301967,
+                    "Y": 46.90475,
+                    "Coords": {
+                        "X": 6.038876637207031,
+                        "Y": 7.064011108398437
+                    },
+                    "Pixel": {
+                        "X": 1007.7753274414063,
+                        "Y": 1212.8022216796874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6385442,
+                "AssetType": 68,
+                "Name": "EVT_PUBLIC_POS_01",
+                "Transform": {
+                    "X": 25.13512,
+                    "Y": 33.06898,
+                    "Coords": {
+                        "X": 6.6281933203125005,
+                        "Y": 6.787025478515625
+                    },
+                    "Pixel": {
+                        "X": 1125.6386640625,
+                        "Y": 1157.405095703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6625230,
+                "AssetType": 68,
+                "Name": "EVT_PUBLIC_POS_01",
+                "Transform": {
+                    "X": 28.17129,
+                    "Y": 28.46741,
+                    "Coords": {
+                        "X": 6.688976020507813,
+                        "Y": 6.694904204101562
+                    },
+                    "Pixel": {
+                        "X": 1137.7952041015626,
+                        "Y": 1138.9808408203123
+                    }
+                }
+            }
+        ],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

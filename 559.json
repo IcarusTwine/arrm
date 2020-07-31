@@ -1,0 +1,934 @@
+{
+    "ID": "559",
+    "PlaceName": "Steps of Faith - ",
+    "Code": "r1fe",
+    "Map": {
+        "ID": "304",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Clouds"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/roc_r1\/fld\/r1fe\/level\/r1fe",
+    "BGM": {
+        "ID": "1001",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Null.scd",
+            "Night": "music\/ffxiv\/BGM_Null.scd",
+            "Battle": "music\/ffxiv\/BGM_Null.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "2",
+    "LGB_Data": {
+        "Vfx": [
+            {
+                "LGB_ID": 6243604,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -17.93266,
+                    "Y": -28.34704,
+                    "Coords": {
+                        "X": 5.765996552734375,
+                        "Y": 5.557505546875
+                    },
+                    "Pixel": {
+                        "X": 953.199310546875,
+                        "Y": 911.501109375
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243605,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 19.00272,
+                    "Y": -97.74574,
+                    "Coords": {
+                        "X": 6.505425546875,
+                        "Y": 4.168176103515625
+                    },
+                    "Pixel": {
+                        "X": 1101.085109375,
+                        "Y": 633.635220703125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243606,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 14.87715,
+                    "Y": 114.8393,
+                    "Coords": {
+                        "X": 6.422833569335938,
+                        "Y": 8.424028955078125
+                    },
+                    "Pixel": {
+                        "X": 1084.5667138671877,
+                        "Y": 1484.805791015625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243607,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 13.61707,
+                    "Y": 114.2689,
+                    "Coords": {
+                        "X": 6.397607358398438,
+                        "Y": 8.412609814453125
+                    },
+                    "Pixel": {
+                        "X": 1079.5214716796875,
+                        "Y": 1482.521962890625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243608,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -21.95586,
+                    "Y": 130.6043,
+                    "Coords": {
+                        "X": 5.685453974609375,
+                        "Y": 8.739636865234374
+                    },
+                    "Pixel": {
+                        "X": 937.090794921875,
+                        "Y": 1547.927373046875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243609,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -13.29218,
+                    "Y": -49.36118,
+                    "Coords": {
+                        "X": 5.858896787109375,
+                        "Y": 5.136812314453125
+                    },
+                    "Pixel": {
+                        "X": 971.7793574218749,
+                        "Y": 827.362462890625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243610,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -16.83483,
+                    "Y": -319.5845,
+                    "Coords": {
+                        "X": 5.787974594726562,
+                        "Y": -0.2729318847656248
+                    },
+                    "Pixel": {
+                        "X": 957.5949189453124,
+                        "Y": -254.58637695312495
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243611,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -18.80574,
+                    "Y": -205.5981,
+                    "Coords": {
+                        "X": 5.748517900390625,
+                        "Y": 2.009022412109375
+                    },
+                    "Pixel": {
+                        "X": 949.703580078125,
+                        "Y": 201.80448242187498
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243612,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 16.68496,
+                    "Y": -315.1563,
+                    "Coords": {
+                        "X": 6.459025078124999,
+                        "Y": -0.1842813964843748
+                    },
+                    "Pixel": {
+                        "X": 1091.805015625,
+                        "Y": -236.85627929687496
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6280054,
+                "AssetType": 4,
+                "Name": "VFX_002",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fe_thud2_y.avfx",
+                "Transform": {
+                    "X": 1.1586,
+                    "Y": -6.467258,
+                    "Coords": {
+                        "X": 6.14819462890625,
+                        "Y": 5.995528526367187
+                    },
+                    "Pixel": {
+                        "X": 1029.63892578125,
+                        "Y": 999.1057052734375
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243604,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -17.93266,
+                    "Y": -28.34704,
+                    "Coords": {
+                        "X": 5.765996552734375,
+                        "Y": 5.557505546875
+                    },
+                    "Pixel": {
+                        "X": 953.199310546875,
+                        "Y": 911.501109375
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243605,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 19.00272,
+                    "Y": -97.74574,
+                    "Coords": {
+                        "X": 6.505425546875,
+                        "Y": 4.168176103515625
+                    },
+                    "Pixel": {
+                        "X": 1101.085109375,
+                        "Y": 633.635220703125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243606,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 14.87715,
+                    "Y": 114.8393,
+                    "Coords": {
+                        "X": 6.422833569335938,
+                        "Y": 8.424028955078125
+                    },
+                    "Pixel": {
+                        "X": 1084.5667138671877,
+                        "Y": 1484.805791015625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243607,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 13.61707,
+                    "Y": 114.2689,
+                    "Coords": {
+                        "X": 6.397607358398438,
+                        "Y": 8.412609814453125
+                    },
+                    "Pixel": {
+                        "X": 1079.5214716796875,
+                        "Y": 1482.521962890625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243608,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -21.95586,
+                    "Y": 130.6043,
+                    "Coords": {
+                        "X": 5.685453974609375,
+                        "Y": 8.739636865234374
+                    },
+                    "Pixel": {
+                        "X": 937.090794921875,
+                        "Y": 1547.927373046875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243609,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -13.29218,
+                    "Y": -49.36118,
+                    "Coords": {
+                        "X": 5.858896787109375,
+                        "Y": 5.136812314453125
+                    },
+                    "Pixel": {
+                        "X": 971.7793574218749,
+                        "Y": 827.362462890625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243610,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -16.83483,
+                    "Y": -319.5845,
+                    "Coords": {
+                        "X": 5.787974594726562,
+                        "Y": -0.2729318847656248
+                    },
+                    "Pixel": {
+                        "X": 957.5949189453124,
+                        "Y": -254.58637695312495
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243611,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": -18.80574,
+                    "Y": -205.5981,
+                    "Coords": {
+                        "X": 5.748517900390625,
+                        "Y": 2.009022412109375
+                    },
+                    "Pixel": {
+                        "X": 949.703580078125,
+                        "Y": 201.80448242187498
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6243612,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fdfire02_y.avfx",
+                "Transform": {
+                    "X": 16.68496,
+                    "Y": -315.1563,
+                    "Coords": {
+                        "X": 6.459025078124999,
+                        "Y": -0.1842813964843748
+                    },
+                    "Pixel": {
+                        "X": 1091.805015625,
+                        "Y": -236.85627929687496
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6280054,
+                "AssetType": 4,
+                "Name": "VFX_002",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/common\/vfx\/eff\/r1fe_thud2_y.avfx",
+                "Transform": {
+                    "X": 1.1586,
+                    "Y": -6.467258,
+                    "Coords": {
+                        "X": 6.14819462890625,
+                        "Y": 5.995528526367187
+                    },
+                    "Pixel": {
+                        "X": 1029.63892578125,
+                        "Y": 999.1057052734375
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            }
+        ],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 6243772,
+                "AssetType": 6,
+                "Name": "LVD_zone_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0095.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0.03847122,
+                    "Y": 18.37367,
+                    "Coords": {
+                        "X": 6.125770175791016,
+                        "Y": 6.492832260742188
+                    },
+                    "Pixel": {
+                        "X": 1025.1540351582032,
+                        "Y": 1098.5664521484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243601,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_r1fd_b0509.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": -120,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243602,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_r1fd_b0509.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 40,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243603,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_r1fd_b0509.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": -280,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6279966,
+                "AssetType": 6,
+                "Name": "VFX_002",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_z1fe_b0961.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -1.199844,
+                    "Y": -4.028385,
+                    "Coords": {
+                        "X": 6.100979685546875,
+                        "Y": 6.044353620605468
+                    },
+                    "Pixel": {
+                        "X": 1020.195937109375,
+                        "Y": 1008.8707241210936
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243601,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_r1fd_b0509.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": -120,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243602,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_r1fd_b0509.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 40,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243603,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_r1fd_b0509.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": -280,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6279966,
+                "AssetType": 6,
+                "Name": "VFX_002",
+                "AssetPath": "bg\/ffxiv\/roc_r1\/shared\/for_vfx\/sgvf_z1fe_b0961.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -1.199844,
+                    "Y": -4.028385,
+                    "Coords": {
+                        "X": 6.100979685546875,
+                        "Y": 6.044353620605468
+                    },
+                    "Pixel": {
+                        "X": 1020.195937109375,
+                        "Y": 1008.8707241210936
+                    }
+                }
+            }
+        ],
+        "Sound": [],
+        "EventNPC": [
+            {
+                "LGB_ID": 6395679,
+                "AssetType": 8,
+                "Name": "LVD_Nidhogg_Common",
+                "EnpcBase": "1015906",
+                "EnpcName": "Estinien",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [],
+        "exitrange": [],
+        "MapRange": [
+            {
+                "LGB_ID": 6243760,
+                "AssetType": 43,
+                "Name": "LVD_MapRange_02",
+                "TriggerBoxType": 3,
+                "PlaceName": 1510,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 50,
+                    "Y": -40,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 7.1259765625,
+                        "Y": 5.32421875
+                    },
+                    "Pixel": {
+                        "X": 1225.1953125,
+                        "Y": 864.84375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243761,
+                "AssetType": 43,
+                "Name": "LVD_MapRange_02",
+                "TriggerBoxType": 3,
+                "PlaceName": 1512,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -50,
+                    "Y": -200,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 5.1240234375,
+                        "Y": 2.12109375
+                    },
+                    "Pixel": {
+                        "X": 824.8046875,
+                        "Y": 224.21875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243762,
+                "AssetType": 43,
+                "Name": "LVD_MapRange_02",
+                "TriggerBoxType": 3,
+                "PlaceName": 1514,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 50,
+                    "Y": -360,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 7.1259765625,
+                        "Y": -1.08203125
+                    },
+                    "Pixel": {
+                        "X": 1225.1953125,
+                        "Y": -416.40625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243763,
+                "AssetType": 43,
+                "Name": "LVD_MapRange_02",
+                "TriggerBoxType": 1,
+                "PlaceName": 1515,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0,
+                    "Y": -438.2135,
+                    "Scale": 7,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": -2.6478288574218753
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1011,
+                            "Y": -733.5657714843751
+                        },
+                        "2": {
+                            "X": 1039,
+                            "Y": -733.5657714843751
+                        },
+                        "3": {
+                            "X": 1039,
+                            "Y": -725.5657714843751
+                        },
+                        "4": {
+                            "X": 1011,
+                            "Y": -725.5657714843751
+                        }
+                    }
+                }
+            }
+        ],
+        "EventObject": [
+            {
+                "LGB_ID": 6262538,
+                "AssetType": 45,
+                "Name": "LVD_Nidhogg_Common",
+                "EobjId": "2007132",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/btl\/shared\/for_vfx\/sgvf_w_btl_b0926.sgb"
+                },
+                "Transform": {
+                    "X": 1.180504,
+                    "Y": -5.348264,
+                    "Coords": {
+                        "X": 6.1486331367187494,
+                        "Y": 6.01793026171875
+                    },
+                    "Pixel": {
+                        "X": 1029.72662734375,
+                        "Y": 1003.5860523437499
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6401143,
+                "AssetType": 45,
+                "Name": "LVD_Nidhogg_Common",
+                "EobjId": "2007360",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/btl\/shared\/for_vfx\/sgvf_w_btl_b0201.sgb"
+                },
+                "Transform": {
+                    "X": 0.8938223,
+                    "Y": 9.867915,
+                    "Coords": {
+                        "X": 6.142893903466797,
+                        "Y": 6.322551032714843
+                    },
+                    "Pixel": {
+                        "X": 1028.5787806933595,
+                        "Y": 1064.5102065429687
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243771,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000182",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 5.791933,
+                    "Y": 17.14787,
+                    "Coords": {
+                        "X": 6.240951783691406,
+                        "Y": 6.468292319335938
+                    },
+                    "Pixel": {
+                        "X": 1048.1903567382813,
+                        "Y": 1093.6584638671877
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6243773,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000139",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0005.sgb"
+                },
+                "Transform": {
+                    "X": -0.8024417,
+                    "Y": -16.94807,
+                    "Coords": {
+                        "X": 6.108935493310547,
+                        "Y": 5.785707583007812
+                    },
+                    "Pixel": {
+                        "X": 1021.7870986621094,
+                        "Y": 957.1415166015624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6414982,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2007393",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 0.8672466,
+                    "Y": 9.141238,
+                    "Coords": {
+                        "X": 6.142361870410156,
+                        "Y": 6.308003299804687
+                    },
+                    "Pixel": {
+                        "X": 1028.4723740820311,
+                        "Y": 1061.6006599609375
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

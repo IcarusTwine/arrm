@@ -1,0 +1,4528 @@
+{
+    "ID": "349",
+    "PlaceName": "Copperbell Mines - Ground Level",
+    "Code": "w1d6",
+    "Map": {
+        "ID": "140",
+        "FixedTime": "-1",
+        "SizeFactor": "200",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "119.0",
+                "Icon": "060447",
+                "coords": [
+                    653,
+                    605
+                ],
+                "SubText": "First Drop",
+                "SubtextOrientation": "right",
+                "Type": "1",
+                "Data": "'TerritoryType' => 349"
+            },
+            {
+                "Key": "119.1",
+                "Icon": "000000",
+                "coords": [
+                    560,
+                    593
+                ],
+                "SubText": "Shaft A1",
+                "SubtextOrientation": "top",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/wil_w1\/dun\/w1d6\/level\/w1d6",
+    "BGM": {
+        "ID": "1001",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Null.scd",
+            "Night": "music\/ffxiv\/BGM_Null.scd",
+            "Battle": "music\/ffxiv\/BGM_Null.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "2",
+    "LGB_Data": {
+        "Vfx": [
+            {
+                "LGB_ID": 4481206,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -48.71129,
+                    "Y": 160.3824,
+                    "Coords": {
+                        "X": 10.274822807617188,
+                        "Y": 14.460780468749999
+                    },
+                    "Pixel": {
+                        "X": 927.4822807617188,
+                        "Y": 1346.078046875
+                    }
+                },
+                "Color": {
+                    "R": 153,
+                    "G": 251,
+                    "B": 189
+                }
+            },
+            {
+                "LGB_ID": 4481207,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -37.26725,
+                    "Y": 158.2971,
+                    "Coords": {
+                        "X": 10.503927124023438,
+                        "Y": 14.419033740234376
+                    },
+                    "Pixel": {
+                        "X": 950.3927124023438,
+                        "Y": 1341.9033740234377
+                    }
+                },
+                "Color": {
+                    "R": 213,
+                    "G": 158,
+                    "B": 133
+                }
+            },
+            {
+                "LGB_ID": 4481208,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -63.16696,
+                    "Y": 150.4034,
+                    "Coords": {
+                        "X": 9.9854270703125,
+                        "Y": 14.26100556640625
+                    },
+                    "Pixel": {
+                        "X": 898.5427070312501,
+                        "Y": 1326.100556640625
+                    }
+                },
+                "Color": {
+                    "R": 99,
+                    "G": 190,
+                    "B": 151
+                }
+            },
+            {
+                "LGB_ID": 4481209,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -67.43559,
+                    "Y": 159.0772,
+                    "Coords": {
+                        "X": 9.899971098632813,
+                        "Y": 14.4346509765625
+                    },
+                    "Pixel": {
+                        "X": 889.9971098632813,
+                        "Y": 1343.46509765625
+                    }
+                },
+                "Color": {
+                    "R": 122,
+                    "G": 179,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481210,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -64.81474,
+                    "Y": 160.3579,
+                    "Coords": {
+                        "X": 9.952439287109375,
+                        "Y": 14.460289990234374
+                    },
+                    "Pixel": {
+                        "X": 895.2439287109374,
+                        "Y": 1346.0289990234373
+                    }
+                },
+                "Color": {
+                    "R": 175,
+                    "G": 206,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481211,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -82.81726,
+                    "Y": 37.43542,
+                    "Coords": {
+                        "X": 9.592037275390624,
+                        "Y": 11.999439560546875
+                    },
+                    "Pixel": {
+                        "X": 859.2037275390624,
+                        "Y": 1099.9439560546875
+                    }
+                },
+                "Color": {
+                    "R": 165,
+                    "G": 175,
+                    "B": 149
+                }
+            },
+            {
+                "LGB_ID": 4481212,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -60.73188,
+                    "Y": 21.69895,
+                    "Coords": {
+                        "X": 10.03417623046875,
+                        "Y": 11.684402807617186
+                    },
+                    "Pixel": {
+                        "X": 903.4176230468751,
+                        "Y": 1068.4402807617187
+                    }
+                },
+                "Color": {
+                    "R": 143,
+                    "G": 192,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481213,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -63.80032,
+                    "Y": 19.66485,
+                    "Coords": {
+                        "X": 9.9727475,
+                        "Y": 11.643681079101562
+                    },
+                    "Pixel": {
+                        "X": 897.27475,
+                        "Y": 1064.3681079101561
+                    }
+                },
+                "Color": {
+                    "R": 143,
+                    "G": 192,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481214,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -62.82221,
+                    "Y": 25.35181,
+                    "Coords": {
+                        "X": 9.992328803710938,
+                        "Y": 11.757531352539063
+                    },
+                    "Pixel": {
+                        "X": 899.2328803710939,
+                        "Y": 1075.7531352539063
+                    }
+                },
+                "Color": {
+                    "R": 143,
+                    "G": 192,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481215,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_2y.avfx",
+                "Transform": {
+                    "X": -57.91594,
+                    "Y": 179.5809,
+                    "Coords": {
+                        "X": 10.090550029296875,
+                        "Y": 14.845125439453126
+                    },
+                    "Pixel": {
+                        "X": 909.0550029296875,
+                        "Y": 1384.5125439453125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 175,
+                    "B": 189
+                }
+            },
+            {
+                "LGB_ID": 4481216,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_7y.avfx",
+                "Transform": {
+                    "X": 57.64209,
+                    "Y": 131.3878,
+                    "Coords": {
+                        "X": 12.403967622070313,
+                        "Y": 13.88032216796875
+                    },
+                    "Pixel": {
+                        "X": 1140.3967622070313,
+                        "Y": 1288.032216796875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 152,
+                    "B": 122
+                }
+            },
+            {
+                "LGB_ID": 4481217,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_7y.avfx",
+                "Transform": {
+                    "X": 61.26868,
+                    "Y": 122.2781,
+                    "Coords": {
+                        "X": 12.47657025390625,
+                        "Y": 13.697950244140625
+                    },
+                    "Pixel": {
+                        "X": 1147.657025390625,
+                        "Y": 1269.7950244140625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 148,
+                    "B": 118
+                }
+            },
+            {
+                "LGB_ID": 4481218,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_7y.avfx",
+                "Transform": {
+                    "X": 56.7131,
+                    "Y": 105.7867,
+                    "Coords": {
+                        "X": 12.385369677734374,
+                        "Y": 13.367800146484376
+                    },
+                    "Pixel": {
+                        "X": 1138.5369677734375,
+                        "Y": 1236.7800146484376
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 73,
+                    "B": 55
+                }
+            },
+            {
+                "LGB_ID": 4481205,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6taki01_y.avfx",
+                "Transform": {
+                    "X": 62.252,
+                    "Y": 117.02,
+                    "Coords": {
+                        "X": 12.496255859375,
+                        "Y": 13.592685546875
+                    },
+                    "Pixel": {
+                        "X": 1149.6255859374999,
+                        "Y": 1259.2685546875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4509078,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6sand1_y.avfx",
+                "Transform": {
+                    "X": -86.80278,
+                    "Y": -5.5049,
+                    "Coords": {
+                        "X": 9.512249033203126,
+                        "Y": 11.139794482421875
+                    },
+                    "Pixel": {
+                        "X": 851.2249033203126,
+                        "Y": 1013.9794482421875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 220,
+                    "B": 229
+                }
+            },
+            {
+                "LGB_ID": 4509039,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6sand1_y.avfx",
+                "Transform": {
+                    "X": -110.7406,
+                    "Y": -5.689968,
+                    "Coords": {
+                        "X": 9.033025097656251,
+                        "Y": 11.1360895078125
+                    },
+                    "Pixel": {
+                        "X": 803.3025097656251,
+                        "Y": 1013.60895078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 212,
+                    "B": 236
+                }
+            },
+            {
+                "LGB_ID": 4509043,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6sand3_y.avfx",
+                "Transform": {
+                    "X": -103.9955,
+                    "Y": -13.87733,
+                    "Coords": {
+                        "X": 9.168058837890625,
+                        "Y": 10.972182358398436
+                    },
+                    "Pixel": {
+                        "X": 816.8058837890625,
+                        "Y": 997.2182358398436
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 212,
+                    "B": 236
+                }
+            },
+            {
+                "LGB_ID": 4481206,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -48.71129,
+                    "Y": 160.3824,
+                    "Coords": {
+                        "X": 10.274822807617188,
+                        "Y": 14.460780468749999
+                    },
+                    "Pixel": {
+                        "X": 927.4822807617188,
+                        "Y": 1346.078046875
+                    }
+                },
+                "Color": {
+                    "R": 153,
+                    "G": 251,
+                    "B": 189
+                }
+            },
+            {
+                "LGB_ID": 4481207,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -37.26725,
+                    "Y": 158.2971,
+                    "Coords": {
+                        "X": 10.503927124023438,
+                        "Y": 14.419033740234376
+                    },
+                    "Pixel": {
+                        "X": 950.3927124023438,
+                        "Y": 1341.9033740234377
+                    }
+                },
+                "Color": {
+                    "R": 213,
+                    "G": 158,
+                    "B": 133
+                }
+            },
+            {
+                "LGB_ID": 4481208,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -63.16696,
+                    "Y": 150.4034,
+                    "Coords": {
+                        "X": 9.9854270703125,
+                        "Y": 14.26100556640625
+                    },
+                    "Pixel": {
+                        "X": 898.5427070312501,
+                        "Y": 1326.100556640625
+                    }
+                },
+                "Color": {
+                    "R": 99,
+                    "G": 190,
+                    "B": 151
+                }
+            },
+            {
+                "LGB_ID": 4481209,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -67.43559,
+                    "Y": 159.0772,
+                    "Coords": {
+                        "X": 9.899971098632813,
+                        "Y": 14.4346509765625
+                    },
+                    "Pixel": {
+                        "X": 889.9971098632813,
+                        "Y": 1343.46509765625
+                    }
+                },
+                "Color": {
+                    "R": 122,
+                    "G": 179,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481210,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -64.81474,
+                    "Y": 160.3579,
+                    "Coords": {
+                        "X": 9.952439287109375,
+                        "Y": 14.460289990234374
+                    },
+                    "Pixel": {
+                        "X": 895.2439287109374,
+                        "Y": 1346.0289990234373
+                    }
+                },
+                "Color": {
+                    "R": 175,
+                    "G": 206,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481211,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -82.81726,
+                    "Y": 37.43542,
+                    "Coords": {
+                        "X": 9.592037275390624,
+                        "Y": 11.999439560546875
+                    },
+                    "Pixel": {
+                        "X": 859.2037275390624,
+                        "Y": 1099.9439560546875
+                    }
+                },
+                "Color": {
+                    "R": 165,
+                    "G": 175,
+                    "B": 149
+                }
+            },
+            {
+                "LGB_ID": 4481212,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -60.73188,
+                    "Y": 21.69895,
+                    "Coords": {
+                        "X": 10.03417623046875,
+                        "Y": 11.684402807617186
+                    },
+                    "Pixel": {
+                        "X": 903.4176230468751,
+                        "Y": 1068.4402807617187
+                    }
+                },
+                "Color": {
+                    "R": 143,
+                    "G": 192,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481213,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_2y.avfx",
+                "Transform": {
+                    "X": -63.80032,
+                    "Y": 19.66485,
+                    "Coords": {
+                        "X": 9.9727475,
+                        "Y": 11.643681079101562
+                    },
+                    "Pixel": {
+                        "X": 897.27475,
+                        "Y": 1064.3681079101561
+                    }
+                },
+                "Color": {
+                    "R": 143,
+                    "G": 192,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481214,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bgcommon\/world\/vfx_world\/vfx\/eff\/w0watr002_1y.avfx",
+                "Transform": {
+                    "X": -62.82221,
+                    "Y": 25.35181,
+                    "Coords": {
+                        "X": 9.992328803710938,
+                        "Y": 11.757531352539063
+                    },
+                    "Pixel": {
+                        "X": 899.2328803710939,
+                        "Y": 1075.7531352539063
+                    }
+                },
+                "Color": {
+                    "R": 143,
+                    "G": 192,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4481215,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_2y.avfx",
+                "Transform": {
+                    "X": -57.91594,
+                    "Y": 179.5809,
+                    "Coords": {
+                        "X": 10.090550029296875,
+                        "Y": 14.845125439453126
+                    },
+                    "Pixel": {
+                        "X": 909.0550029296875,
+                        "Y": 1384.5125439453125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 175,
+                    "B": 189
+                }
+            },
+            {
+                "LGB_ID": 4481216,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_7y.avfx",
+                "Transform": {
+                    "X": 57.64209,
+                    "Y": 131.3878,
+                    "Coords": {
+                        "X": 12.403967622070313,
+                        "Y": 13.88032216796875
+                    },
+                    "Pixel": {
+                        "X": 1140.3967622070313,
+                        "Y": 1288.032216796875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 152,
+                    "B": 122
+                }
+            },
+            {
+                "LGB_ID": 4481217,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_7y.avfx",
+                "Transform": {
+                    "X": 61.26868,
+                    "Y": 122.2781,
+                    "Coords": {
+                        "X": 12.47657025390625,
+                        "Y": 13.697950244140625
+                    },
+                    "Pixel": {
+                        "X": 1147.657025390625,
+                        "Y": 1269.7950244140625
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 148,
+                    "B": 118
+                }
+            },
+            {
+                "LGB_ID": 4481218,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1dwar003_7y.avfx",
+                "Transform": {
+                    "X": 56.7131,
+                    "Y": 105.7867,
+                    "Coords": {
+                        "X": 12.385369677734374,
+                        "Y": 13.367800146484376
+                    },
+                    "Pixel": {
+                        "X": 1138.5369677734375,
+                        "Y": 1236.7800146484376
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 73,
+                    "B": 55
+                }
+            },
+            {
+                "LGB_ID": 4481205,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6taki01_y.avfx",
+                "Transform": {
+                    "X": 62.252,
+                    "Y": 117.02,
+                    "Coords": {
+                        "X": 12.496255859375,
+                        "Y": 13.592685546875
+                    },
+                    "Pixel": {
+                        "X": 1149.6255859374999,
+                        "Y": 1259.2685546875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 4509078,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6sand1_y.avfx",
+                "Transform": {
+                    "X": -86.80278,
+                    "Y": -5.5049,
+                    "Coords": {
+                        "X": 9.512249033203126,
+                        "Y": 11.139794482421875
+                    },
+                    "Pixel": {
+                        "X": 851.2249033203126,
+                        "Y": 1013.9794482421875
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 220,
+                    "B": 229
+                }
+            },
+            {
+                "LGB_ID": 4509039,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6sand1_y.avfx",
+                "Transform": {
+                    "X": -110.7406,
+                    "Y": -5.689968,
+                    "Coords": {
+                        "X": 9.033025097656251,
+                        "Y": 11.1360895078125
+                    },
+                    "Pixel": {
+                        "X": 803.3025097656251,
+                        "Y": 1013.60895078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 212,
+                    "B": 236
+                }
+            },
+            {
+                "LGB_ID": 4509043,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/common\/vfx\/eff\/w1d6sand3_y.avfx",
+                "Transform": {
+                    "X": -103.9955,
+                    "Y": -13.87733,
+                    "Coords": {
+                        "X": 9.168058837890625,
+                        "Y": 10.972182358398436
+                    },
+                    "Pixel": {
+                        "X": 816.8058837890625,
+                        "Y": 997.2182358398436
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 212,
+                    "B": 236
+                }
+            }
+        ],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 4481287,
+                "AssetType": 6,
+                "Name": "LVD_BNPC_boss_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0118.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -90.59599,
+                    "Y": 55.13565,
+                    "Coords": {
+                        "X": 9.436310747070312,
+                        "Y": 12.35378986816406
+                    },
+                    "Pixel": {
+                        "X": 843.6310747070312,
+                        "Y": 1135.378986816406
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481282,
+                "AssetType": 6,
+                "Name": "LVD_BNPC_mboss_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0118.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 66.51609,
+                    "Y": -91.51025,
+                    "Coords": {
+                        "X": 12.581620942382811,
+                        "Y": 9.418007690429688
+                    },
+                    "Pixel": {
+                        "X": 1158.162094238281,
+                        "Y": 841.8007690429688
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497376,
+                "AssetType": 6,
+                "Name": "LVD_BNPC_mboss_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0118.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 66.27541,
+                    "Y": -48.81802,
+                    "Coords": {
+                        "X": 12.576802641601562,
+                        "Y": 10.272686123046876
+                    },
+                    "Pixel": {
+                        "X": 1157.6802641601562,
+                        "Y": 927.2686123046876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481286,
+                "AssetType": 6,
+                "Name": "LVD_BNPC_mboss_02",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0118.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 35.74153,
+                    "Y": 86.63717,
+                    "Coords": {
+                        "X": 11.965528676757813,
+                        "Y": 12.984435532226563
+                    },
+                    "Pixel": {
+                        "X": 1096.5528676757813,
+                        "Y": 1198.4435532226562
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4508121,
+                "AssetType": 6,
+                "Name": "LVD_BNPC_mboss_02",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0118.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 3.941825,
+                    "Y": 112.7069,
+                    "Coords": {
+                        "X": 11.328913488769532,
+                        "Y": 13.506339306640625
+                    },
+                    "Pixel": {
+                        "X": 1032.891348876953,
+                        "Y": 1250.6339306640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481325,
+                "AssetType": 6,
+                "Name": "LVD_zone_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0055.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -270.0647,
+                    "Y": -170.2617,
+                    "Coords": {
+                        "X": 5.843431298828125,
+                        "Y": 7.841440576171875
+                    },
+                    "Pixel": {
+                        "X": 484.3431298828125,
+                        "Y": 684.1440576171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481330,
+                "AssetType": 6,
+                "Name": "LVD_zone_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0095.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -254.4069,
+                    "Y": -170.7543,
+                    "Coords": {
+                        "X": 6.156893115234375,
+                        "Y": 7.831578955078125
+                    },
+                    "Pixel": {
+                        "X": 515.6893115234375,
+                        "Y": 683.1578955078126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4509127,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/shared\/for_vfx\/sgvf_w1d6_smok02.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -101.6849,
+                    "Y": 23.90764,
+                    "Coords": {
+                        "X": 9.214315966796876,
+                        "Y": 11.72861974609375
+                    },
+                    "Pixel": {
+                        "X": 821.4315966796877,
+                        "Y": 1072.861974609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4509089,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/shared\/for_vfx\/sgvf_w1d6_smok02.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -93.8074,
+                    "Y": -5.909685,
+                    "Coords": {
+                        "X": 9.37201982421875,
+                        "Y": 11.131690876464843
+                    },
+                    "Pixel": {
+                        "X": 837.201982421875,
+                        "Y": 1013.1690876464843
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4509118,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/shared\/for_vfx\/sgvf_w1d6_smok02.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -103.1232,
+                    "Y": 3.52331,
+                    "Coords": {
+                        "X": 9.185521875,
+                        "Y": 11.320535014648438
+                    },
+                    "Pixel": {
+                        "X": 818.5521875,
+                        "Y": 1032.0535014648437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4509127,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/shared\/for_vfx\/sgvf_w1d6_smok02.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -101.6849,
+                    "Y": 23.90764,
+                    "Coords": {
+                        "X": 9.214315966796876,
+                        "Y": 11.72861974609375
+                    },
+                    "Pixel": {
+                        "X": 821.4315966796877,
+                        "Y": 1072.861974609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4509089,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/shared\/for_vfx\/sgvf_w1d6_smok02.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -93.8074,
+                    "Y": -5.909685,
+                    "Coords": {
+                        "X": 9.37201982421875,
+                        "Y": 11.131690876464843
+                    },
+                    "Pixel": {
+                        "X": 837.201982421875,
+                        "Y": 1013.1690876464843
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4509118,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/wil_w1\/shared\/for_vfx\/sgvf_w1d6_smok02.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -103.1232,
+                    "Y": 3.52331,
+                    "Coords": {
+                        "X": 9.185521875,
+                        "Y": 11.320535014648438
+                    },
+                    "Pixel": {
+                        "X": 818.5521875,
+                        "Y": 1032.0535014648437
+                    }
+                }
+            }
+        ],
+        "Sound": [
+            {
+                "LGB_ID": 4481486,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 33.87051,
+                    "Y": 49.3184,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 11.928071733398436,
+                        "Y": 12.23733125
+                    },
+                    "Pixel": {
+                        "X": 1092.8071733398435,
+                        "Y": 1123.733125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481487,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 84.22803,
+                    "Y": 88.44844,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 12.936205678710937,
+                        "Y": 13.02069630859375
+                    },
+                    "Pixel": {
+                        "X": 1193.6205678710937,
+                        "Y": 1202.0696308593751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481488,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 20.65744,
+                    "Y": 158.3607,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 11.663552265624999,
+                        "Y": 14.420306982421874
+                    },
+                    "Pixel": {
+                        "X": 1066.3552265624999,
+                        "Y": 1342.0306982421873
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481489,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": -31.13571,
+                    "Y": 134.3326,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 10.626677680664063,
+                        "Y": 13.939275683593749
+                    },
+                    "Pixel": {
+                        "X": 962.6677680664063,
+                        "Y": 1293.9275683593748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481490,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": -104.9641,
+                    "Y": 133.4636,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 9.148667919921875,
+                        "Y": 13.9218787109375
+                    },
+                    "Pixel": {
+                        "X": 814.8667919921875,
+                        "Y": 1292.1878710937501
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481492,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": -35.94278,
+                    "Y": 101.6743,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 10.530442392578125,
+                        "Y": 13.285471826171875
+                    },
+                    "Pixel": {
+                        "X": 953.0442392578126,
+                        "Y": 1228.5471826171874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4534602,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 76.97485,
+                    "Y": -35.99576,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 12.791000415039063,
+                        "Y": 10.5293817578125
+                    },
+                    "Pixel": {
+                        "X": 1179.1000415039064,
+                        "Y": 952.9381757812499
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481495,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_fall.scd",
+                "Transform": {
+                    "X": 72.44769,
+                    "Y": 119.2806,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.700368793945312,
+                        "Y": 13.63794169921875
+                    },
+                    "Pixel": {
+                        "X": 1170.0368793945313,
+                        "Y": 1263.794169921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481496,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_fall_small.scd",
+                "Transform": {
+                    "X": 56.86743,
+                    "Y": 105.7632,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.388459291992188,
+                        "Y": 13.3673296875
+                    },
+                    "Pixel": {
+                        "X": 1138.8459291992187,
+                        "Y": 1236.73296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481497,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_fall-thin.scd",
+                "Transform": {
+                    "X": 58.093,
+                    "Y": 131.7618,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.41299462890625,
+                        "Y": 13.887809472656249
+                    },
+                    "Pixel": {
+                        "X": 1141.299462890625,
+                        "Y": 1288.780947265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481498,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_fall_small.scd",
+                "Transform": {
+                    "X": -22.23938,
+                    "Y": 118.1762,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 10.804778037109376,
+                        "Y": 13.61583212890625
+                    },
+                    "Pixel": {
+                        "X": 980.4778037109376,
+                        "Y": 1261.583212890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481499,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_river_calm_2ch.scd",
+                "Transform": {
+                    "X": -36.57527,
+                    "Y": 132.4697,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 10.517780239257812,
+                        "Y": 13.901981298828124
+                    },
+                    "Pixel": {
+                        "X": 951.7780239257812,
+                        "Y": 1290.1981298828125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481500,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_river_calm_4ch.scd",
+                "Transform": {
+                    "X": -71.80456,
+                    "Y": 170.4188,
+                    "Scale": 4.989685,
+                    "Coords": {
+                        "X": 9.8125063671875,
+                        "Y": 14.6617044921875
+                    },
+                    "Pixel": {
+                        "X": 881.2506367187501,
+                        "Y": 1366.17044921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481501,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_fall.scd",
+                "Transform": {
+                    "X": -56.71462,
+                    "Y": 181.8592,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 10.114599892578125,
+                        "Y": 14.8907359375
+                    },
+                    "Pixel": {
+                        "X": 911.4599892578125,
+                        "Y": 1389.07359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481502,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_river_calm_4ch.scd",
+                "Transform": {
+                    "X": -66.36151,
+                    "Y": 29.64831,
+                    "Scale": 4.989685,
+                    "Coords": {
+                        "X": 9.921473676757813,
+                        "Y": 11.843545268554688
+                    },
+                    "Pixel": {
+                        "X": 892.1473676757813,
+                        "Y": 1084.3545268554687
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481503,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_river_2ch.scd",
+                "Transform": {
+                    "X": -66.33497,
+                    "Y": 29.66186,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 9.922004995117188,
+                        "Y": 11.843816533203126
+                    },
+                    "Pixel": {
+                        "X": 892.2004995117188,
+                        "Y": 1084.3816533203126
+                    }
+                }
+            }
+        ],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [
+            {
+                "LGB_ID": 4481466,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -48.16245,
+                    "Y": -276.1931,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 10.285810327148438,
+                        "Y": 5.720743603515625
+                    },
+                    "Pixel": {
+                        "X": 928.5810327148438,
+                        "Y": 472.07436035156246
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481467,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -107.0586,
+                    "Y": -206.402,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.10673701171875,
+                        "Y": 7.1179287109375
+                    },
+                    "Pixel": {
+                        "X": 810.6737011718749,
+                        "Y": 611.79287109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481468,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -21.43008,
+                    "Y": -194.0922,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 10.82097984375,
+                        "Y": 7.36436513671875
+                    },
+                    "Pixel": {
+                        "X": 982.0979843750001,
+                        "Y": 636.436513671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481469,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -63.3243,
+                    "Y": -193.2654,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.982277197265626,
+                        "Y": 7.38091728515625
+                    },
+                    "Pixel": {
+                        "X": 898.2277197265626,
+                        "Y": 638.0917285156249
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481470,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": 84.21789,
+                    "Y": -94.44437,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 12.936002680664062,
+                        "Y": 9.359267983398437
+                    },
+                    "Pixel": {
+                        "X": 1193.6002680664062,
+                        "Y": 835.9267983398437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481471,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": 80.16551,
+                    "Y": -75.59419,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 12.854875932617189,
+                        "Y": 9.736639750976561
+                    },
+                    "Pixel": {
+                        "X": 1185.4875932617188,
+                        "Y": 873.6639750976561
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481472,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": 79.63177,
+                    "Y": -103.914,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 12.844190708007812,
+                        "Y": 9.1696904296875
+                    },
+                    "Pixel": {
+                        "X": 1184.4190708007811,
+                        "Y": 816.96904296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481473,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": 49.87761,
+                    "Y": -86.8181,
+                    "Scale": 31.13582,
+                    "Coords": {
+                        "X": 12.248526372070312,
+                        "Y": 9.511942333984374
+                    },
+                    "Pixel": {
+                        "X": 1124.8526372070312,
+                        "Y": 851.1942333984374
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481474,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": 47.66449,
+                    "Y": 114.9123,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 12.204220747070313,
+                        "Y": 13.550490380859374
+                    },
+                    "Pixel": {
+                        "X": 1120.4220747070312,
+                        "Y": 1255.0490380859374
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481475,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -53.0816,
+                    "Y": 181.5958,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 10.18733125,
+                        "Y": 14.88546279296875
+                    },
+                    "Pixel": {
+                        "X": 918.733125,
+                        "Y": 1388.5462792968751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481476,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -78.52375,
+                    "Y": 164.2986,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.677991333007812,
+                        "Y": 14.539180957031249
+                    },
+                    "Pixel": {
+                        "X": 867.7991333007812,
+                        "Y": 1353.918095703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481477,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -71.1018,
+                    "Y": 149.3365,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.82657529296875,
+                        "Y": 14.239646728515625
+                    },
+                    "Pixel": {
+                        "X": 882.6575292968749,
+                        "Y": 1323.9646728515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481478,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -98.56936,
+                    "Y": 1.966537,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.2766876171875,
+                        "Y": 11.28936914892578
+                    },
+                    "Pixel": {
+                        "X": 827.66876171875,
+                        "Y": 1028.936914892578
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481479,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -69.65762,
+                    "Y": 29.41442,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.855487099609375,
+                        "Y": 11.838862900390623
+                    },
+                    "Pixel": {
+                        "X": 885.5487099609375,
+                        "Y": 1083.8862900390623
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481480,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -99.82001,
+                    "Y": -4.637839,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.251650190429688,
+                        "Y": 11.157152637207032
+                    },
+                    "Pixel": {
+                        "X": 825.1650190429688,
+                        "Y": 1015.7152637207032
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481481,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -75.33765,
+                    "Y": -19.32172,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 9.741775561523438,
+                        "Y": 10.86318822265625
+                    },
+                    "Pixel": {
+                        "X": 874.1775561523438,
+                        "Y": 986.318822265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481482,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -130.8082,
+                    "Y": -6.37088,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 8.63128115234375,
+                        "Y": 11.12245796875
+                    },
+                    "Pixel": {
+                        "X": 763.128115234375,
+                        "Y": 1012.245796875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481483,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -119.7991,
+                    "Y": 14.65473,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 8.851678173828125,
+                        "Y": 11.543380825195312
+                    },
+                    "Pixel": {
+                        "X": 785.1678173828125,
+                        "Y": 1054.338082519531
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481484,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -119.7708,
+                    "Y": 32.04264,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 8.8522447265625,
+                        "Y": 11.8914786328125
+                    },
+                    "Pixel": {
+                        "X": 785.22447265625,
+                        "Y": 1089.14786328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481485,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/fst_f1\/f1_dun\/sound_dun_dry_wide.essb",
+                "Transform": {
+                    "X": -53.42726,
+                    "Y": 115.4412,
+                    "Scale": 60.33241,
+                    "Coords": {
+                        "X": 10.180411298828124,
+                        "Y": 13.5610787109375
+                    },
+                    "Pixel": {
+                        "X": 918.0411298828125,
+                        "Y": 1256.10787109375
+                    }
+                }
+            }
+        ],
+        "PopRange": [
+            {
+                "LGB_ID": 7390665,
+                "AssetType": 40,
+                "Name": "LVD_BNPC_boss_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -92.0913,
+                    "Y": 43.53144,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 9.406375341796876,
+                        "Y": 12.1214790234375
+                    },
+                    "Pixel": {
+                        "X": 840.6375341796876,
+                        "Y": 1112.14790234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7390648,
+                "AssetType": 40,
+                "Name": "LVD_BNPC_mboss_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 70.33403,
+                    "Y": -91.34692,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 12.658054311523436,
+                        "Y": 9.42127748046875
+                    },
+                    "Pixel": {
+                        "X": 1165.8054311523435,
+                        "Y": 842.1277480468749
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7390655,
+                "AssetType": 40,
+                "Name": "LVD_BNPC_mboss_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 34.97661,
+                    "Y": 92.89449,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 11.950215336914063,
+                        "Y": 13.109704145507813
+                    },
+                    "Pixel": {
+                        "X": 1095.0215336914064,
+                        "Y": 1210.9704145507812
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505847,
+                "AssetType": 40,
+                "Name": "LVD_zone_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 63.71572,
+                    "Y": -48.37104,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 12.525558847656251,
+                        "Y": 10.281634453125001
+                    },
+                    "Pixel": {
+                        "X": 1152.555884765625,
+                        "Y": 928.1634453125001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505851,
+                "AssetType": 40,
+                "Name": "LVD_zone_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0.1458964,
+                    "Y": 112.3767,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 11.252920777539062,
+                        "Y": 13.499728857421875
+                    },
+                    "Pixel": {
+                        "X": 1025.2920777539061,
+                        "Y": 1249.9728857421876
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6543344,
+                "AssetType": 40,
+                "Name": "LVD_zone_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -100.9718,
+                    "Y": -0.887851,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 9.228591894531249,
+                        "Y": 11.232225639160156
+                    },
+                    "Pixel": {
+                        "X": 822.8591894531248,
+                        "Y": 1023.2225639160156
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [
+            {
+                "LGB_ID": 4515176,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 673,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -238.3777,
+                    "Y": -190.6811,
+                    "Scale": 8.37368,
+                    "Coords": {
+                        "X": 6.4777901855468745,
+                        "Y": 7.432653759765625
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 514.2842985546874,
+                            "Y": 595.2599859765625
+                        },
+                        "2": {
+                            "X": 581.2737385546875,
+                            "Y": 595.2599859765625
+                        },
+                        "3": {
+                            "X": 581.2737385546875,
+                            "Y": 691.2707659765625
+                        },
+                        "4": {
+                            "X": 514.2842985546874,
+                            "Y": 691.2707659765625
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515178,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 673,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -190.9121,
+                    "Y": -209.0971,
+                    "Scale": 3.652735,
+                    "Coords": {
+                        "X": 7.428029248046875,
+                        "Y": 7.063974072265625
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 628.1919848046874,
+                            "Y": 590.9788572265625
+                        },
+                        "2": {
+                            "X": 657.4138648046875,
+                            "Y": 590.9788572265625
+                        },
+                        "3": {
+                            "X": 657.4138648046875,
+                            "Y": 621.8159572265624
+                        },
+                        "4": {
+                            "X": 628.1919848046874,
+                            "Y": 621.8159572265624
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515179,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 674,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -145.4704,
+                    "Y": -199.0878,
+                    "Scale": 16.6470225,
+                    "Coords": {
+                        "X": 8.33775078125,
+                        "Y": 7.26435556640625
+                    },
+                    "Pixel": {
+                        "Rotation": -0.30145448,
+                        "1": {
+                            "X": 677.4542974599814,
+                            "Y": 583.3009916563358
+                        },
+                        "2": {
+                            "X": 804.6249842585429,
+                            "Y": 622.8422528726219
+                        },
+                        "3": {
+                            "X": 790.0958587900185,
+                            "Y": 669.5701216249142
+                        },
+                        "4": {
+                            "X": 662.925171991457,
+                            "Y": 630.0288604086281
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515180,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 674,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -66.38369,
+                    "Y": -163.4808,
+                    "Scale": 5.0485125,
+                    "Coords": {
+                        "X": 9.921029643554688,
+                        "Y": 7.977191015625
+                    },
+                    "Pixel": {
+                        "Rotation": -0.29952365,
+                        "1": {
+                            "X": 875.0672633601088,
+                            "Y": 684.4446514404032
+                        },
+                        "2": {
+                            "X": 913.6571701140498,
+                            "Y": 696.3617701497275
+                        },
+                        "3": {
+                            "X": 909.1386653508288,
+                            "Y": 710.9935516845968
+                        },
+                        "4": {
+                            "X": 870.5487585968878,
+                            "Y": 699.0764329752725
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515182,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 674,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -58.12662,
+                    "Y": -188.3445,
+                    "Scale": 3.457535,
+                    "Coords": {
+                        "X": 10.086332314453125,
+                        "Y": 7.479431396484374
+                    },
+                    "Pixel": {
+                        "Rotation": -0.3049682,
+                        "1": {
+                            "X": 901.0496739566956,
+                            "Y": 625.9740064522449
+                        },
+                        "2": {
+                            "X": 927.4336118654728,
+                            "Y": 634.2793607555963
+                        },
+                        "3": {
+                            "X": 916.2167889339294,
+                            "Y": 669.9122728446299
+                        },
+                        "4": {
+                            "X": 889.8328510251522,
+                            "Y": 661.6069185412786
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515184,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 674,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -36.63063,
+                    "Y": -220.1586,
+                    "Scale": 3.9568275,
+                    "Coords": {
+                        "X": 10.516671958007812,
+                        "Y": 6.84252802734375
+                    },
+                    "Pixel": {
+                        "Rotation": -0.32583603,
+                        "1": {
+                            "X": 942.6413656835989,
+                            "Y": 561.5212605705015
+                        },
+                        "2": {
+                            "X": 972.6304285832528,
+                            "Y": 571.6539341438979
+                        },
+                        "3": {
+                            "X": 960.6930259179635,
+                            "Y": 606.9843448982485
+                        },
+                        "4": {
+                            "X": 930.7039630183097,
+                            "Y": 596.8516713248521
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515186,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 674,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -21.21581,
+                    "Y": -218.7639,
+                    "Scale": 2.5,
+                    "Coords": {
+                        "X": 10.825269428710937,
+                        "Y": 6.870449267578124
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 972.5269428710938,
+                            "Y": 577.0449267578124
+                        },
+                        "2": {
+                            "X": 992.5269428710938,
+                            "Y": 577.0449267578124
+                        },
+                        "3": {
+                            "X": 992.5269428710938,
+                            "Y": 597.0449267578124
+                        },
+                        "4": {
+                            "X": 972.5269428710938,
+                            "Y": 597.0449267578124
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515189,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 674,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 6.542199,
+                    "Y": -219.0254,
+                    "Scale": 4.53769,
+                    "Coords": {
+                        "X": 11.380971757324218,
+                        "Y": 6.86521416015625
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1019.9464157324219,
+                            "Y": 576.521416015625
+                        },
+                        "2": {
+                            "X": 1056.2479357324219,
+                            "Y": 576.521416015625
+                        },
+                        "3": {
+                            "X": 1056.2479357324219,
+                            "Y": 596.521416015625
+                        },
+                        "4": {
+                            "X": 1019.9464157324219,
+                            "Y": 596.521416015625
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515190,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 674,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0.8383141,
+                    "Y": -184.5815,
+                    "Scale": 8.732355,
+                    "Coords": {
+                        "X": 11.266782655322267,
+                        "Y": 7.554764892578125
+                    },
+                    "Pixel": {
+                        "Rotation": 0.5771577,
+                        "1": {
+                            "X": 987.6008787131981,
+                            "Y": 659.4752645763962
+                        },
+                        "2": {
+                            "X": 1046.1437684703444,
+                            "Y": 621.3571903198415
+                        },
+                        "3": {
+                            "X": 1065.755652351255,
+                            "Y": 651.4777139392288
+                        },
+                        "4": {
+                            "X": 1007.212762594109,
+                            "Y": 689.5957881957835
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515193,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 675,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 4.18249,
+                    "Y": -141.9982,
+                    "Scale": 5.0981975,
+                    "Coords": {
+                        "X": 11.333731489257813,
+                        "Y": 8.40726259765625
+                    },
+                    "Pixel": {
+                        "Rotation": 0.5850037,
+                        "1": {
+                            "X": 1005.3981960301751,
+                            "Y": 735.419856138091
+                        },
+                        "2": {
+                            "X": 1039.4015436752984,
+                            "Y": 712.8979582415703
+                        },
+                        "3": {
+                            "X": 1061.348101821388,
+                            "Y": 746.0326633931589
+                        },
+                        "4": {
+                            "X": 1027.3447541762646,
+                            "Y": 768.5545612896796
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515196,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 675,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 41.50753,
+                    "Y": -140.3439,
+                    "Scale": 4.5876525,
+                    "Coords": {
+                        "X": 12.080961293945313,
+                        "Y": 8.440380908203124
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1089.7455193945314,
+                            "Y": 724.3441908203124
+                        },
+                        "2": {
+                            "X": 1126.4467393945313,
+                            "Y": 724.3441908203124
+                        },
+                        "3": {
+                            "X": 1126.4467393945313,
+                            "Y": 763.7319908203124
+                        },
+                        "4": {
+                            "X": 1089.7455193945314,
+                            "Y": 763.7319908203124
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515201,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 675,
+                "PlaceNameSpot": 679,
+                "Transform": {
+                    "X": 64.5639,
+                    "Y": -79.96452,
+                    "Scale": 9.15788,
+                    "Coords": {
+                        "X": 12.542539013671874,
+                        "Y": 9.64914779296875
+                    },
+                    "Pixel": {
+                        "Rotation": -0.009089147,
+                        "1": {
+                            "X": 1117.9961398128592,
+                            "Y": 823.6280363190135
+                        },
+                        "2": {
+                            "X": 1191.256153608833,
+                            "Y": 824.2939256906775
+                        },
+                        "3": {
+                            "X": 1190.5116629215156,
+                            "Y": 906.2015222747364
+                        },
+                        "4": {
+                            "X": 1117.2516491255417,
+                            "Y": 905.5356329030724
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515204,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 675,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 57.3579,
+                    "Y": -10.708,
+                    "Scale": 3.59142,
+                    "Coords": {
+                        "X": 12.398278271484374,
+                        "Y": 11.035630859374999
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1125.4621471484372,
+                            "Y": 974.7052359374999
+                        },
+                        "2": {
+                            "X": 1154.1935071484374,
+                            "Y": 974.7052359374999
+                        },
+                        "3": {
+                            "X": 1154.1935071484374,
+                            "Y": 1032.4209359375
+                        },
+                        "4": {
+                            "X": 1125.4621471484372,
+                            "Y": 1032.4209359375
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515205,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 676,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 66.522,
+                    "Y": 25.27157,
+                    "Scale": 4.4291075,
+                    "Coords": {
+                        "X": 12.581739257812501,
+                        "Y": 11.755924985351562
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1140.4574957812501,
+                            "Y": 1040.8024185351562
+                        },
+                        "2": {
+                            "X": 1175.89035578125,
+                            "Y": 1040.8024185351562
+                        },
+                        "3": {
+                            "X": 1175.89035578125,
+                            "Y": 1110.3825785351562
+                        },
+                        "4": {
+                            "X": 1140.4574957812501,
+                            "Y": 1110.3825785351562
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515208,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 676,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 44.18344,
+                    "Y": 17.60954,
+                    "Scale": 1.74862325,
+                    "Coords": {
+                        "X": 12.1345317578125,
+                        "Y": 11.602534736328126
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1106.45868278125,
+                            "Y": 1032.8585836328125
+                        },
+                        "2": {
+                            "X": 1120.4476687812498,
+                            "Y": 1032.8585836328125
+                        },
+                        "3": {
+                            "X": 1120.4476687812498,
+                            "Y": 1087.6483636328126
+                        },
+                        "4": {
+                            "X": 1106.45868278125,
+                            "Y": 1087.6483636328126
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515267,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 676,
+                "PlaceNameSpot": 680,
+                "Transform": {
+                    "X": 55.78907,
+                    "Y": 92.63981,
+                    "Scale": 2.5,
+                    "Coords": {
+                        "X": 12.366871030273439,
+                        "Y": 13.104605571289063
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1126.687103027344,
+                            "Y": 1177.5818471289065
+                        },
+                        "2": {
+                            "X": 1146.687103027344,
+                            "Y": 1177.5818471289065
+                        },
+                        "3": {
+                            "X": 1146.687103027344,
+                            "Y": 1243.3392671289064
+                        },
+                        "4": {
+                            "X": 1126.687103027344,
+                            "Y": 1243.3392671289064
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515268,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 676,
+                "PlaceNameSpot": 680,
+                "Transform": {
+                    "X": 25.19838,
+                    "Y": 96.9503,
+                    "Scale": 5.349675,
+                    "Coords": {
+                        "X": 11.754459755859376,
+                        "Y": 13.190899560546875
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1054.0472755859375,
+                            "Y": 1177.1158660546876
+                        },
+                        "2": {
+                            "X": 1096.8446755859375,
+                            "Y": 1177.1158660546876
+                        },
+                        "3": {
+                            "X": 1096.8446755859375,
+                            "Y": 1261.0640460546874
+                        },
+                        "4": {
+                            "X": 1054.0472755859375,
+                            "Y": 1261.0640460546874
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515306,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 677,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -11.60064,
+                    "Y": 121.952,
+                    "Scale": 3.88836,
+                    "Coords": {
+                        "X": 11.017760625,
+                        "Y": 13.691421875
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 986.2226224999999,
+                            "Y": 1253.3112674999998
+                        },
+                        "2": {
+                            "X": 1017.3295025,
+                            "Y": 1253.3112674999998
+                        },
+                        "3": {
+                            "X": 1017.3295025,
+                            "Y": 1284.9731075
+                        },
+                        "4": {
+                            "X": 986.2226224999999,
+                            "Y": 1284.9731075
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515308,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 677,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -22.55428,
+                    "Y": 139.797,
+                    "Scale": 2.777885,
+                    "Coords": {
+                        "X": 10.79847388671875,
+                        "Y": 14.04867041015625
+                    },
+                    "Pixel": {
+                        "Rotation": -0.6548167,
+                        "1": {
+                            "X": 977.1243030167994,
+                            "Y": 1290.168363330652
+                        },
+                        "2": {
+                            "X": 994.7507516751797,
+                            "Y": 1303.7025272272467
+                        },
+                        "3": {
+                            "X": 982.5704743269504,
+                            "Y": 1319.5657187005982
+                        },
+                        "4": {
+                            "X": 964.9440256685701,
+                            "Y": 1306.0315548040035
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515342,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 677,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -59.09821,
+                    "Y": 154.3313,
+                    "Scale": 7.997985,
+                    "Coords": {
+                        "X": 10.066881538085937,
+                        "Y": 14.339640283203126
+                    },
+                    "Pixel": {
+                        "Rotation": -0.6583377,
+                        "1": {
+                            "X": 896.1240279910284,
+                            "Y": 1295.331306529159
+                        },
+                        "2": {
+                            "X": 946.7359376215192,
+                            "Y": 1334.4768235574147
+                        },
+                        "3": {
+                            "X": 917.2522796261591,
+                            "Y": 1372.596750111466
+                        },
+                        "4": {
+                            "X": 866.6403699956683,
+                            "Y": 1333.4512330832104
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515382,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 677,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -52.82531,
+                    "Y": 114.6616,
+                    "Scale": 4.4922875,
+                    "Coords": {
+                        "X": 10.192462055664063,
+                        "Y": 13.545471484375
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 901.2770555664063,
+                            "Y": 1232.6052884375001
+                        },
+                        "2": {
+                            "X": 937.2153555664063,
+                            "Y": 1232.6052884375001
+                        },
+                        "3": {
+                            "X": 937.2153555664063,
+                            "Y": 1276.4890084375
+                        },
+                        "4": {
+                            "X": 901.2770555664063,
+                            "Y": 1276.4890084375
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515383,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 677,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -39.85851,
+                    "Y": 136.0861,
+                    "Scale": 0.8498355,
+                    "Coords": {
+                        "X": 10.452051313476563,
+                        "Y": 13.974379931640625
+                    },
+                    "Pixel": {
+                        "Rotation": 0.5623985,
+                        "1": {
+                            "X": 940.5482299068148,
+                            "Y": 1296.4247147592043
+                        },
+                        "2": {
+                            "X": 946.2997712495893,
+                            "Y": 1292.7995421682492
+                        },
+                        "3": {
+                            "X": 949.8620327884979,
+                            "Y": 1298.4512715689204
+                        },
+                        "4": {
+                            "X": 944.1104914457234,
+                            "Y": 1302.0764441598756
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515385,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 677,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": -89.34816,
+                    "Y": 91.41823,
+                    "Scale": 4.718615,
+                    "Coords": {
+                        "X": 9.46129171875,
+                        "Y": 13.080150112304688
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 827.2547118749999,
+                            "Y": 1171.3294312304688
+                        },
+                        "2": {
+                            "X": 865.0036318749999,
+                            "Y": 1171.3294312304688
+                        },
+                        "3": {
+                            "X": 865.0036318749999,
+                            "Y": 1244.700591230469
+                        },
+                        "4": {
+                            "X": 827.2547118749999,
+                            "Y": 1244.700591230469
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4515386,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 677,
+                "PlaceNameSpot": 681,
+                "Transform": {
+                    "X": -107.2652,
+                    "Y": 4.512793,
+                    "Scale": 17.395115,
+                    "Coords": {
+                        "X": 9.102600976562501,
+                        "Y": 11.340344000488281
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 740.6796376562501,
+                            "Y": 983.190650048828
+                        },
+                        "2": {
+                            "X": 879.8405576562501,
+                            "Y": 983.190650048828
+                        },
+                        "3": {
+                            "X": 879.8405576562501,
+                            "Y": 1084.878150048828
+                        },
+                        "4": {
+                            "X": 740.6796376562501,
+                            "Y": 1084.878150048828
+                        }
+                    }
+                }
+            }
+        ],
+        "EventObject": [
+            {
+                "LGB_ID": 4507082,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2002930",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0094.sgb"
+                },
+                "Transform": {
+                    "X": -90.67491,
+                    "Y": 55.09939,
+                    "Coords": {
+                        "X": 9.434730805664062,
+                        "Y": 12.353063959960936
+                    },
+                    "Pixel": {
+                        "X": 843.4730805664062,
+                        "Y": 1135.3063959960937
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4507085,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2002929",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -93.49436,
+                    "Y": 52.91467,
+                    "Coords": {
+                        "X": 9.378286738281249,
+                        "Y": 12.309326889648437
+                    },
+                    "Pixel": {
+                        "X": 837.8286738281249,
+                        "Y": 1130.9326889648437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4508135,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2002947",
+                "EobjName": "Crystallized Rock",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_bg\/sgbg_w1d6_clis1.sgb"
+                },
+                "Transform": {
+                    "X": -104.9928,
+                    "Y": -21.2532,
+                    "Coords": {
+                        "X": 9.148093359375,
+                        "Y": 10.8245208984375
+                    },
+                    "Pixel": {
+                        "X": 814.8093359375,
+                        "Y": 982.4520898437501
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4534567,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2003150",
+                "EobjName": "Crystallized Rock",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_bg\/sgbg_w1d6_clis1.sgb"
+                },
+                "Transform": {
+                    "X": -131.402,
+                    "Y": 0.8511708,
+                    "Coords": {
+                        "X": 8.6193935546875,
+                        "Y": 11.267040040429688
+                    },
+                    "Pixel": {
+                        "X": 761.93935546875,
+                        "Y": 1026.7040040429688
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4534568,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2003151",
+                "EobjName": "Crystallized Rock",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_bg\/sgbg_w1d6_clis1.sgb"
+                },
+                "Transform": {
+                    "X": -62.48117,
+                    "Y": 24.72852,
+                    "Coords": {
+                        "X": 9.999156264648438,
+                        "Y": 11.74505337890625
+                    },
+                    "Pixel": {
+                        "X": 899.9156264648437,
+                        "Y": 1074.505337890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4534569,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2003152",
+                "EobjName": "Crystallized Rock",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_bg\/sgbg_w1d6_clis1.sgb"
+                },
+                "Transform": {
+                    "X": -86.37972,
+                    "Y": 47.10954,
+                    "Coords": {
+                        "X": 9.52071849609375,
+                        "Y": 12.193110908203126
+                    },
+                    "Pixel": {
+                        "X": 852.071849609375,
+                        "Y": 1119.3110908203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4534570,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2003153",
+                "EobjName": "Crystallized Rock",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_bg\/sgbg_w1d6_clis1.sgb"
+                },
+                "Transform": {
+                    "X": -114.2493,
+                    "Y": 38.16478,
+                    "Coords": {
+                        "X": 8.962782568359374,
+                        "Y": 12.014041005859374
+                    },
+                    "Pixel": {
+                        "X": 796.2782568359374,
+                        "Y": 1101.4041005859374
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4534571,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_boss_01",
+                "EobjId": "2003154",
+                "EobjName": "Crystallized Rock",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_bg\/sgbg_w1d6_clis1.sgb"
+                },
+                "Transform": {
+                    "X": -78.47298,
+                    "Y": -6.125785,
+                    "Coords": {
+                        "X": 9.679007724609376,
+                        "Y": 11.127364655761719
+                    },
+                    "Pixel": {
+                        "X": 867.9007724609376,
+                        "Y": 1012.7364655761719
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497366,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_01",
+                "EobjId": "2002735",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0094.sgb"
+                },
+                "Transform": {
+                    "X": 66.48943,
+                    "Y": -91.10998,
+                    "Coords": {
+                        "X": 12.581087221679686,
+                        "Y": 9.426020908203125
+                    },
+                    "Pixel": {
+                        "X": 1158.1087221679686,
+                        "Y": 842.6020908203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497374,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_01",
+                "EobjId": "2002872",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 69.17879,
+                    "Y": -91.34515,
+                    "Coords": {
+                        "X": 12.634926948242189,
+                        "Y": 9.421312915039064
+                    },
+                    "Pixel": {
+                        "X": 1163.492694824219,
+                        "Y": 842.1312915039064
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497378,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_01",
+                "EobjId": "2002872",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 64.31457,
+                    "Y": -48.22089,
+                    "Coords": {
+                        "X": 12.537547543945312,
+                        "Y": 10.284640385742188
+                    },
+                    "Pixel": {
+                        "X": 1153.7547543945311,
+                        "Y": 928.4640385742188
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497388,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_01",
+                "EobjId": "2002866",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 73.37153,
+                    "Y": -91.55839,
+                    "Coords": {
+                        "X": 12.718863637695312,
+                        "Y": 9.417043950195312
+                    },
+                    "Pixel": {
+                        "X": 1171.8863637695313,
+                        "Y": 841.7043950195313
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497389,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_01",
+                "EobjId": "2002867",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 79.77798,
+                    "Y": -79.14905,
+                    "Coords": {
+                        "X": 12.847117763671875,
+                        "Y": 9.665473120117188
+                    },
+                    "Pixel": {
+                        "X": 1184.7117763671874,
+                        "Y": 866.5473120117188
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497390,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_01",
+                "EobjId": "2002868",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 91.17587,
+                    "Y": -66.40488,
+                    "Coords": {
+                        "X": 13.075298178710938,
+                        "Y": 9.9206054296875
+                    },
+                    "Pixel": {
+                        "X": 1207.5298178710937,
+                        "Y": 892.06054296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497391,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_01",
+                "EobjId": "2002869",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 77.39087,
+                    "Y": -55.60471,
+                    "Coords": {
+                        "X": 12.799328940429687,
+                        "Y": 10.136819770507813
+                    },
+                    "Pixel": {
+                        "X": 1179.9328940429687,
+                        "Y": 913.6819770507814
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4498636,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_02",
+                "EobjId": "2002735",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0094.sgb"
+                },
+                "Transform": {
+                    "X": 35.7415,
+                    "Y": 86.6372,
+                    "Coords": {
+                        "X": 11.965528076171875,
+                        "Y": 12.9844361328125
+                    },
+                    "Pixel": {
+                        "X": 1096.5528076171875,
+                        "Y": 1198.44361328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4498637,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_02",
+                "EobjId": "2002872",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 34.81603,
+                    "Y": 89.65363,
+                    "Coords": {
+                        "X": 11.947000600585937,
+                        "Y": 13.044823647460937
+                    },
+                    "Pixel": {
+                        "X": 1094.7000600585939,
+                        "Y": 1204.4823647460937
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4498667,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_02",
+                "EobjId": "2002870",
+                "EobjName": "Improved Blasting Device",
+                "EobjData": {
+                    "VFX": null
+                },
+                "Transform": {
+                    "X": 39.53253,
+                    "Y": 113.5983,
+                    "Coords": {
+                        "X": 12.041422719726562,
+                        "Y": 13.524184716796874
+                    },
+                    "Pixel": {
+                        "X": 1104.142271972656,
+                        "Y": 1252.4184716796874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4508126,
+                "AssetType": 45,
+                "Name": "LVD_BNPC_mboss_02",
+                "EobjId": "2002948",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 6.729187,
+                    "Y": 112.7489,
+                    "Coords": {
+                        "X": 11.384715169433594,
+                        "Y": 13.507180126953125
+                    },
+                    "Pixel": {
+                        "X": 1038.4715169433593,
+                        "Y": 1250.7180126953126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504890,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002902",
+                "EobjName": "Lift Lever",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_pln\/sgpl_w1d1_a1_swc2.sgb"
+                },
+                "Transform": {
+                    "X": -184.0344,
+                    "Y": -205.7372,
+                    "Coords": {
+                        "X": 7.565717578125,
+                        "Y": 7.1312376953125
+                    },
+                    "Pixel": {
+                        "X": 656.5717578125,
+                        "Y": 613.12376953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504891,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002904",
+                "EobjName": "Lift Lever",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_pln\/sgpl_w1d1_a1_swc2.sgb"
+                },
+                "Transform": {
+                    "X": -183.968,
+                    "Y": -205.9916,
+                    "Coords": {
+                        "X": 7.567046875000001,
+                        "Y": 7.1261447265625
+                    },
+                    "Pixel": {
+                        "X": 656.7046875000001,
+                        "Y": 612.61447265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504894,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002905",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -192.1569,
+                    "Y": -208.3925,
+                    "Coords": {
+                        "X": 7.403108935546875,
+                        "Y": 7.078079833984374
+                    },
+                    "Pixel": {
+                        "X": 640.3108935546875,
+                        "Y": 607.8079833984374
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504908,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002900",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -209.0378,
+                    "Y": -208.7323,
+                    "Coords": {
+                        "X": 7.06516123046875,
+                        "Y": 7.0712771972656245
+                    },
+                    "Pixel": {
+                        "X": 606.516123046875,
+                        "Y": 607.1277197265624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504917,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002901",
+                "EobjName": "Lift Lever",
+                "EobjData": {
+                    "VFX": null
+                },
+                "Transform": {
+                    "X": -191.6017,
+                    "Y": -205.1521,
+                    "Coords": {
+                        "X": 7.414223779296875,
+                        "Y": 7.142951123046875
+                    },
+                    "Pixel": {
+                        "X": 641.4223779296875,
+                        "Y": 614.2951123046874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504918,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002903",
+                "EobjName": "Lift Lever",
+                "EobjData": {
+                    "VFX": null
+                },
+                "Transform": {
+                    "X": -176.3298,
+                    "Y": -210.9009,
+                    "Coords": {
+                        "X": 7.719960058593751,
+                        "Y": 7.027862841796876
+                    },
+                    "Pixel": {
+                        "X": 671.996005859375,
+                        "Y": 602.7862841796875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504920,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002906",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -177.5989,
+                    "Y": -208.0246,
+                    "Coords": {
+                        "X": 7.694553271484375,
+                        "Y": 7.08544501953125
+                    },
+                    "Pixel": {
+                        "X": 669.4553271484375,
+                        "Y": 608.5445019531251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505305,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002907",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -183.9585,
+                    "Y": -208.0232,
+                    "Coords": {
+                        "X": 7.5672370605468755,
+                        "Y": 7.085473046875
+                    },
+                    "Pixel": {
+                        "X": 656.7237060546876,
+                        "Y": 608.5473046875001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505342,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002908",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -50.30902,
+                    "Y": -200.8851,
+                    "Coords": {
+                        "X": 10.242837001953125,
+                        "Y": 7.228374462890626
+                    },
+                    "Pixel": {
+                        "X": 924.2837001953126,
+                        "Y": 622.8374462890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505343,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002909",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 21.7411,
+                    "Y": -141.4133,
+                    "Coords": {
+                        "X": 11.685246630859375,
+                        "Y": 8.418972021484375
+                    },
+                    "Pixel": {
+                        "X": 1068.5246630859374,
+                        "Y": 741.8972021484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505344,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002910",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -12.64978,
+                    "Y": -219.0433,
+                    "Coords": {
+                        "X": 10.996757333984375,
+                        "Y": 6.864855810546875
+                    },
+                    "Pixel": {
+                        "X": 999.6757333984375,
+                        "Y": 586.4855810546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505345,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002911",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 18.03547,
+                    "Y": -209.7116,
+                    "Coords": {
+                        "X": 11.611061655273438,
+                        "Y": 7.051672070312501
+                    },
+                    "Pixel": {
+                        "X": 1061.1061655273438,
+                        "Y": 605.1672070312501
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505346,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2002912",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 17.97712,
+                    "Y": -185.8962,
+                    "Coords": {
+                        "X": 11.609893515625,
+                        "Y": 7.5284452148437495
+                    },
+                    "Pixel": {
+                        "X": 1060.9893515625,
+                        "Y": 652.8445214843749
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4506598,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_02",
+                "EobjId": "2002923",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 60.40243,
+                    "Y": 51.88851,
+                    "Coords": {
+                        "X": 12.459228334960937,
+                        "Y": 12.288783647460937
+                    },
+                    "Pixel": {
+                        "X": 1145.9228334960937,
+                        "Y": 1128.8783647460937
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4506603,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_02",
+                "EobjId": "2002924",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 65.25291,
+                    "Y": 39.84658,
+                    "Coords": {
+                        "X": 12.556332670898438,
+                        "Y": 12.047709853515626
+                    },
+                    "Pixel": {
+                        "X": 1155.633267089844,
+                        "Y": 1104.7709853515626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4506604,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_02",
+                "EobjId": "2002925",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 55.23511,
+                    "Y": 39.24836,
+                    "Coords": {
+                        "X": 12.355781010742186,
+                        "Y": 12.035733769531252
+                    },
+                    "Pixel": {
+                        "X": 1135.5781010742187,
+                        "Y": 1103.5733769531253
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4506651,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_03",
+                "EobjId": "2002926",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -82.28824,
+                    "Y": 101.0572,
+                    "Coords": {
+                        "X": 9.6026280078125,
+                        "Y": 13.2731177734375
+                    },
+                    "Pixel": {
+                        "X": 860.26280078125,
+                        "Y": 1227.31177734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481331,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000182",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -253.1564,
+                    "Y": -174.614,
+                    "Coords": {
+                        "X": 6.1819275390625,
+                        "Y": 7.7543095703125
+                    },
+                    "Pixel": {
+                        "X": 518.19275390625,
+                        "Y": 675.4309570312499
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481310,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000139",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0005.sgb"
+                },
+                "Transform": {
+                    "X": -100.8774,
+                    "Y": -15.20613,
+                    "Coords": {
+                        "X": 9.23048173828125,
+                        "Y": 10.945580405273438
+                    },
+                    "Pixel": {
+                        "X": 823.0481738281251,
+                        "Y": 994.5580405273438
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481333,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000700",
+                "EobjName": "Shortcut",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0144.sgb"
+                },
+                "Transform": {
+                    "X": -237.1849,
+                    "Y": -166.4205,
+                    "Coords": {
+                        "X": 6.5016694824218755,
+                        "Y": 7.918339599609375
+                    },
+                    "Pixel": {
+                        "X": 550.1669482421876,
+                        "Y": 691.8339599609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4510398,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2002899",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -267.2418,
+                    "Y": -170.7125,
+                    "Coords": {
+                        "X": 5.89994443359375,
+                        "Y": 7.832415771484375
+                    },
+                    "Pixel": {
+                        "X": 489.994443359375,
+                        "Y": 683.2415771484375
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [
+            {
+                "LGB_ID": 4527472,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_boss_01",
+                "Transform": {
+                    "X": -92.39603,
+                    "Y": 50.17644,
+                    "Scale": 5.046315,
+                    "Coords": {
+                        "X": 9.400274790039063,
+                        "Y": 12.25450880859375
+                    },
+                    "Pixel": {
+                        "X": 840.0274790039064,
+                        "Y": 1125.450880859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4508207,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_boss_01",
+                "Transform": {
+                    "X": -100.7203,
+                    "Y": 6.908882,
+                    "Scale": 5.6143325,
+                    "Coords": {
+                        "X": 9.233626806640626,
+                        "Y": 11.388312579101562
+                    },
+                    "Pixel": {
+                        "X": 823.3626806640625,
+                        "Y": 1038.8312579101562
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497401,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 75.85947,
+                    "Y": -87.50954,
+                    "Scale": 0.74037775,
+                    "Coords": {
+                        "X": 12.768671030273437,
+                        "Y": 9.498100029296875
+                    },
+                    "Pixel": {
+                        "X": 1176.8671030273435,
+                        "Y": 849.8100029296875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497403,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 92.92208,
+                    "Y": -74.77692,
+                    "Scale": 0.74037775,
+                    "Coords": {
+                        "X": 13.110256484375,
+                        "Y": 9.75300111328125
+                    },
+                    "Pixel": {
+                        "X": 1211.0256484375,
+                        "Y": 875.300111328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4497404,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 79.19745,
+                    "Y": -60.02,
+                    "Scale": 1.21813325,
+                    "Coords": {
+                        "X": 12.835495825195313,
+                        "Y": 10.048427734375
+                    },
+                    "Pixel": {
+                        "X": 1183.5495825195312,
+                        "Y": 904.8427734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4514330,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 72.98965,
+                    "Y": -91.06629,
+                    "Scale": 1.6450385,
+                    "Coords": {
+                        "X": 12.711218579101562,
+                        "Y": 9.426895561523438
+                    },
+                    "Pixel": {
+                        "X": 1171.1218579101562,
+                        "Y": 842.6895561523438
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4514331,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 83.91234,
+                    "Y": -84.1909,
+                    "Scale": 4.3746475,
+                    "Coords": {
+                        "X": 12.929885712890625,
+                        "Y": 9.564537646484375
+                    },
+                    "Pixel": {
+                        "X": 1192.9885712890625,
+                        "Y": 856.4537646484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4514332,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 83.94642,
+                    "Y": -76.2715,
+                    "Scale": 4.3661275,
+                    "Coords": {
+                        "X": 12.930567978515624,
+                        "Y": 9.723080322265625
+                    },
+                    "Pixel": {
+                        "X": 1193.0567978515624,
+                        "Y": 872.3080322265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4514333,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 83.88067,
+                    "Y": -69.54785,
+                    "Scale": 4.3825675,
+                    "Coords": {
+                        "X": 12.929251694335937,
+                        "Y": 9.857684643554688
+                    },
+                    "Pixel": {
+                        "X": 1192.9251694335937,
+                        "Y": 885.7684643554687
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4530257,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 81.67971,
+                    "Y": -65.70718,
+                    "Scale": 4.1135575,
+                    "Coords": {
+                        "X": 12.885189506835937,
+                        "Y": 9.934573056640625
+                    },
+                    "Pixel": {
+                        "X": 1188.5189506835936,
+                        "Y": 893.4573056640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4530698,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 81.67971,
+                    "Y": -58.80467,
+                    "Scale": 4.1135575,
+                    "Coords": {
+                        "X": 12.885189506835937,
+                        "Y": 10.072758071289062
+                    },
+                    "Pixel": {
+                        "X": 1188.5189506835936,
+                        "Y": 907.2758071289062
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4530699,
+                "AssetType": 49,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 81.67971,
+                    "Y": -50.93504,
+                    "Scale": 4.1135575,
+                    "Coords": {
+                        "X": 12.885189506835937,
+                        "Y": 10.230304375
+                    },
+                    "Pixel": {
+                        "X": 1188.5189506835936,
+                        "Y": 923.0304375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4504914,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": -220.5354,
+                    "Y": -204.7981,
+                    "Scale": 1.2236235,
+                    "Coords": {
+                        "X": 6.83498466796875,
+                        "Y": 7.1500380371093755
+                    },
+                    "Pixel": {
+                        "X": 583.498466796875,
+                        "Y": 615.0038037109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505582,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": -55.98377,
+                    "Y": -178.9651,
+                    "Scale": 3.61882,
+                    "Coords": {
+                        "X": 10.129231166992188,
+                        "Y": 7.667202587890625
+                    },
+                    "Pixel": {
+                        "X": 912.9231166992188,
+                        "Y": 666.7202587890624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4505590,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": 59.5066,
+                    "Y": -29.66092,
+                    "Scale": 2.21712525,
+                    "Coords": {
+                        "X": 12.441294238281252,
+                        "Y": 10.656202285156251
+                    },
+                    "Pixel": {
+                        "X": 1144.1294238281253,
+                        "Y": 965.6202285156251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4506556,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 59.94909,
+                    "Y": 19.56417,
+                    "Scale": 3.940345,
+                    "Coords": {
+                        "X": 12.450152680664061,
+                        "Y": 11.641665512695312
+                    },
+                    "Pixel": {
+                        "X": 1145.0152680664062,
+                        "Y": 1064.1665512695313
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481318,
+                "AssetType": 49,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": -270.0647,
+                    "Y": -170.2617,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 5.843431298828125,
+                        "Y": 7.841440576171875
+                    },
+                    "Pixel": {
+                        "X": 484.3431298828125,
+                        "Y": 684.1440576171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481311,
+                "AssetType": 49,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": -92.55263,
+                    "Y": 51.27638,
+                    "Scale": 4.624315,
+                    "Coords": {
+                        "X": 9.397139731445312,
+                        "Y": 12.276529091796876
+                    },
+                    "Pixel": {
+                        "X": 839.7139731445312,
+                        "Y": 1127.6529091796876
+                    }
+                }
+            }
+        ],
+        "CollisionBox": [
+            {
+                "LGB_ID": 4481305,
+                "AssetType": 57,
+                "Name": "LVD_BNPC_boss_01",
+                "Transform": {
+                    "X": -73.59528,
+                    "Y": 1.153968,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 9.7766569921875,
+                        "Y": 11.273101898437499
+                    },
+                    "Pixel": {
+                        "Rotation": -1.5622201,
+                        "1": {
+                            "X": 877.6318965255685,
+                            "Y": 1023.2522425062801
+                        },
+                        "2": {
+                            "X": 877.7015018383801,
+                            "Y": 1031.3681200289764
+                        },
+                        "3": {
+                            "X": 877.6995019119314,
+                            "Y": 1031.3681371812197
+                        },
+                        "4": {
+                            "X": 877.6298965991199,
+                            "Y": 1023.2522596585235
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481306,
+                "AssetType": 57,
+                "Name": "LVD_BNPC_boss_01",
+                "Transform": {
+                    "X": -124.147,
+                    "Y": 36.75635,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.764635253906249,
+                        "Y": 11.985844897460938
+                    },
+                    "Pixel": {
+                        "Rotation": 1.0523973,
+                        "1": {
+                            "X": 773.8743267465576,
+                            "Y": 1103.121437787155
+                        },
+                        "2": {
+                            "X": 779.0509868075743,
+                            "Y": 1094.0465507247397
+                        },
+                        "3": {
+                            "X": 779.0527240346922,
+                            "Y": 1094.0475417050327
+                        },
+                        "4": {
+                            "X": 773.8760639736755,
+                            "Y": 1103.122428767448
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481317,
+                "AssetType": 57,
+                "Name": "LVD_BNPC_boss_01",
+                "Transform": {
+                    "X": -128.5662,
+                    "Y": 12.9244,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 8.67616494140625,
+                        "Y": 11.5087404296875
+                    },
+                    "Pixel": {
+                        "Rotation": 1.5704509,
+                        "1": {
+                            "X": 767.6136897081743,
+                            "Y": 1056.0978193116737
+                        },
+                        "2": {
+                            "X": 767.6172985731952,
+                            "Y": 1045.6502659349728
+                        },
+                        "3": {
+                            "X": 767.6192985730758,
+                            "Y": 1045.6502666258264
+                        },
+                        "4": {
+                            "X": 767.6156897080549,
+                            "Y": 1056.0978200025272
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4553384,
+                "AssetType": 57,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 66.91421,
+                    "Y": -80.4762,
+                    "Scale": 4.1135575,
+                    "Coords": {
+                        "X": 12.589591118164064,
+                        "Y": 9.63890419921875
+                    },
+                    "Pixel": {
+                        "Rotation": -1.5593972,
+                        "1": {
+                            "X": 1158.8917144138604,
+                            "Y": 857.8904423621782
+                        },
+                        "2": {
+                            "X": 1159.0285090890138,
+                            "Y": 869.8903746838121
+                        },
+                        "3": {
+                            "X": 1159.0265092189525,
+                            "Y": 869.8903974815719
+                        },
+                        "4": {
+                            "X": 1158.889714543799,
+                            "Y": 857.890465159938
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4553386,
+                "AssetType": 57,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 61.89629,
+                    "Y": -70.43098,
+                    "Scale": 4.1135575,
+                    "Coords": {
+                        "X": 12.489134711914064,
+                        "Y": 9.840004794921876
+                    },
+                    "Pixel": {
+                        "Rotation": -0.7095305,
+                        "1": {
+                            "X": 1143.674918173362,
+                            "Y": 879.5007497381735
+                        },
+                        "2": {
+                            "X": 1154.1533271647475,
+                            "Y": 888.4986919105452
+                        },
+                        "3": {
+                            "X": 1154.152024209451,
+                            "Y": 888.5002092462018
+                        },
+                        "4": {
+                            "X": 1143.6736152180654,
+                            "Y": 879.5022670738301
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4553390,
+                "AssetType": 57,
+                "Name": "LVD_BNPC_mboss_01",
+                "Transform": {
+                    "X": 66.00352,
+                    "Y": -111.6,
+                    "Scale": 4.1135575,
+                    "Coords": {
+                        "X": 12.57135953125,
+                        "Y": 9.015820312499999
+                    },
+                    "Pixel": {
+                        "Rotation": -1.5704509,
+                        "1": {
+                            "X": 1157.1315532579479,
+                            "Y": 785.9495818372025
+                        },
+                        "2": {
+                            "X": 1157.142352991933,
+                            "Y": 817.2144799719438
+                        },
+                        "3": {
+                            "X": 1157.1403529920522,
+                            "Y": 817.2144806627973
+                        },
+                        "4": {
+                            "X": 1157.129553258067,
+                            "Y": 785.949582528056
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481335,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": -180.891,
+                    "Y": -208,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 7.6286469726562505,
+                        "Y": 7.0859375
+                    },
+                    "Pixel": {
+                        "Rotation": 1.5704509,
+                        "1": {
+                            "X": 662.3534019455965,
+                            "Y": 612.3435736086137
+                        },
+                        "2": {
+                            "X": 662.3559926465066,
+                            "Y": 604.8435740560624
+                        },
+                        "3": {
+                            "X": 663.3759925856536,
+                            "Y": 604.8439263913863
+                        },
+                        "4": {
+                            "X": 663.3734018847435,
+                            "Y": 612.3439259439376
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481332,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": -75.14164,
+                    "Y": -160.958,
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 9.74569958984375,
+                        "Y": 8.0276962890625
+                    },
+                    "Pixel": {
+                        "Rotation": 0.26622328,
+                        "1": {
+                            "X": 869.5622487352263,
+                            "Y": 704.134176768
+                        },
+                        "2": {
+                            "X": 879.5771430542233,
+                            "Y": 701.4031515017192
+                        },
+                        "3": {
+                            "X": 879.5776692335238,
+                            "Y": 701.4050810445002
+                        },
+                        "4": {
+                            "X": 869.5627749145268,
+                            "Y": 704.136106310781
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481377,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_04",
+                "Transform": {
+                    "X": -55.49213,
+                    "Y": 93.83055,
+                    "Scale": 3.940345,
+                    "Coords": {
+                        "X": 10.139073569335938,
+                        "Y": 13.128443627929688
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 908.7119439335938,
+                            "Y": 1212.8433627929687
+                        },
+                        "2": {
+                            "X": 919.1027699335939,
+                            "Y": 1212.8433627929687
+                        },
+                        "3": {
+                            "X": 919.1027699335939,
+                            "Y": 1212.8453627929687
+                        },
+                        "4": {
+                            "X": 908.7119439335938,
+                            "Y": 1212.8453627929687
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481378,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_04",
+                "Transform": {
+                    "X": -62.81207,
+                    "Y": 13.9032,
+                    "Scale": 3.940345,
+                    "Coords": {
+                        "X": 9.992531801757812,
+                        "Y": 11.528335546874999
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 895.6136551757811,
+                            "Y": 1049.1940296874998
+                        },
+                        "2": {
+                            "X": 902.8927051757812,
+                            "Y": 1049.1940296874998
+                        },
+                        "3": {
+                            "X": 902.8927051757812,
+                            "Y": 1056.4730796874999
+                        },
+                        "4": {
+                            "X": 895.6136551757811,
+                            "Y": 1056.4730796874999
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4481334,
+                "AssetType": 57,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": -274.9065,
+                    "Y": -170.3064,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 5.746500732421875,
+                        "Y": 7.840545703125
+                    },
+                    "Pixel": {
+                        "Rotation": 1.5704509,
+                        "1": {
+                            "X": 470.7294826557562,
+                            "Y": 688.8467653213881
+                        },
+                        "2": {
+                            "X": 470.7327942962248,
+                            "Y": 679.2596678933528
+                        },
+                        "3": {
+                            "X": 478.5706638286189,
+                            "Y": 679.2623753036119
+                        },
+                        "4": {
+                            "X": 478.56735218815027,
+                            "Y": 688.8494727316472
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4593319,
+                "AssetType": 57,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": 58.30112,
+                    "Y": 4.176937,
+                    "Scale": 4.624315,
+                    "Coords": {
+                        "X": 12.41716109375,
+                        "Y": 11.33362032080078
+                    },
+                    "Pixel": {
+                        "Rotation": 0,
+                        "1": {
+                            "X": 1138.375593375,
+                            "Y": 1033.361032080078
+                        },
+                        "2": {
+                            "X": 1145.056625375,
+                            "Y": 1033.361032080078
+                        },
+                        "3": {
+                            "X": 1145.056625375,
+                            "Y": 1033.363032080078
+                        },
+                        "4": {
+                            "X": 1138.375593375,
+                            "Y": 1033.363032080078
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4593326,
+                "AssetType": 57,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": -58.82518,
+                    "Y": 25.33088,
+                    "Scale": 4.624315,
+                    "Coords": {
+                        "X": 10.072347470703125,
+                        "Y": 11.75711234375
+                    },
+                    "Pixel": {
+                        "Rotation": -0.9130322,
+                        "1": {
+                            "X": 905.0643734237791,
+                            "Y": 1072.9001570747603
+                        },
+                        "2": {
+                            "X": 909.4067034390604,
+                            "Y": 1078.5210889772427
+                        },
+                        "3": {
+                            "X": 909.405120716846,
+                            "Y": 1078.5223116752397
+                        },
+                        "4": {
+                            "X": 905.0627907015647,
+                            "Y": 1072.9013797727573
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4593327,
+                "AssetType": 57,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": -57.7805,
+                    "Y": 21.29507,
+                    "Scale": 4.624315,
+                    "Coords": {
+                        "X": 10.093261474609374,
+                        "Y": 11.676317319335938
+                    },
+                    "Pixel": {
+                        "Rotation": -0.9521894,
+                        "1": {
+                            "X": 907.7455245214627,
+                            "Y": 1065.4094327160951
+                        },
+                        "2": {
+                            "X": 910.9083997745944,
+                            "Y": 1069.852871349483
+                        },
+                        "3": {
+                            "X": 910.906770400412,
+                            "Y": 1069.8540311510924
+                        },
+                        "4": {
+                            "X": 907.7438951472803,
+                            "Y": 1065.4105925177046
+                        }
+                    }
+                }
+            }
+        ],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

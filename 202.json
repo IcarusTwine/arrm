@@ -1,0 +1,258 @@
+{
+    "ID": "202",
+    "PlaceName": "Bowl of Embers",
+    "Code": "w1fa",
+    "Map": {
+        "ID": "35",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Heat Waves"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/wil_w1\/fld\/w1fa\/level\/w1fa",
+    "BGM": {
+        "ID": "1001",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Null.scd",
+            "Night": "music\/ffxiv\/BGM_Null.scd",
+            "Battle": "music\/ffxiv\/BGM_Null.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "2",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 4177874,
+                "AssetType": 6,
+                "Name": "LVD_gimmick_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0095.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": -16,
+                    "Y": 0,
+                    "Coords": {
+                        "X": 5.8046875,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 960.9375,
+                        "Y": 1025
+                    }
+                }
+            }
+        ],
+        "Sound": [],
+        "EventNPC": [
+            {
+                "LGB_ID": 6573606,
+                "AssetType": 8,
+                "Name": "LVD_bnpc_ec003",
+                "EnpcBase": "1018442",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6573608,
+                "AssetType": 8,
+                "Name": "LVD_bnpc_ec003",
+                "EnpcBase": "1018443",
+                "EnpcName": "",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6472069,
+                "AssetType": 40,
+                "Name": "LVD_gimmick_ec003_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0,
+                    "Y": 4.1,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.207080078125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1041.416015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "4081701",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-16",
+                    "Y": "0",
+                    "Scale": 0.25,
+                    "Coords": {
+                        "X": 5.8046875,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 960.9375,
+                        "Y": 1025
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 4177871,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2000182",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -16,
+                    "Y": 0,
+                    "Coords": {
+                        "X": 5.8046875,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 960.9375,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": 4177870,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2000139",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0005.sgb"
+                },
+                "Transform": {
+                    "X": 16,
+                    "Y": 0,
+                    "Coords": {
+                        "X": 6.4453125,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 1089.0625,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6472550,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_ec003_01",
+                "EobjId": "2007452",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/btl\/shared\/for_vfx\/sgvf_w_btl_b0600.sgb"
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6479100,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_ec003_02",
+                "EobjId": "2007454",
+                "EobjName": "Blade Of Light",
+                "EobjData": {
+                    "VFX": "bg\/ffxiv\/wil_w1\/shared\/for_bg\/sgbg_w1fa_a0_eth01.sgb"
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 11.3,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

@@ -1,0 +1,299 @@
+{
+    "ID": "843",
+    "PlaceName": "The Pendants Personal Suite",
+    "Code": "n4ti",
+    "Map": {
+        "ID": "546",
+        "FixedTime": "-1",
+        "SizeFactor": "800",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Clear Skies",
+            "Fair Skies",
+            "Clouds",
+            "Fog",
+            "Rain",
+            "Thunderstorms"
+        ],
+        "ArrayHandler": [
+            "721288",
+            "720916"
+        ],
+        "MapMarker": [
+            {
+                "Key": "390.0",
+                "Icon": "060425",
+                "coords": [
+                    998,
+                    1059
+                ],
+                "SubText": "",
+                "SubtextOrientation": "right",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ex3\/01_nvt_n4\/twn\/n4ti\/level\/n4ti",
+    "BGM": {
+        "ID": "1282",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Town_Rest_01.scd",
+            "Night": "music\/ffxiv\/BGM_Town_Rest_01.scd",
+            "Battle": "music\/ex3\/BGM_EX3_Field_Lak_Battle.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [
+            {
+                "LGB_ID": "7964566",
+                "AssetType": "5",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "9.62708",
+                    "Y": "2.76396",
+                    "Coords": {
+                        "X": 3.75522962890625,
+                        "Y": 3.61783318359375
+                    },
+                    "Pixel": {
+                        "X": 1102.0918515625,
+                        "Y": 1047.1332734375
+                    }
+                }
+            }
+        ],
+        "Gimmick": [],
+        "Sound": [],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [
+            {
+                "LGB_ID": 8035788,
+                "AssetType": 13,
+                "Name": "EnvBox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.2,
+                "Filter": 1,
+                "SoundAssetPath": "bgcommon\/env\/sound\/nvt_n4\/n4_twn\/sound_n4t1_out.essb",
+                "Transform": {
+                    "X": 0.04034775,
+                    "Y": 11.60871,
+                    "Scale": 6,
+                    "Coords": {
+                        "X": 3.563307743041992,
+                        "Y": 3.7949009326171876
+                    },
+                    "Pixel": {
+                        "X": 1025.3230972167967,
+                        "Y": 1117.960373046875
+                    }
+                }
+            }
+        ],
+        "PopRange": [
+            {
+                "LGB_ID": 7877999,
+                "AssetType": 40,
+                "Name": "QST_POSITION_000",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.01243775,
+                    "Y": 1.972542,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 3.5622510020751954,
+                        "Y": 3.6019893662109377
+                    },
+                    "Pixel": {
+                        "X": 1024.900400830078,
+                        "Y": 1040.795746484375
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 7877987,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2009759",
+                "EobjName": "Suite Door",
+                "EobjData": {
+                    "WarpID": "131312",
+                    "WarpName": "",
+                    "WarpQuestion": "Exit room?"
+                },
+                "Transform": {
+                    "X": 0.006356575,
+                    "Y": 5.517887,
+                    "Coords": {
+                        "X": 3.5626272556518557,
+                        "Y": 3.6729655112304687
+                    },
+                    "Pixel": {
+                        "X": 1025.0509022607423,
+                        "Y": 1069.1862044921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7920699,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2009439",
+                "EobjName": "Glamour Dresser",
+                "EobjData": {
+                    "CustomTalk": "721347"
+                },
+                "Transform": {
+                    "X": 11.4234,
+                    "Y": -3.035,
+                    "Coords": {
+                        "X": 3.79119111328125,
+                        "Y": 3.5017407226562502
+                    },
+                    "Pixel": {
+                        "X": 1116.4764453125001,
+                        "Y": 1000.6962890625001
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7920702,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2006999",
+                "EobjName": "Orchestrion",
+                "EobjData": {
+                    "CustomTalk": "721226"
+                },
+                "Transform": {
+                    "X": -8.2845,
+                    "Y": 5.1699,
+                    "Coords": {
+                        "X": 3.396648193359375,
+                        "Y": 3.665998974609375
+                    },
+                    "Pixel": {
+                        "X": 958.65927734375,
+                        "Y": 1066.39958984375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7920703,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2007709",
+                "EobjName": "Armoire",
+                "EobjData": {
+                    "CustomTalk": "721226"
+                },
+                "Transform": {
+                    "X": 11.4335,
+                    "Y": -0.0942,
+                    "Coords": {
+                        "X": 3.791393310546875,
+                        "Y": 3.56061416015625
+                    },
+                    "Pixel": {
+                        "X": 1116.55732421875,
+                        "Y": 1024.2456640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7948090,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2010156",
+                "EobjName": "The Unending Journey",
+                "EobjData": {
+                    "CustomTalk": "721028"
+                },
+                "Transform": {
+                    "X": 5.603199,
+                    "Y": 5.133736,
+                    "Coords": {
+                        "X": 3.6746734174804687,
+                        "Y": 3.66527498828125
+                    },
+                    "Pixel": {
+                        "X": 1069.8693669921875,
+                        "Y": 1066.1099953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7958978,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2010284",
+                "EobjName": "Summoning Bell",
+                "EobjData": {
+                    "CustomTalk": "721440"
+                },
+                "Transform": {
+                    "X": -3.2251,
+                    "Y": 4.4167,
+                    "Coords": {
+                        "X": 3.497935009765625,
+                        "Y": 3.6509202636718747
+                    },
+                    "Pixel": {
+                        "X": 999.17400390625,
+                        "Y": 1060.36810546875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7964553,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2010433",
+                "EobjName": "Comfy Feather Bed",
+                "EobjData": {
+                    "CustomTalk": "721440"
+                },
+                "Transform": {
+                    "X": 10.0095,
+                    "Y": 4.479941,
+                    "Coords": {
+                        "X": 3.762885498046875,
+                        "Y": 3.652186318847656
+                    },
+                    "Pixel": {
+                        "X": 1105.1541992187501,
+                        "Y": 1060.8745275390625
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

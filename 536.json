@@ -1,0 +1,286 @@
+{
+    "ID": "536",
+    "PlaceName": "Maelstrom Barracks",
+    "Code": "s1tg",
+    "Map": {
+        "ID": "310",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "True",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [
+            "721332"
+        ],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/sea_s1\/twn\/s1tg\/level\/s1tg",
+    "BGM": {
+        "ID": "1053",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Company_Lim.scd",
+            "Night": "music\/ffxiv\/BGM_Company_Lim.scd",
+            "Battle": "music\/ffxiv\/BGM_Battle_Lim_01.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [],
+        "Sound": [],
+        "EventNPC": [
+            {
+                "LGB_ID": 6406047,
+                "AssetType": 8,
+                "Name": "LIVE_ENPC01",
+                "EnpcBase": "1016986",
+                "EnpcName": "storm squadron sergeant",
+                "Transform": {
+                    "X": 2.8436,
+                    "Y": 7.07014,
+                    "Coords": {
+                        "X": 6.1819275390624995,
+                        "Y": 6.266540888671875
+                    },
+                    "Pixel": {
+                        "X": 1036.3855078124998,
+                        "Y": 1053.308177734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6406047",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1016986",
+                "EventID": "0",
+                "EnpcBase": "1016986",
+                "EnpcName": "storm squadron sergeant",
+                "Transform": {
+                    "X": "2.8436",
+                    "Y": "7.07014",
+                    "Coords": {
+                        "X": 6.1819275390624995,
+                        "Y": 6.266540888671875
+                    },
+                    "Pixel": {
+                        "X": 1036.3855078124998,
+                        "Y": 1053.308177734375
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6514997,
+                "AssetType": 40,
+                "Name": "LIVE_Zone01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0,
+                    "Y": 9.3018,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.311217675781251
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1062.2435351562501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6515312",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "0",
+                    "Y": "9.3018",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.311217675781251
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1062.2435351562501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7674816",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-0.015485",
+                    "Y": "14.4203",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.124689997558593,
+                        "Y": 6.413687646484375
+                    },
+                    "Pixel": {
+                        "X": 1024.9379995117185,
+                        "Y": 1082.737529296875
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 6406049,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2007151",
+                "EobjName": "Regimen Board",
+                "EobjData": {
+                    "CustomTalk": "721240"
+                },
+                "Transform": {
+                    "X": 5.734394,
+                    "Y": 12.13999,
+                    "Coords": {
+                        "X": 6.2397998798828125,
+                        "Y": 6.368036909179688
+                    },
+                    "Pixel": {
+                        "X": 1047.9599759765624,
+                        "Y": 1073.6073818359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6406050,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2007154",
+                "EobjName": "Enlistment Papers",
+                "EobjData": {
+                    "CustomTalk": "721241"
+                },
+                "Transform": {
+                    "X": 6.363591,
+                    "Y": 6.418007,
+                    "Coords": {
+                        "X": 6.252396108886718,
+                        "Y": 6.253485491699219
+                    },
+                    "Pixel": {
+                        "X": 1050.4792217773436,
+                        "Y": 1050.6970983398437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7433276,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2009439",
+                "EobjName": "Glamour Dresser",
+                "EobjData": {
+                    "CustomTalk": "721347"
+                },
+                "Transform": {
+                    "X": -8.939932,
+                    "Y": -8.688506,
+                    "Coords": {
+                        "X": 5.946026751953125,
+                        "Y": 5.951060182617188
+                    },
+                    "Pixel": {
+                        "X": 989.2053503906251,
+                        "Y": 990.2120365234376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7433277,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2001405",
+                "EobjName": "Armoire",
+                "EobjData": {
+                    "CustomTalk": "721347"
+                },
+                "Transform": {
+                    "X": -8.979417,
+                    "Y": -4.822626,
+                    "Coords": {
+                        "X": 5.945236280761718,
+                        "Y": 6.028453288085937
+                    },
+                    "Pixel": {
+                        "X": 989.0472561523436,
+                        "Y": 1005.6906576171874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6514989,
+                "AssetType": 45,
+                "Name": "LIVE_Zone01",
+                "EobjId": "2007528",
+                "EobjName": "Exit To Maelstrom Command",
+                "EobjData": {
+                    "WarpID": "131243",
+                    "WarpName": "",
+                    "WarpQuestion": "Leave the Maelstrom Barracks?"
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 11.95633,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

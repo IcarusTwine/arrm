@@ -1,0 +1,985 @@
+{
+    "ID": "645",
+    "PlaceName": "",
+    "Code": "",
+    "Map": {
+        "ID": "0",
+        "FixedTime": "0",
+        "SizeFactor": "100",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "False",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "",
+    "BGM": {
+        "ID": "0",
+        "BGM": ""
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [
+            {
+                "LGB_ID": 6621905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/b1042fire2_u.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752625,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752626,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752627,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752629,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6621905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/b1042fire2_u.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752625,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752626,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752627,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752629,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6621905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/b1042fire2_u.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752625,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752626,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752627,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752629,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6621905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/b1042fire2_u.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752625,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752626,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752627,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752629,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6621905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/b1042fire2_u.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752625,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752626,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752627,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752629,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6621905,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/b1042fire2_u.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752625,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752626,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire1ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752627,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": 24.9723,
+                    "Y": 17.0962,
+                    "Coords": {
+                        "X": 21.999933740234372,
+                        "Y": 21.84225791015625
+                    },
+                    "Pixel": {
+                        "X": 1049.9966870117187,
+                        "Y": 1042.1128955078125
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 6752629,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/common\/vfx\/eff\/f1p1_fire2ay.avfx",
+                "Transform": {
+                    "X": -3.0421,
+                    "Y": 27.1879,
+                    "Coords": {
+                        "X": 21.439098583984375,
+                        "Y": 22.04428901367187
+                    },
+                    "Pixel": {
+                        "X": 1021.9549291992188,
+                        "Y": 1052.2144506835937
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            }
+        ],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 6621906,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire1.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621907,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire2.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621906,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire1.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621907,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire2.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621906,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire1.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621907,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire2.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621906,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire1.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621907,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire2.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621906,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire1.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621907,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire2.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621906,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire1.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6621907,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/fst_f1\/shared\/for_vfx\/sgvf_f1p1_fire2.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "Sound": [],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

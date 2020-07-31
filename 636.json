@@ -1,0 +1,452 @@
+{
+    "ID": "636",
+    "PlaceName": "Omega Control",
+    "Code": "l1e3",
+    "Map": {
+        "ID": "355",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "True",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [
+            "67894"
+        ],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/lak_l1\/evt\/l1e3\/level\/l1e3",
+    "BGM": {
+        "ID": "1001",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Null.scd",
+            "Night": "music\/ffxiv\/BGM_Null.scd",
+            "Battle": "music\/ffxiv\/BGM_Null.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 6655103,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/lak_l1\/shared\/for_vfx\/sgvf_l1e3_b1098.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": -20,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6655103,
+                "AssetType": 6,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ffxiv\/lak_l1\/shared\/for_vfx\/sgvf_l1e3_b1098.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": -20,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "Sound": [
+            {
+                "LGB_ID": 6718028,
+                "AssetType": 7,
+                "Name": "spot",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_pump_good_loop.scd",
+                "Transform": {
+                    "X": 13.92185,
+                    "Y": 9.855036,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 6.403708911132813,
+                        "Y": 6.322293201171875
+                    },
+                    "Pixel": {
+                        "X": 1080.7417822265625,
+                        "Y": 1064.458640234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6718029,
+                "AssetType": 7,
+                "Name": "spot",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_pump_good_loop.scd",
+                "Transform": {
+                    "X": -14.23171,
+                    "Y": 9.403982,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 5.840087836914063,
+                        "Y": 6.313263311523437
+                    },
+                    "Pixel": {
+                        "X": 968.0175673828126,
+                        "Y": 1062.6526623046875
+                    }
+                }
+            }
+        ],
+        "EventNPC": [
+            {
+                "LGB_ID": 6685062,
+                "AssetType": 8,
+                "Name": "QST_HeaVng103",
+                "EnpcBase": "1018045",
+                "EnpcName": "Cid",
+                "Transform": {
+                    "X": 2.168509,
+                    "Y": 12.74322,
+                    "Coords": {
+                        "X": 6.168412533691406,
+                        "Y": 6.3801132910156255
+                    },
+                    "Pixel": {
+                        "X": 1033.682506738281,
+                        "Y": 1076.022658203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6879674,
+                "AssetType": 8,
+                "Name": "QST_StmBdr106",
+                "EnpcBase": "1021955",
+                "EnpcName": "Biggs",
+                "Transform": {
+                    "X": -1.429019,
+                    "Y": -1.946047,
+                    "Coords": {
+                        "X": 6.096391709472656,
+                        "Y": 6.0860410512695315
+                    },
+                    "Pixel": {
+                        "X": 1019.2783418945313,
+                        "Y": 1017.2082102539063
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6879675,
+                "AssetType": 8,
+                "Name": "QST_StmBdr106",
+                "EnpcBase": "1021956",
+                "EnpcName": "Wedge",
+                "Transform": {
+                    "X": 4.257225,
+                    "Y": -0.4689619,
+                    "Coords": {
+                        "X": 6.210227648925781,
+                        "Y": 6.11561160258789
+                    },
+                    "Pixel": {
+                        "X": 1042.0455297851563,
+                        "Y": 1023.122320517578
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6879676,
+                "AssetType": 8,
+                "Name": "QST_StmBdr106",
+                "EnpcBase": "1021957",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -5.459404,
+                    "Y": -2.77188,
+                    "Coords": {
+                        "X": 6.015705291015625,
+                        "Y": 6.06950826171875
+                    },
+                    "Pixel": {
+                        "X": 1003.1410582031249,
+                        "Y": 1013.9016523437499
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6685062",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1018045",
+                "EventID": "0",
+                "EnpcBase": "1018045",
+                "EnpcName": "Cid",
+                "Transform": {
+                    "X": "2.16851",
+                    "Y": "12.7432",
+                    "Coords": {
+                        "X": 6.168412553710938,
+                        "Y": 6.380112890625
+                    },
+                    "Pixel": {
+                        "X": 1033.6825107421878,
+                        "Y": 1076.022578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6879674",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1021955",
+                "EventID": "0",
+                "EnpcBase": "1021955",
+                "EnpcName": "Biggs",
+                "Transform": {
+                    "X": "-1.42902",
+                    "Y": "-1.94605",
+                    "Coords": {
+                        "X": 6.0963916894531245,
+                        "Y": 6.086040991210937
+                    },
+                    "Pixel": {
+                        "X": 1019.2783378906249,
+                        "Y": 1017.2081982421874
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6879675",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1021956",
+                "EventID": "0",
+                "EnpcBase": "1021956",
+                "EnpcName": "Wedge",
+                "Transform": {
+                    "X": "4.25723",
+                    "Y": "-0.468962",
+                    "Coords": {
+                        "X": 6.210227749023438,
+                        "Y": 6.115611600585938
+                    },
+                    "Pixel": {
+                        "X": 1042.0455498046874,
+                        "Y": 1023.1223201171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6879676",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1021957",
+                "EventID": "0",
+                "EnpcBase": "1021957",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "-5.4594",
+                    "Y": "-2.77188",
+                    "Coords": {
+                        "X": 6.01570537109375,
+                        "Y": 6.06950826171875
+                    },
+                    "Pixel": {
+                        "X": 1003.14107421875,
+                        "Y": 1013.9016523437499
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6688758,
+                "AssetType": 40,
+                "Name": "QST_HeaVng103",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.1564803,
+                    "Y": 20.26102,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.121867337744141,
+                        "Y": 6.530616123046874
+                    },
+                    "Pixel": {
+                        "X": 1024.373467548828,
+                        "Y": 1106.1232246093748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6688761,
+                "AssetType": 40,
+                "Name": "QST_HeaVng103",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -2.022222,
+                    "Y": -7.36113,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.0845160634765625,
+                        "Y": 5.977633627929688
+                    },
+                    "Pixel": {
+                        "X": 1016.9032126953125,
+                        "Y": 995.5267255859376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6931418,
+                "AssetType": 40,
+                "Name": "QST_StmBdr106",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.0432007,
+                    "Y": 20.88352,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.124135142236328,
+                        "Y": 6.54307828125
+                    },
+                    "Pixel": {
+                        "X": 1024.8270284472658,
+                        "Y": 1108.61565625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6688758",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-0.15648",
+                    "Y": "20.261",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.12186734375,
+                        "Y": 6.5306157226562505
+                    },
+                    "Pixel": {
+                        "X": 1024.37346875,
+                        "Y": 1106.12314453125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6688761",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-2.02222",
+                    "Y": "-7.36113",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.084516103515625,
+                        "Y": 5.977633627929688
+                    },
+                    "Pixel": {
+                        "X": 1016.903220703125,
+                        "Y": 995.5267255859376
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6931418",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-0.0432007",
+                    "Y": "20.8835",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.124135142236328,
+                        "Y": 6.543077880859376
+                    },
+                    "Pixel": {
+                        "X": 1024.8270284472658,
+                        "Y": 1108.615576171875
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 6728837,
+                "AssetType": 45,
+                "Name": "QST_WARP_01",
+                "EobjId": "2007781",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "CustomTalk": "853683"
+                },
+                "Transform": {
+                    "X": -0.1604381,
+                    "Y": 26.97521,
+                    "Coords": {
+                        "X": 6.121788104443359,
+                        "Y": 6.665031059570312
+                    },
+                    "Pixel": {
+                        "X": 1024.3576208886718,
+                        "Y": 1133.0062119140625
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

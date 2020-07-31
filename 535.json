@@ -1,0 +1,286 @@
+{
+    "ID": "535",
+    "PlaceName": "Flame Barracks",
+    "Code": "w1tg",
+    "Map": {
+        "ID": "309",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "True",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [
+            "721332"
+        ],
+        "MapMarker": [
+            {
+                "Key": "0.0",
+                "Icon": "000000",
+                "coords": [
+                    0,
+                    0
+                ],
+                "SubText": "",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ffxiv\/wil_w1\/twn\/w1tg\/level\/w1tg",
+    "BGM": {
+        "ID": "1054",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Company_Uru.scd",
+            "Night": "music\/ffxiv\/BGM_Company_Uru.scd",
+            "Battle": "music\/ffxiv\/BGM_Battle_Uru_01.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [],
+        "Sound": [],
+        "EventNPC": [
+            {
+                "LGB_ID": 6405986,
+                "AssetType": 8,
+                "Name": "LIVE_ENPC01",
+                "EnpcBase": "1016987",
+                "EnpcName": "flame squadron sergeant",
+                "Transform": {
+                    "X": 2.8436,
+                    "Y": 7.07014,
+                    "Coords": {
+                        "X": 6.1819275390624995,
+                        "Y": 6.266540888671875
+                    },
+                    "Pixel": {
+                        "X": 1036.3855078124998,
+                        "Y": 1053.308177734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6405986",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1016987",
+                "EventID": "0",
+                "EnpcBase": "1016987",
+                "EnpcName": "flame squadron sergeant",
+                "Transform": {
+                    "X": "2.8436",
+                    "Y": "7.07014",
+                    "Coords": {
+                        "X": 6.1819275390624995,
+                        "Y": 6.266540888671875
+                    },
+                    "Pixel": {
+                        "X": 1036.3855078124998,
+                        "Y": 1053.308177734375
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6515000,
+                "AssetType": 40,
+                "Name": "LIVE_Zone01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0,
+                    "Y": 9.3018,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.311217675781251
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1062.2435351562501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6515313",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "0",
+                    "Y": "9.3018",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.311217675781251
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1062.2435351562501
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7674817",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-0.0175533",
+                    "Y": "15.549",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.124648591162109,
+                        "Y": 6.436283691406249
+                    },
+                    "Pixel": {
+                        "X": 1024.929718232422,
+                        "Y": 1087.25673828125
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 6406043,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2007152",
+                "EobjName": "Regimen Board",
+                "EobjData": {
+                    "CustomTalk": "721240"
+                },
+                "Transform": {
+                    "X": 5.886675,
+                    "Y": 11.89999,
+                    "Coords": {
+                        "X": 6.242848474121094,
+                        "Y": 6.363232221679688
+                    },
+                    "Pixel": {
+                        "X": 1048.5696948242187,
+                        "Y": 1072.6464443359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6406044,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2007155",
+                "EobjName": "Enlistment Papers",
+                "EobjData": {
+                    "CustomTalk": "721241"
+                },
+                "Transform": {
+                    "X": 5.806187,
+                    "Y": 4.592,
+                    "Coords": {
+                        "X": 6.241237142089844,
+                        "Y": 6.2169296874999995
+                    },
+                    "Pixel": {
+                        "X": 1048.2474284179689,
+                        "Y": 1043.3859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7433287,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2009439",
+                "EobjName": "Glamour Dresser",
+                "EobjData": {
+                    "CustomTalk": "721347"
+                },
+                "Transform": {
+                    "X": -0.9658237,
+                    "Y": -11.9,
+                    "Coords": {
+                        "X": 6.10566466225586,
+                        "Y": 5.886767578125
+                    },
+                    "Pixel": {
+                        "X": 1021.132932451172,
+                        "Y": 977.353515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7433288,
+                "AssetType": 45,
+                "Name": "LIVE_Gimmick01",
+                "EobjId": "2001406",
+                "EobjName": "Armoire",
+                "EobjData": {
+                    "CustomTalk": "721347"
+                },
+                "Transform": {
+                    "X": -4.293517,
+                    "Y": -11.56525,
+                    "Coords": {
+                        "X": 6.039045802246093,
+                        "Y": 5.893469116210937
+                    },
+                    "Pixel": {
+                        "X": 1007.8091604492187,
+                        "Y": 978.6938232421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6514998,
+                "AssetType": 45,
+                "Name": "LIVE_Zone01",
+                "EobjId": "2007530",
+                "EobjName": "Exit To The Hall Of Flames",
+                "EobjData": {
+                    "WarpID": "131244",
+                    "WarpName": "",
+                    "WarpQuestion": "Leave the Flame Barracks?"
+                },
+                "Transform": {
+                    "X": 0,
+                    "Y": 12.52578,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

@@ -1,0 +1,757 @@
+{
+    "ID": "681",
+    "PlaceName": "The House of the Fierce",
+    "Code": "e3e5",
+    "Map": {
+        "ID": "378",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "True",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Showers",
+            "Rain",
+            "Fog",
+            "Clouds",
+            "Fair Skies",
+            "Clear Skies"
+        ],
+        "ArrayHandler": [
+            "68028",
+            "68033",
+            "68470"
+        ],
+        "MapMarker": [
+            {
+                "Key": "297.0",
+                "Icon": "060467",
+                "coords": [
+                    1122,
+                    1098
+                ],
+                "SubText": "",
+                "SubtextOrientation": "down",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ex2\/02_est_e3\/evt\/e3e5\/level\/e3e5",
+    "BGM": {
+        "ID": "1214",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Field_Lim_Ninja.scd",
+            "Night": "music\/ffxiv\/BGM_Field_Lim_Ninja.scd",
+            "Battle": "music\/ex2\/BGM_EX2_Field_Yansa_Battle.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [],
+        "Sound": [],
+        "EventNPC": [
+            {
+                "LGB_ID": 6829173,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001",
+                "EnpcBase": "1019271",
+                "EnpcName": "",
+                "Transform": {
+                    "X": -64.77466,
+                    "Y": -21.28638,
+                    "Coords": {
+                        "X": 4.8282416699218755,
+                        "Y": 5.698856650390625
+                    },
+                    "Pixel": {
+                        "X": 765.6483339843751,
+                        "Y": 939.7713300781251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6829168,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001_HANDLER",
+                "EnpcBase": "1020215",
+                "EnpcName": "Haname",
+                "Transform": {
+                    "X": -63.70642,
+                    "Y": -20.09619,
+                    "Coords": {
+                        "X": 4.849627333984374,
+                        "Y": 5.722683696289062
+                    },
+                    "Pixel": {
+                        "X": 769.9254667968748,
+                        "Y": 944.5367392578124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6829169,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001_HANDLER",
+                "EnpcBase": "1020216",
+                "EnpcName": "Kaidate",
+                "Transform": {
+                    "X": -13.26977,
+                    "Y": -25.3423,
+                    "Coords": {
+                        "X": 5.859345424804688,
+                        "Y": 5.617659033203125
+                    },
+                    "Pixel": {
+                        "X": 971.8690849609376,
+                        "Y": 923.5318066406251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6829170,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001_HANDLER",
+                "EnpcBase": "1020217",
+                "EnpcName": "Motojiro",
+                "Transform": {
+                    "X": -49.48505,
+                    "Y": -10.63556,
+                    "Coords": {
+                        "X": 5.134332495117188,
+                        "Y": 5.91208107421875
+                    },
+                    "Pixel": {
+                        "X": 826.8664990234375,
+                        "Y": 982.41621484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6829171,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001_HANDLER",
+                "EnpcBase": "1020218",
+                "EnpcName": "Yagoro",
+                "Transform": {
+                    "X": -72.28204,
+                    "Y": -13.3822,
+                    "Coords": {
+                        "X": 4.67794744140625,
+                        "Y": 5.85709462890625
+                    },
+                    "Pixel": {
+                        "X": 735.5894882812499,
+                        "Y": 971.41892578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6829172,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001_HANDLER",
+                "EnpcBase": "1020219",
+                "EnpcName": "Aoi",
+                "Transform": {
+                    "X": -46.6598,
+                    "Y": -35.23768,
+                    "Coords": {
+                        "X": 5.19089267578125,
+                        "Y": 5.4195581640625
+                    },
+                    "Pixel": {
+                        "X": 838.1785351562501,
+                        "Y": 883.9116328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6874511,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001_HANDLER",
+                "EnpcBase": "1019293",
+                "EnpcName": "Liberation Front sentry",
+                "Transform": {
+                    "X": 24.44638,
+                    "Y": 18.60002,
+                    "Coords": {
+                        "X": 6.614405068359375,
+                        "Y": 6.497363681640625
+                    },
+                    "Pixel": {
+                        "X": 1122.8810136718748,
+                        "Y": 1099.472736328125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6953504,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001_HANDLER",
+                "EnpcBase": "1022713",
+                "EnpcName": "Subaru",
+                "Transform": {
+                    "X": -33.38516,
+                    "Y": -10.05875,
+                    "Coords": {
+                        "X": 5.45664474609375,
+                        "Y": 5.923628540039062
+                    },
+                    "Pixel": {
+                        "X": 891.32894921875,
+                        "Y": 984.7257080078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6790662,
+                "AssetType": 8,
+                "Name": "QST_StmBda316",
+                "EnpcBase": "1020008",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": 6.007922,
+                    "Y": 2.534938,
+                    "Coords": {
+                        "X": 6.245275782226563,
+                        "Y": 6.175748270507813
+                    },
+                    "Pixel": {
+                        "X": 1049.0551564453126,
+                        "Y": 1035.1496541015626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6790663,
+                "AssetType": 8,
+                "Name": "QST_StmBda316",
+                "EnpcBase": "1020009",
+                "EnpcName": "Gosetsu",
+                "Transform": {
+                    "X": -45.23999,
+                    "Y": -31.82638,
+                    "Coords": {
+                        "X": 5.219316606445313,
+                        "Y": 5.487850791015625
+                    },
+                    "Pixel": {
+                        "X": 843.8633212890626,
+                        "Y": 897.5701582031251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6790664,
+                "AssetType": 8,
+                "Name": "QST_StmBda316",
+                "EnpcBase": "1020010",
+                "EnpcName": "Lyse",
+                "Transform": {
+                    "X": -30.00437,
+                    "Y": -2.805454,
+                    "Coords": {
+                        "X": 5.524326577148438,
+                        "Y": 6.068836125976563
+                    },
+                    "Pixel": {
+                        "X": 904.8653154296876,
+                        "Y": 1013.7672251953126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6790665,
+                "AssetType": 8,
+                "Name": "QST_StmBda316",
+                "EnpcBase": "1020011",
+                "EnpcName": "Yugiri",
+                "Transform": {
+                    "X": -49.87361,
+                    "Y": -12.88447,
+                    "Coords": {
+                        "X": 5.126553706054688,
+                        "Y": 5.867058950195313
+                    },
+                    "Pixel": {
+                        "X": 825.3107412109376,
+                        "Y": 973.4117900390626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6925469,
+                "AssetType": 8,
+                "Name": "QST_StmBda316",
+                "EnpcBase": "1020017",
+                "EnpcName": "Liberation Front infantry",
+                "Transform": {
+                    "X": -30.89954,
+                    "Y": -0.9613647,
+                    "Coords": {
+                        "X": 5.506405693359375,
+                        "Y": 6.1057539293457035
+                    },
+                    "Pixel": {
+                        "X": 901.281138671875,
+                        "Y": 1021.1507858691407
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7002272,
+                "AssetType": 8,
+                "Name": "QST_StmBda316",
+                "EnpcBase": "1020254",
+                "EnpcName": "Lyse",
+                "Transform": {
+                    "X": -30.14887,
+                    "Y": -3.690861,
+                    "Coords": {
+                        "X": 5.521433754882812,
+                        "Y": 6.051110692871093
+                    },
+                    "Pixel": {
+                        "X": 904.2867509765624,
+                        "Y": 1010.2221385742187
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6791474,
+                "AssetType": 8,
+                "Name": "QST_StmBda322",
+                "EnpcBase": "1020052",
+                "EnpcName": "Gosetsu",
+                "Transform": {
+                    "X": -52.46936,
+                    "Y": -25.72396,
+                    "Coords": {
+                        "X": 5.0745880078125,
+                        "Y": 5.61001837890625
+                    },
+                    "Pixel": {
+                        "X": 814.9176015625001,
+                        "Y": 922.00367578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6790662",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020008",
+                "EventID": "0",
+                "EnpcBase": "1020008",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": "6.00792",
+                    "Y": "2.53494",
+                    "Coords": {
+                        "X": 6.2452757421875,
+                        "Y": 6.175748310546875
+                    },
+                    "Pixel": {
+                        "X": 1049.0551484375,
+                        "Y": 1035.149662109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6790663",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020009",
+                "EventID": "0",
+                "EnpcBase": "1020009",
+                "EnpcName": "Gosetsu",
+                "Transform": {
+                    "X": "-45.24",
+                    "Y": "-31.8264",
+                    "Coords": {
+                        "X": 5.21931640625,
+                        "Y": 5.487850390625
+                    },
+                    "Pixel": {
+                        "X": 843.86328125,
+                        "Y": 897.570078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6790664",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020010",
+                "EventID": "0",
+                "EnpcBase": "1020010",
+                "EnpcName": "Lyse",
+                "Transform": {
+                    "X": "-30.0044",
+                    "Y": "-2.80545",
+                    "Coords": {
+                        "X": 5.5243259765625,
+                        "Y": 6.068836206054687
+                    },
+                    "Pixel": {
+                        "X": 904.8651953125001,
+                        "Y": 1013.7672412109374
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6790665",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020011",
+                "EventID": "0",
+                "EnpcBase": "1020011",
+                "EnpcName": "Yugiri",
+                "Transform": {
+                    "X": "-49.8736",
+                    "Y": "-12.8845",
+                    "Coords": {
+                        "X": 5.12655390625,
+                        "Y": 5.867058349609375
+                    },
+                    "Pixel": {
+                        "X": 825.31078125,
+                        "Y": 973.411669921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6791474",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020052",
+                "EventID": "0",
+                "EnpcBase": "1020052",
+                "EnpcName": "Gosetsu",
+                "Transform": {
+                    "X": "-52.4694",
+                    "Y": "-25.724",
+                    "Coords": {
+                        "X": 5.07458720703125,
+                        "Y": 5.610017578125
+                    },
+                    "Pixel": {
+                        "X": 814.91744140625,
+                        "Y": 922.0035156250001
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6829168",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020215",
+                "EventID": "0",
+                "EnpcBase": "1020215",
+                "EnpcName": "Haname",
+                "Transform": {
+                    "X": "-63.7064",
+                    "Y": "-20.0962",
+                    "Coords": {
+                        "X": 4.849627734375,
+                        "Y": 5.72268349609375
+                    },
+                    "Pixel": {
+                        "X": 769.925546875,
+                        "Y": 944.53669921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6829169",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020216",
+                "EventID": "0",
+                "EnpcBase": "1020216",
+                "EnpcName": "Kaidate",
+                "Transform": {
+                    "X": "-13.2698",
+                    "Y": "-25.3423",
+                    "Coords": {
+                        "X": 5.85934482421875,
+                        "Y": 5.617659033203125
+                    },
+                    "Pixel": {
+                        "X": 971.8689648437501,
+                        "Y": 923.5318066406251
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6829170",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020217",
+                "EventID": "0",
+                "EnpcBase": "1020217",
+                "EnpcName": "Motojiro",
+                "Transform": {
+                    "X": "-49.4851",
+                    "Y": "-10.6356",
+                    "Coords": {
+                        "X": 5.134331494140625,
+                        "Y": 5.9120802734375
+                    },
+                    "Pixel": {
+                        "X": 826.866298828125,
+                        "Y": 982.4160546874999
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6829171",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020218",
+                "EventID": "0",
+                "EnpcBase": "1020218",
+                "EnpcName": "Yagoro",
+                "Transform": {
+                    "X": "-72.282",
+                    "Y": "-13.3822",
+                    "Coords": {
+                        "X": 4.677948242187501,
+                        "Y": 5.85709462890625
+                    },
+                    "Pixel": {
+                        "X": 735.5896484375002,
+                        "Y": 971.41892578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6829172",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020219",
+                "EventID": "0",
+                "EnpcBase": "1020219",
+                "EnpcName": "Aoi",
+                "Transform": {
+                    "X": "-46.6598",
+                    "Y": "-35.2377",
+                    "Coords": {
+                        "X": 5.19089267578125,
+                        "Y": 5.419557763671875
+                    },
+                    "Pixel": {
+                        "X": 838.1785351562501,
+                        "Y": 883.911552734375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6829173",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1019271",
+                "EventID": "0",
+                "EnpcBase": "1019271",
+                "EnpcName": "",
+                "Transform": {
+                    "X": "-64.7747",
+                    "Y": "-21.2864",
+                    "Coords": {
+                        "X": 4.828240869140625,
+                        "Y": 5.6988562499999995
+                    },
+                    "Pixel": {
+                        "X": 765.6481738281251,
+                        "Y": 939.7712499999999
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6925469",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020017",
+                "EventID": "0",
+                "EnpcBase": "1020017",
+                "EnpcName": "Liberation Front infantry",
+                "Transform": {
+                    "X": "-30.8995",
+                    "Y": "-0.961365",
+                    "Coords": {
+                        "X": 5.506406494140625,
+                        "Y": 6.105753923339844
+                    },
+                    "Pixel": {
+                        "X": 901.281298828125,
+                        "Y": 1021.1507846679688
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6953504",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1022713",
+                "EventID": "0",
+                "EnpcBase": "1022713",
+                "EnpcName": "Subaru",
+                "Transform": {
+                    "X": "-33.3852",
+                    "Y": "-10.0588",
+                    "Coords": {
+                        "X": 5.4566439453125,
+                        "Y": 5.9236275390625
+                    },
+                    "Pixel": {
+                        "X": 891.3287890624999,
+                        "Y": 984.7255078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7002272",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1020254",
+                "EventID": "0",
+                "EnpcBase": "1020254",
+                "EnpcName": "Lyse",
+                "Transform": {
+                    "X": "-30.1489",
+                    "Y": "-3.69086",
+                    "Coords": {
+                        "X": 5.521433154296875,
+                        "Y": 6.051110712890625
+                    },
+                    "Pixel": {
+                        "X": 904.286630859375,
+                        "Y": 1010.222142578125
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [],
+        "PopRange": [
+            {
+                "LGB_ID": 6790667,
+                "AssetType": 40,
+                "Name": "QST_StmBda316",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 15.78711,
+                    "Y": -3.967516,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.441050541992187,
+                        "Y": 6.045572189453125
+                    },
+                    "Pixel": {
+                        "X": 1088.2101083984373,
+                        "Y": 1009.114437890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6791456,
+                "AssetType": 40,
+                "Name": "QST_StmBda321",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -47.1916,
+                    "Y": -22.38483,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 5.1802462890625005,
+                        "Y": 5.676866196289063
+                    },
+                    "Pixel": {
+                        "X": 836.0492578125001,
+                        "Y": 935.3732392578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6874512,
+                "AssetType": 40,
+                "Name": "QST_WARP_01",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 20.5189,
+                    "Y": 14.87658,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 6.535778759765624,
+                        "Y": 6.422822158203124
+                    },
+                    "Pixel": {
+                        "X": 1107.1557519531248,
+                        "Y": 1084.564431640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6790667",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "15.7871",
+                    "Y": "-3.96752",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.441050341796875,
+                        "Y": 6.045572109375
+                    },
+                    "Pixel": {
+                        "X": 1088.210068359375,
+                        "Y": 1009.114421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "6791456",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-47.1916",
+                    "Y": "-22.3848",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 5.1802462890625005,
+                        "Y": 5.676866796875
+                    },
+                    "Pixel": {
+                        "X": 836.0492578125001,
+                        "Y": 935.3733593750001
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

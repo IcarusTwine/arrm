@@ -1,0 +1,1746 @@
+{
+    "ID": "844",
+    "PlaceName": "The Ocular",
+    "Code": "n4e1",
+    "Map": {
+        "ID": "547",
+        "FixedTime": "-1",
+        "SizeFactor": "400",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "True",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [
+            "68838",
+            "68858",
+            "69166",
+            "69190",
+            "69211"
+        ],
+        "MapMarker": [
+            {
+                "Key": "385.0",
+                "Icon": "060441",
+                "coords": [
+                    1024,
+                    1080
+                ],
+                "SubText": "The Crystarium",
+                "SubtextOrientation": "down",
+                "Type": "1",
+                "Data": "'TerritoryType' => 819"
+            },
+            {
+                "Key": "385.1",
+                "Icon": "060441",
+                "coords": [
+                    1024,
+                    972
+                ],
+                "SubText": "The Syrcus Trench",
+                "SubtextOrientation": "top",
+                "Type": "1",
+                "Data": "'TerritoryType' => 842"
+            }
+        ]
+    },
+    "BGPath": "ex3\/01_nvt_n4\/evt\/n4e1\/level\/n4e1",
+    "BGM": {
+        "ID": "50031",
+        "BGM": {
+            "After Quest": "When It Rains",
+            "Music": "{label: 'music\/ffxiv\/BGM_Con_Ish_02.scd'},"
+        }
+    },
+    "ExclusiveType": "0",
+    "LGB_Data": {
+        "Vfx": [],
+        "PositionMarker": [],
+        "Gimmick": [],
+        "Sound": [],
+        "EventNPC": [
+            {
+                "LGB_ID": 7919070,
+                "AssetType": 8,
+                "Name": "QST_ENPC_001",
+                "EnpcBase": "1028923",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": 0,
+                    "Y": -6,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929724,
+                "AssetType": 8,
+                "Name": "QST_LucKma209",
+                "EnpcBase": "1029842",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": -2.018172,
+                    "Y": -4.192545,
+                    "Coords": {
+                        "X": 6.084597142578125,
+                        "Y": 6.0410672143554685
+                    },
+                    "Pixel": {
+                        "X": 1016.919428515625,
+                        "Y": 1008.2134428710937
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929618,
+                "AssetType": 8,
+                "Name": "QST_LucKma309_003",
+                "EnpcBase": "1029015",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": 2.247026,
+                    "Y": -4.103681,
+                    "Coords": {
+                        "X": 6.169984407226563,
+                        "Y": 6.042846229980469
+                    },
+                    "Pixel": {
+                        "X": 1033.9968814453125,
+                        "Y": 1008.5692459960939
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929674,
+                "AssetType": 8,
+                "Name": "QST_LucKmb101",
+                "EnpcBase": "1029845",
+                "EnpcName": "Lyna",
+                "Transform": {
+                    "X": 3.400324,
+                    "Y": -1.196222,
+                    "Coords": {
+                        "X": 6.193072892578125,
+                        "Y": 6.1010521962890625
+                    },
+                    "Pixel": {
+                        "X": 1038.614578515625,
+                        "Y": 1020.2104392578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929625,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1029596",
+                "EnpcName": "Thancred",
+                "Transform": {
+                    "X": 2.862716,
+                    "Y": 0.1787572,
+                    "Coords": {
+                        "X": 6.182310232421875,
+                        "Y": 6.1285786353515626
+                    },
+                    "Pixel": {
+                        "X": 1036.462046484375,
+                        "Y": 1025.7157270703126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929626,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1029597",
+                "EnpcName": "Minfilia",
+                "Transform": {
+                    "X": 2.488667,
+                    "Y": 1.518443,
+                    "Coords": {
+                        "X": 6.174821946777344,
+                        "Y": 6.155398517089844
+                    },
+                    "Pixel": {
+                        "X": 1034.964389355469,
+                        "Y": 1031.0797034179689
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929627,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1029598",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": -1.268785,
+                    "Y": 1.389191,
+                    "Coords": {
+                        "X": 6.099599519042968,
+                        "Y": 6.1528109526367185
+                    },
+                    "Pixel": {
+                        "X": 1019.9199038085936,
+                        "Y": 1030.5621905273438
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929631,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1029016",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": -1.848042,
+                    "Y": -2.984112,
+                    "Coords": {
+                        "X": 6.088003065429688,
+                        "Y": 6.0652594765625
+                    },
+                    "Pixel": {
+                        "X": 1017.6006130859375,
+                        "Y": 1013.0518953124999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7979687,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1030883",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": 0,
+                    "Y": 4.29694,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7979688,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1030884",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": -1.325531,
+                    "Y": 6.803672,
+                    "Coords": {
+                        "X": 6.098463490722656,
+                        "Y": 6.26120632421875
+                    },
+                    "Pixel": {
+                        "X": 1019.6926981445312,
+                        "Y": 1052.24126484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7979689,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1030885",
+                "EnpcName": "Thancred",
+                "Transform": {
+                    "X": 1.219959,
+                    "Y": 6.901143,
+                    "Coords": {
+                        "X": 6.149423007324219,
+                        "Y": 6.263157647949218
+                    },
+                    "Pixel": {
+                        "X": 1029.8846014648439,
+                        "Y": 1052.6315295898437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7979691,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1030886",
+                "EnpcName": "Minfilia",
+                "Transform": {
+                    "X": 2.22622,
+                    "Y": 7.913157,
+                    "Coords": {
+                        "X": 6.1695678808593755,
+                        "Y": 6.283417693847657
+                    },
+                    "Pixel": {
+                        "X": 1033.913576171875,
+                        "Y": 1056.6835387695314
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7979695,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1030888",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": -2.349682,
+                    "Y": 7.949426,
+                    "Coords": {
+                        "X": 6.077960467773438,
+                        "Y": 6.284143782226563
+                    },
+                    "Pixel": {
+                        "X": 1015.5920935546876,
+                        "Y": 1056.8287564453126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7979696,
+                "AssetType": 8,
+                "Name": "QST_LucKmc101_002",
+                "EnpcBase": "1030887",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": -3.382302,
+                    "Y": 7.50278,
+                    "Coords": {
+                        "X": 6.057287899414062,
+                        "Y": 6.275202138671874
+                    },
+                    "Pixel": {
+                        "X": 1011.4575798828124,
+                        "Y": 1055.0404277343748
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929628,
+                "AssetType": 8,
+                "Name": "QST_LucKmd104_001",
+                "EnpcBase": "1029610",
+                "EnpcName": "Y'shtola",
+                "Transform": {
+                    "X": -2.566896,
+                    "Y": 0.1521647,
+                    "Coords": {
+                        "X": 6.0736119453125,
+                        "Y": 6.128046265966797
+                    },
+                    "Pixel": {
+                        "X": 1014.7223890625,
+                        "Y": 1025.6092531933596
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7935529,
+                "AssetType": 8,
+                "Name": "QST_LucKmd104_001",
+                "EnpcBase": "1030367",
+                "EnpcName": "Emet-Selch",
+                "Transform": {
+                    "X": 0.7385567,
+                    "Y": 3.83906,
+                    "Coords": {
+                        "X": 6.139785558935547,
+                        "Y": 6.2018561816406255
+                    },
+                    "Pixel": {
+                        "X": 1027.9571117871094,
+                        "Y": 1040.3712363281252
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7934803,
+                "AssetType": 8,
+                "Name": "QST_LucKme101",
+                "EnpcBase": "1030163",
+                "EnpcName": "Emet-Selch",
+                "Transform": {
+                    "X": -9.652389,
+                    "Y": 7.437194,
+                    "Coords": {
+                        "X": 5.9317636967773435,
+                        "Y": 6.273889137695312
+                    },
+                    "Pixel": {
+                        "X": 986.3527393554687,
+                        "Y": 1054.7778275390624
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7934804,
+                "AssetType": 8,
+                "Name": "QST_LucKme101",
+                "EnpcBase": "1030164",
+                "EnpcName": "Lyna",
+                "Transform": {
+                    "X": 2.218948,
+                    "Y": 6.601725,
+                    "Coords": {
+                        "X": 6.169422298828125,
+                        "Y": 6.257163439941406
+                    },
+                    "Pixel": {
+                        "X": 1033.884459765625,
+                        "Y": 1051.4326879882813
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952797,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1030563",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": -2.456726,
+                    "Y": -5.142395,
+                    "Coords": {
+                        "X": 6.075817497070313,
+                        "Y": 6.022051662597656
+                    },
+                    "Pixel": {
+                        "X": 1015.1634994140626,
+                        "Y": 1004.4103325195313
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952798,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1030564",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": -3.952148,
+                    "Y": -3.189148,
+                    "Coords": {
+                        "X": 6.045879849609375,
+                        "Y": 6.061154751953125
+                    },
+                    "Pixel": {
+                        "X": 1009.175969921875,
+                        "Y": 1012.2309503906249
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952799,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1030565",
+                "EnpcName": "Thancred",
+                "Transform": {
+                    "X": 4.022875,
+                    "Y": -3.099059,
+                    "Coords": {
+                        "X": 6.205536071777344,
+                        "Y": 6.062958291503906
+                    },
+                    "Pixel": {
+                        "X": 1041.1072143554686,
+                        "Y": 1012.5916583007813
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952806,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1030566",
+                "EnpcName": "Ryne",
+                "Transform": {
+                    "X": 2.445654,
+                    "Y": -4.905531,
+                    "Coords": {
+                        "X": 6.173960846679687,
+                        "Y": 6.026793568847657
+                    },
+                    "Pixel": {
+                        "X": 1034.7921693359374,
+                        "Y": 1005.3587137695313
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952815,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1030567",
+                "EnpcName": "Y'shtola",
+                "Transform": {
+                    "X": -3.230594,
+                    "Y": -0.7057166,
+                    "Coords": {
+                        "X": 6.060325022460938,
+                        "Y": 6.110871884472656
+                    },
+                    "Pixel": {
+                        "X": 1012.0650044921875,
+                        "Y": 1022.1743768945313
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952817,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1030568",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": 3.142772,
+                    "Y": -0.8796104,
+                    "Coords": {
+                        "X": 6.187916822265625,
+                        "Y": 6.107390612109375
+                    },
+                    "Pixel": {
+                        "X": 1037.583364453125,
+                        "Y": 1021.478122421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952827,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1030576",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": -0.004376892,
+                    "Y": -6.004477,
+                    "Coords": {
+                        "X": 6.124912376673828,
+                        "Y": 6.004793185058594
+                    },
+                    "Pixel": {
+                        "X": 1024.9824753347657,
+                        "Y": 1000.9586370117187
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8050564,
+                "AssetType": 8,
+                "Name": "QST_LucKmf111",
+                "EnpcBase": "1031653",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": 0.06851046,
+                    "Y": -5.512282,
+                    "Coords": {
+                        "X": 6.126371547294922,
+                        "Y": 6.014646698242188
+                    },
+                    "Pixel": {
+                        "X": 1025.2743094589844,
+                        "Y": 1002.9293396484375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8147080,
+                "AssetType": 8,
+                "Name": "QST_LucKmg101_002",
+                "EnpcBase": "1032121",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": 0.0685,
+                    "Y": -5.5123,
+                    "Coords": {
+                        "X": 6.126371337890625,
+                        "Y": 6.014646337890625
+                    },
+                    "Pixel": {
+                        "X": 1025.2742675781249,
+                        "Y": 1002.929267578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8133495,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1031722",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": -1.7796,
+                    "Y": -1.7992,
+                    "Coords": {
+                        "X": 6.0893732421875,
+                        "Y": 6.088980859375
+                    },
+                    "Pixel": {
+                        "X": 1017.8746484375001,
+                        "Y": 1017.796171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8133496,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1031723",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": -2.6966,
+                    "Y": -3.8466,
+                    "Coords": {
+                        "X": 6.0710153320312505,
+                        "Y": 6.04799287109375
+                    },
+                    "Pixel": {
+                        "X": 1014.2030664062501,
+                        "Y": 1009.59857421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8133497,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1031724",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": 2.9891,
+                    "Y": -3.0948,
+                    "Coords": {
+                        "X": 6.1848403808593755,
+                        "Y": 6.0630435546875
+                    },
+                    "Pixel": {
+                        "X": 1036.968076171875,
+                        "Y": 1012.6087109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8133498,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1031725",
+                "EnpcName": "Y'shtola",
+                "Transform": {
+                    "X": 2.281872,
+                    "Y": -1.333338,
+                    "Coords": {
+                        "X": 6.1706820078125,
+                        "Y": 6.098307198242187
+                    },
+                    "Pixel": {
+                        "X": 1034.1364015625,
+                        "Y": 1019.6614396484374
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8153168,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1029566",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": -0.9798509,
+                    "Y": -2.795108,
+                    "Coords": {
+                        "X": 6.105383844287109,
+                        "Y": 6.069043248046875
+                    },
+                    "Pixel": {
+                        "X": 1021.0767688574218,
+                        "Y": 1013.808649609375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8153169,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1029567",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": 0.5875206,
+                    "Y": -3.094179,
+                    "Coords": {
+                        "X": 6.136761887011719,
+                        "Y": 6.063055986816407
+                    },
+                    "Pixel": {
+                        "X": 1027.3523774023438,
+                        "Y": 1012.6111973632813
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8153170,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1032218",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": -2.504783,
+                    "Y": -1.368569,
+                    "Coords": {
+                        "X": 6.074855418457031,
+                        "Y": 6.097601890136718
+                    },
+                    "Pixel": {
+                        "X": 1014.9710836914062,
+                        "Y": 1019.5203780273437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8153171,
+                "AssetType": 8,
+                "Name": "QST_LucKmg102_001",
+                "EnpcBase": "1032219",
+                "EnpcName": "Y'shtola",
+                "Transform": {
+                    "X": -0.08738208,
+                    "Y": -1.125532,
+                    "Coords": {
+                        "X": 6.12325065171875,
+                        "Y": 6.1024673769531255
+                    },
+                    "Pixel": {
+                        "X": 1024.6501303437499,
+                        "Y": 1020.4934753906251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8147078,
+                "AssetType": 8,
+                "Name": "QST_LucKmg103_001",
+                "EnpcBase": "1032122",
+                "EnpcName": "Beq Lugg",
+                "Transform": {
+                    "X": 2.1855,
+                    "Y": -5.1319,
+                    "Coords": {
+                        "X": 6.168752685546875,
+                        "Y": 6.022261767578125
+                    },
+                    "Pixel": {
+                        "X": 1033.750537109375,
+                        "Y": 1004.452353515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8260839,
+                "AssetType": 8,
+                "Name": "QST_LucKmh110_002",
+                "EnpcBase": "1032556",
+                "EnpcName": "Thancred",
+                "Transform": {
+                    "X": -2.853944,
+                    "Y": -0.8615236,
+                    "Coords": {
+                        "X": 6.06786537890625,
+                        "Y": 6.107752701367188
+                    },
+                    "Pixel": {
+                        "X": 1013.5730757812499,
+                        "Y": 1021.5505402734376
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8260841,
+                "AssetType": 8,
+                "Name": "QST_LucKmh110_002",
+                "EnpcBase": "1032557",
+                "EnpcName": "Ryne",
+                "Transform": {
+                    "X": -2.939283,
+                    "Y": -2.565737,
+                    "Coords": {
+                        "X": 6.066156932128907,
+                        "Y": 6.0736351479492185
+                    },
+                    "Pixel": {
+                        "X": 1013.2313864257814,
+                        "Y": 1014.7270295898437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8336947,
+                "AssetType": 8,
+                "Name": "QST_LucKmh110_002",
+                "EnpcBase": "1031817",
+                "EnpcName": "Beq Lugg",
+                "Transform": {
+                    "X": 12.24711,
+                    "Y": -2.016987,
+                    "Coords": {
+                        "X": 6.370181401367188,
+                        "Y": 6.084620865722656
+                    },
+                    "Pixel": {
+                        "X": 1074.0362802734376,
+                        "Y": 1016.9241731445313
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7919070",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1028923",
+                "EventID": "0",
+                "EnpcBase": "1028923",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": "0",
+                    "Y": "-6",
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.0048828125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1000.9765625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929618",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029015",
+                "EventID": "0",
+                "EnpcBase": "1029015",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": "2.24703",
+                    "Y": "-4.10368",
+                    "Coords": {
+                        "X": 6.169984487304688,
+                        "Y": 6.04284625
+                    },
+                    "Pixel": {
+                        "X": 1033.9968974609376,
+                        "Y": 1008.56925
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929625",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029596",
+                "EventID": "0",
+                "EnpcBase": "1029596",
+                "EnpcName": "Thancred",
+                "Transform": {
+                    "X": "2.86272",
+                    "Y": "0.178757",
+                    "Coords": {
+                        "X": 6.1823103125,
+                        "Y": 6.128578631347657
+                    },
+                    "Pixel": {
+                        "X": 1036.4620625,
+                        "Y": 1025.7157262695314
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929626",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029597",
+                "EventID": "0",
+                "EnpcBase": "1029597",
+                "EnpcName": "Minfilia",
+                "Transform": {
+                    "X": "2.48867",
+                    "Y": "1.51844",
+                    "Coords": {
+                        "X": 6.174822006835938,
+                        "Y": 6.15539845703125
+                    },
+                    "Pixel": {
+                        "X": 1034.9644013671875,
+                        "Y": 1031.07969140625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929627",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029598",
+                "EventID": "0",
+                "EnpcBase": "1029598",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": "-1.26878",
+                    "Y": "1.38919",
+                    "Coords": {
+                        "X": 6.099599619140625,
+                        "Y": 6.152810932617188
+                    },
+                    "Pixel": {
+                        "X": 1019.9199238281251,
+                        "Y": 1030.5621865234375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929628",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029610",
+                "EventID": "0",
+                "EnpcBase": "1029610",
+                "EnpcName": "Y'shtola",
+                "Transform": {
+                    "X": "-2.5669",
+                    "Y": "0.152165",
+                    "Coords": {
+                        "X": 6.073611865234375,
+                        "Y": 6.128046271972657
+                    },
+                    "Pixel": {
+                        "X": 1014.7223730468751,
+                        "Y": 1025.6092543945315
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929631",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029016",
+                "EventID": "0",
+                "EnpcBase": "1029016",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": "-1.84804",
+                    "Y": "-2.98411",
+                    "Coords": {
+                        "X": 6.08800310546875,
+                        "Y": 6.065259516601563
+                    },
+                    "Pixel": {
+                        "X": 1017.60062109375,
+                        "Y": 1013.0519033203125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929674",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029845",
+                "EventID": "0",
+                "EnpcBase": "1029845",
+                "EnpcName": "Lyna",
+                "Transform": {
+                    "X": "3.40032",
+                    "Y": "-1.19622",
+                    "Coords": {
+                        "X": 6.1930728125000005,
+                        "Y": 6.101052236328125
+                    },
+                    "Pixel": {
+                        "X": 1038.6145625000001,
+                        "Y": 1020.210447265625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929724",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029842",
+                "EventID": "0",
+                "EnpcBase": "1029842",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": "-2.01817",
+                    "Y": "-4.19254",
+                    "Coords": {
+                        "X": 6.084597182617188,
+                        "Y": 6.041067314453125
+                    },
+                    "Pixel": {
+                        "X": 1016.9194365234375,
+                        "Y": 1008.213462890625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7952827",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1030576",
+                "EventID": "0",
+                "EnpcBase": "1030576",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": "-0.00437689",
+                    "Y": "-6.00448",
+                    "Coords": {
+                        "X": 6.124912376713867,
+                        "Y": 6.004793125
+                    },
+                    "Pixel": {
+                        "X": 1024.9824753427736,
+                        "Y": 1000.958625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7979687",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1030883",
+                "EventID": "0",
+                "EnpcBase": "1030883",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": "0",
+                    "Y": "4.29694",
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.211022724609375
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1042.204544921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7979688",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1030884",
+                "EventID": "0",
+                "EnpcBase": "1030884",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": "-1.32553",
+                    "Y": "6.80367",
+                    "Coords": {
+                        "X": 6.098463510742188,
+                        "Y": 6.261206284179687
+                    },
+                    "Pixel": {
+                        "X": 1019.6927021484375,
+                        "Y": 1052.2412568359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7979689",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1030885",
+                "EventID": "0",
+                "EnpcBase": "1030885",
+                "EnpcName": "Thancred",
+                "Transform": {
+                    "X": "1.21996",
+                    "Y": "6.90114",
+                    "Coords": {
+                        "X": 6.14942302734375,
+                        "Y": 6.263157587890625
+                    },
+                    "Pixel": {
+                        "X": 1029.88460546875,
+                        "Y": 1052.6315175781249
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7979691",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1030886",
+                "EventID": "0",
+                "EnpcBase": "1030886",
+                "EnpcName": "Minfilia",
+                "Transform": {
+                    "X": "2.22622",
+                    "Y": "7.91316",
+                    "Coords": {
+                        "X": 6.1695678808593755,
+                        "Y": 6.28341775390625
+                    },
+                    "Pixel": {
+                        "X": 1033.913576171875,
+                        "Y": 1056.68355078125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7979695",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1030888",
+                "EventID": "0",
+                "EnpcBase": "1030888",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": "-2.34968",
+                    "Y": "7.94943",
+                    "Coords": {
+                        "X": 6.0779605078125,
+                        "Y": 6.2841438623046875
+                    },
+                    "Pixel": {
+                        "X": 1015.5921015624999,
+                        "Y": 1056.8287724609374
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7979696",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1030887",
+                "EventID": "0",
+                "EnpcBase": "1030887",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": "-3.3823",
+                    "Y": "7.50278",
+                    "Coords": {
+                        "X": 6.057287939453126,
+                        "Y": 6.275202138671874
+                    },
+                    "Pixel": {
+                        "X": 1011.4575878906251,
+                        "Y": 1055.0404277343748
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8050564",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1031653",
+                "EventID": "0",
+                "EnpcBase": "1031653",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": "0.0685105",
+                    "Y": "-5.51228",
+                    "Coords": {
+                        "X": 6.126371548095703,
+                        "Y": 6.01464673828125
+                    },
+                    "Pixel": {
+                        "X": 1025.2743096191405,
+                        "Y": 1002.92934765625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8133495",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1031722",
+                "EventID": "0",
+                "EnpcBase": "1031722",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": "-1.7796",
+                    "Y": "-1.7992",
+                    "Coords": {
+                        "X": 6.0893732421875,
+                        "Y": 6.088980859375
+                    },
+                    "Pixel": {
+                        "X": 1017.8746484375001,
+                        "Y": 1017.796171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8133496",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1031723",
+                "EventID": "0",
+                "EnpcBase": "1031723",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": "-2.6966",
+                    "Y": "-3.8466",
+                    "Coords": {
+                        "X": 6.0710153320312505,
+                        "Y": 6.04799287109375
+                    },
+                    "Pixel": {
+                        "X": 1014.2030664062501,
+                        "Y": 1009.59857421875
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8133497",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1031724",
+                "EventID": "0",
+                "EnpcBase": "1031724",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": "2.9891",
+                    "Y": "-3.0948",
+                    "Coords": {
+                        "X": 6.1848403808593755,
+                        "Y": 6.0630435546875
+                    },
+                    "Pixel": {
+                        "X": 1036.968076171875,
+                        "Y": 1012.6087109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8133498",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1031725",
+                "EventID": "0",
+                "EnpcBase": "1031725",
+                "EnpcName": "Y'shtola",
+                "Transform": {
+                    "X": "2.28187",
+                    "Y": "-1.33334",
+                    "Coords": {
+                        "X": 6.170681967773438,
+                        "Y": 6.098307158203125
+                    },
+                    "Pixel": {
+                        "X": 1034.1363935546876,
+                        "Y": 1019.6614316406251
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8147078",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1032122",
+                "EventID": "0",
+                "EnpcBase": "1032122",
+                "EnpcName": "Beq Lugg",
+                "Transform": {
+                    "X": "2.1855",
+                    "Y": "-5.1319",
+                    "Coords": {
+                        "X": 6.168752685546875,
+                        "Y": 6.022261767578125
+                    },
+                    "Pixel": {
+                        "X": 1033.750537109375,
+                        "Y": 1004.452353515625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8147080",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1032121",
+                "EventID": "0",
+                "EnpcBase": "1032121",
+                "EnpcName": "Crystal Exarch",
+                "Transform": {
+                    "X": "0.0685",
+                    "Y": "-5.5123",
+                    "Coords": {
+                        "X": 6.126371337890625,
+                        "Y": 6.014646337890625
+                    },
+                    "Pixel": {
+                        "X": 1025.2742675781249,
+                        "Y": 1002.929267578125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8153168",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029566",
+                "EventID": "0",
+                "EnpcBase": "1029566",
+                "EnpcName": "Alphinaud",
+                "Transform": {
+                    "X": "-0.979851",
+                    "Y": "-2.79511",
+                    "Coords": {
+                        "X": 6.105383842285156,
+                        "Y": 6.0690432080078125
+                    },
+                    "Pixel": {
+                        "X": 1021.0767684570312,
+                        "Y": 1013.8086416015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8153169",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1029567",
+                "EventID": "0",
+                "EnpcBase": "1029567",
+                "EnpcName": "Alisaie",
+                "Transform": {
+                    "X": "0.587521",
+                    "Y": "-3.09418",
+                    "Coords": {
+                        "X": 6.136761895019531,
+                        "Y": 6.063055966796875
+                    },
+                    "Pixel": {
+                        "X": 1027.3523790039062,
+                        "Y": 1012.611193359375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8153170",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1032218",
+                "EventID": "0",
+                "EnpcBase": "1032218",
+                "EnpcName": "Urianger",
+                "Transform": {
+                    "X": "-2.50478",
+                    "Y": "-1.36857",
+                    "Coords": {
+                        "X": 6.074855478515625,
+                        "Y": 6.097601870117187
+                    },
+                    "Pixel": {
+                        "X": 1014.971095703125,
+                        "Y": 1019.5203740234374
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8153171",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1032219",
+                "EventID": "0",
+                "EnpcBase": "1032219",
+                "EnpcName": "Y'shtola",
+                "Transform": {
+                    "X": "-0.0873821",
+                    "Y": "-1.12553",
+                    "Coords": {
+                        "X": 6.123250651318359,
+                        "Y": 6.102467416992187
+                    },
+                    "Pixel": {
+                        "X": 1024.6501302636718,
+                        "Y": 1020.4934833984374
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8336947",
+                "AssetType": "8",
+                "Name": "",
+                "AssetObject": "1031817",
+                "EventID": "0",
+                "EnpcBase": "1031817",
+                "EnpcName": "Beq Lugg",
+                "Transform": {
+                    "X": "12.2471",
+                    "Y": "-2.01699",
+                    "Coords": {
+                        "X": 6.370181201171874,
+                        "Y": 6.084620805664063
+                    },
+                    "Pixel": {
+                        "X": 1074.0362402343749,
+                        "Y": 1016.9241611328125
+                    }
+                }
+            }
+        ],
+        "Aetheryte": [],
+        "EnvSpace": [
+            {
+                "LGB_ID": 8037607,
+                "AssetType": 13,
+                "Name": "EnvBox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/nvt_n4\/n4_evt\/sound_n4e1.essb",
+                "Transform": {
+                    "X": -0.01877284,
+                    "Y": 0.0161177,
+                    "Scale": 20,
+                    "Coords": {
+                        "X": 6.1246241765429685,
+                        "Y": 6.1253226687988285
+                    },
+                    "Pixel": {
+                        "X": 1024.9248353085936,
+                        "Y": 1025.0645337597657
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8037608,
+                "AssetType": 13,
+                "Name": "EnvBox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/nvt_n4\/n4_evt\/sound_n4e1.essb",
+                "Transform": {
+                    "X": 24.87989,
+                    "Y": 0.0161177,
+                    "Scale": 15,
+                    "Coords": {
+                        "X": 6.623083735351562,
+                        "Y": 6.1253226687988285
+                    },
+                    "Pixel": {
+                        "X": 1124.6167470703124,
+                        "Y": 1025.0645337597657
+                    }
+                }
+            }
+        ],
+        "PopRange": [
+            {
+                "LGB_ID": 7878732,
+                "AssetType": 40,
+                "Name": "PUB_POPRANGE",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0.03870201,
+                    "Y": 9.714113,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125774796098633,
+                        "Y": 6.319471988769531
+                    },
+                    "Pixel": {
+                        "X": 1025.1549592197266,
+                        "Y": 1063.8943977539063
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8010063,
+                "AssetType": 40,
+                "Name": "QST_LucKma103",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.0202732,
+                    "Y": -10.54043,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.124594140039063,
+                        "Y": 5.913985532226562
+                    },
+                    "Pixel": {
+                        "X": 1024.9188280078126,
+                        "Y": 982.7971064453124
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8011414,
+                "AssetType": 40,
+                "Name": "QST_LucKma103",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0.0387,
+                    "Y": 9.7141,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125774755859375,
+                        "Y": 6.319471728515625
+                    },
+                    "Pixel": {
+                        "X": 1025.154951171875,
+                        "Y": 1063.894345703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7929675,
+                "AssetType": 40,
+                "Name": "QST_LucKmb101",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7937639,
+                "AssetType": 40,
+                "Name": "QST_LucKme101",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0.0084638,
+                    "Y": 1.121384,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125169441308594,
+                        "Y": 6.14744958203125
+                    },
+                    "Pixel": {
+                        "X": 1025.0338882617189,
+                        "Y": 1029.48991640625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7952791,
+                "AssetType": 40,
+                "Name": "QST_LucKmf111",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": -0.02751347,
+                    "Y": 9.719261,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.124449193227539,
+                        "Y": 6.3195750493164065
+                    },
+                    "Pixel": {
+                        "X": 1024.8898386455078,
+                        "Y": 1063.9150098632813
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8149860,
+                "AssetType": 40,
+                "Name": "QST_LucKmg103_001",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7929675",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "0",
+                    "Y": "0",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7937639",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "0.0084638",
+                    "Y": "1.12138",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.125169441308594,
+                        "Y": 6.147449501953124
+                    },
+                    "Pixel": {
+                        "X": 1025.0338882617189,
+                        "Y": 1029.4899003906248
+                    }
+                }
+            },
+            {
+                "LGB_ID": "7952791",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "-0.0275135",
+                    "Y": "9.71926",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.124449192626953,
+                        "Y": 6.3195750292968755
+                    },
+                    "Pixel": {
+                        "X": 1024.8898385253906,
+                        "Y": 1063.915005859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8011414",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "0.0387",
+                    "Y": "9.7141",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.125774755859375,
+                        "Y": 6.319471728515625
+                    },
+                    "Pixel": {
+                        "X": 1025.154951171875,
+                        "Y": 1063.894345703125
+                    }
+                }
+            },
+            {
+                "LGB_ID": "8149860",
+                "AssetType": "40",
+                "Name": "",
+                "AssetObject": "0",
+                "EventID": "0",
+                "Transform": {
+                    "X": "0",
+                    "Y": "0",
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 6.125,
+                        "Y": 6.125
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [],
+        "EventObject": [
+            {
+                "LGB_ID": 7878092,
+                "AssetType": 45,
+                "Name": "QST_POSITION_000",
+                "EobjId": "2009758",
+                "EobjName": "Exit To The Crystarium",
+                "EobjData": {
+                    "WarpID": "131311",
+                    "WarpName": "",
+                    "WarpQuestion": "Exit the Ocular?"
+                },
+                "Transform": {
+                    "X": -0.009940993,
+                    "Y": 14.22064,
+                    "Coords": {
+                        "X": 6.124800985979981,
+                        "Y": 6.409690546875
+                    },
+                    "Pixel": {
+                        "X": 1024.9601971959962,
+                        "Y": 1081.938109375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 8010061,
+                "AssetType": 45,
+                "Name": "QST_LucKma103",
+                "EobjId": "2010509",
+                "EobjName": "Portal To The Source",
+                "EobjData": {
+                    "WarpID": "131325",
+                    "WarpName": "",
+                    "WarpQuestion": "Return to the Source?"
+                },
+                "Transform": {
+                    "X": 0.007193197,
+                    "Y": -13.77842,
+                    "Coords": {
+                        "X": 6.125144004432129,
+                        "Y": 5.849162490234375
+                    },
+                    "Pixel": {
+                        "X": 1025.0288008864259,
+                        "Y": 969.8324980468749
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [],
+        "CollisionBox": [],
+        "LineVfx": [],
+        "ClientPath": [],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}

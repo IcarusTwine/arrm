@@ -1,0 +1,2810 @@
+{
+    "ID": "444",
+    "PlaceName": "The Arm of the Father",
+    "Code": "d2a3",
+    "Map": {
+        "ID": "239",
+        "FixedTime": "-1",
+        "SizeFactor": "200",
+        "Offset X": "0",
+        "Offset Y": "0",
+        "EventMap": "False",
+        "CanMount": "False",
+        "CanStealth": "False",
+        "SearchPlayer": "True",
+        "Weather": [
+            "Fair Skies"
+        ],
+        "ArrayHandler": [],
+        "MapMarker": [
+            {
+                "Key": "178.0",
+                "Icon": "060442",
+                "coords": [
+                    1030,
+                    1110
+                ],
+                "SubText": "Serviceway #523",
+                "SubtextOrientation": "down",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "178.1",
+                "Icon": "060442",
+                "coords": [
+                    1030,
+                    1090
+                ],
+                "SubText": "Strategeion - 1F",
+                "SubtextOrientation": "right",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "178.2",
+                "Icon": "060442",
+                "coords": [
+                    960,
+                    1024
+                ],
+                "SubText": "Strategeion - 2F",
+                "SubtextOrientation": "left",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "178.3",
+                "Icon": "060442",
+                "coords": [
+                    1030,
+                    968
+                ],
+                "SubText": "Strategeion - 3F",
+                "SubtextOrientation": "top",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "178.4",
+                "Icon": "060442",
+                "coords": [
+                    1030,
+                    1066
+                ],
+                "SubText": "Strategeion - 4F",
+                "SubtextOrientation": "top",
+                "Type": "0",
+                "Data": ""
+            },
+            {
+                "Key": "178.5",
+                "Icon": "060442",
+                "coords": [
+                    1140,
+                    900
+                ],
+                "SubText": "Condensate Demineralizer #9",
+                "SubtextOrientation": "top",
+                "Type": "0",
+                "Data": ""
+            }
+        ]
+    },
+    "BGPath": "ex1\/02_dra_d2\/alx\/d2a3\/level\/d2a3",
+    "BGM": {
+        "ID": "1001",
+        "BGM": {
+            "Day": "music\/ffxiv\/BGM_Null.scd",
+            "Night": "music\/ffxiv\/BGM_Null.scd",
+            "Battle": "music\/ffxiv\/BGM_Null.scd",
+            "Dawn": ""
+        }
+    },
+    "ExclusiveType": "2",
+    "LGB_Data": {
+        "Vfx": [
+            {
+                "LGB_ID": 5905925,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ex1\/02_dra_d2\/common\/vfx\/eff\/d2a3bolt01_o.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            },
+            {
+                "LGB_ID": 5905925,
+                "AssetType": 4,
+                "Name": "VFX_001",
+                "AssetPath": "bg\/ex1\/02_dra_d2\/common\/vfx\/eff\/d2a3bolt01_o.avfx",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "Color": {
+                    "R": 255,
+                    "G": 255,
+                    "B": 255
+                }
+            }
+        ],
+        "PositionMarker": [],
+        "Gimmick": [
+            {
+                "LGB_ID": 6048829,
+                "AssetType": 6,
+                "Name": "LVD_gimmick_01",
+                "AssetPath": "bg\/ex1\/02_dra_d2\/shared\/for_pln\/sgpl_d2a3_wall.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 20.33398,
+                    "Y": 8.427227,
+                    "Coords": {
+                        "X": 11.657076748046874,
+                        "Y": 11.418709134277345
+                    },
+                    "Pixel": {
+                        "X": 1065.7076748046875,
+                        "Y": 1041.8709134277344
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787963,
+                "AssetType": 6,
+                "Name": "LVD_gimmick_03",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0118.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 58,
+                    "Y": -20.94315,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.830727954101562
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 983.0727954101562
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5905878,
+                "AssetType": 6,
+                "Name": "LVD_gimmick_03",
+                "AssetPath": "bg\/ex1\/02_dra_d2\/shared\/for_vfx\/sgvf_d2a2_b0721.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 58,
+                    "Y": -63,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 9.98876953125
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 898.876953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787948,
+                "AssetType": 6,
+                "Name": "LVD_zone_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0095.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 43.08631,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787950,
+                "AssetType": 6,
+                "Name": "LVD_zone_01",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0055.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 0,
+                    "Y": 54.63746,
+                    "Coords": {
+                        "X": "",
+                        "Y": ""
+                    },
+                    "Pixel": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5911895,
+                "AssetType": 6,
+                "Name": "LVD_zone_0102",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_pln\/sgpl_w_lvd_colwithnavi.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 58,
+                    "Y": 1.464791,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 11.27932442919922
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 1027.9324429199219
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5911899,
+                "AssetType": 6,
+                "Name": "LVD_zone_0102",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0095.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 58,
+                    "Y": -11.13204,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 11.027141777343749
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 1002.7141777343749
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5911898,
+                "AssetType": 6,
+                "Name": "LVD_zone_02",
+                "AssetPath": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0055.sgb",
+                "DoorState": 1,
+                "Transform": {
+                    "X": 58,
+                    "Y": -1.515995,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 11.219650490722657
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 1021.9650490722656
+                    }
+                }
+            }
+        ],
+        "Sound": [
+            {
+                "LGB_ID": 5939831,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 20.81195,
+                    "Y": 35.08067,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 11.666645483398439,
+                        "Y": 11.95229856933594
+                    },
+                    "Pixel": {
+                        "X": 1066.6645483398438,
+                        "Y": 1095.229856933594
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5939832,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": -20.83532,
+                    "Y": -3.094786,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 10.83288666015625,
+                        "Y": 11.188043834960938
+                    },
+                    "Pixel": {
+                        "X": 983.288666015625,
+                        "Y": 1018.8043834960938
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5939833,
+                "AssetType": 7,
+                "Name": "obstruction",
+                "AssetPath": "",
+                "Transform": {
+                    "X": 67.16351,
+                    "Y": -22.6019,
+                    "Scale": 1,
+                    "Coords": {
+                        "X": 12.594581987304688,
+                        "Y": 10.797520556640626
+                    },
+                    "Pixel": {
+                        "X": 1159.4581987304687,
+                        "Y": 979.7520556640626
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940399,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 55.33662,
+                    "Y": 3.366519,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.357813193359377,
+                        "Y": 11.31739613232422
+                    },
+                    "Pixel": {
+                        "X": 1135.7813193359377,
+                        "Y": 1031.739613232422
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940400,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 61.38763,
+                    "Y": -2.669663,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.478951577148436,
+                        "Y": 11.19655459814453
+                    },
+                    "Pixel": {
+                        "X": 1147.8951577148437,
+                        "Y": 1019.655459814453
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940401,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/lak\/lak_spot_l1r1_e2_towr0_lv3.scd",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940402,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/lak\/lak_spot_l1r1_e2_towr0_lv3.scd",
+                "Transform": {
+                    "X": -6.771036,
+                    "Y": -5.602046,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.114447033203126,
+                        "Y": 11.137849665039063
+                    },
+                    "Pixel": {
+                        "X": 1011.4447033203126,
+                        "Y": 1013.7849665039063
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940404,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_plane_flying.scd",
+                "Transform": {
+                    "X": 0.3,
+                    "Y": 0.3,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.256005859375,
+                        "Y": 11.256005859375
+                    },
+                    "Pixel": {
+                        "X": 1025.6005859375,
+                        "Y": 1025.6005859375
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940406,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/fst\/placednpc_spark.scd",
+                "Transform": {
+                    "X": 0.6,
+                    "Y": 0.6,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.262011718750001,
+                        "Y": 11.262011718750001
+                    },
+                    "Pixel": {
+                        "X": 1026.201171875,
+                        "Y": 1026.201171875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940408,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 65.96891,
+                    "Y": -33.24372,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.570666655273438,
+                        "Y": 10.58447630859375
+                    },
+                    "Pixel": {
+                        "X": 1157.0666655273437,
+                        "Y": 958.4476308593751
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940409,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 50.05896,
+                    "Y": -33.2776,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.2521569140625,
+                        "Y": 10.583798046875
+                    },
+                    "Pixel": {
+                        "X": 1125.21569140625,
+                        "Y": 958.3798046874999
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940410,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 28.29605,
+                    "Y": -55.01355,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.816473657226563,
+                        "Y": 10.148654516601562
+                    },
+                    "Pixel": {
+                        "X": 1081.6473657226563,
+                        "Y": 914.8654516601562
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940411,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 28.28228,
+                    "Y": -70.94919,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 11.81619798828125,
+                        "Y": 9.829630473632813
+                    },
+                    "Pixel": {
+                        "X": 1081.6197988281249,
+                        "Y": 882.9630473632812
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940412,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 50.03797,
+                    "Y": -92.70552,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.251736704101562,
+                        "Y": 9.3940789453125
+                    },
+                    "Pixel": {
+                        "X": 1125.1736704101563,
+                        "Y": 839.4078945312501
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940413,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 65.96062,
+                    "Y": -92.71597,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 12.570500693359376,
+                        "Y": 9.393869741210938
+                    },
+                    "Pixel": {
+                        "X": 1157.0500693359377,
+                        "Y": 839.3869741210939
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940414,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 87.73535,
+                    "Y": -70.94157,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 13.00642058105469,
+                        "Y": 9.829783022460937
+                    },
+                    "Pixel": {
+                        "X": 1200.642058105469,
+                        "Y": 882.9783022460937
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5940415,
+                "AssetType": 7,
+                "Name": "Sound",
+                "AssetPath": "bgcommon\/sound\/wil\/wil_spot_ceiling_fan_l.scd",
+                "Transform": {
+                    "X": 87.72195,
+                    "Y": -55.05877,
+                    "Scale": 5,
+                    "Coords": {
+                        "X": 13.006152319335937,
+                        "Y": 10.147749233398438
+                    },
+                    "Pixel": {
+                        "X": 1200.6152319335938,
+                        "Y": 914.7749233398438
+                    }
+                }
+            }
+        ],
+        "EventNPC": [],
+        "Aetheryte": [],
+        "EnvSpace": [
+            {
+                "LGB_ID": 5939806,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.5,
+                "Filter": 1,
+                "SoundAssetPath": "bgcommon\/env\/sound\/dra_d2\/d2_alx\/sound_d2a3_l.essb",
+                "Transform": {
+                    "X": 2.159508,
+                    "Y": 56.21029,
+                    "Scale": 10.2196,
+                    "Coords": {
+                        "X": 11.293232337890624,
+                        "Y": 12.375303657226562
+                    },
+                    "Pixel": {
+                        "X": 1029.3232337890624,
+                        "Y": 1137.5303657226561
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5939807,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.5,
+                "Filter": 1,
+                "SoundAssetPath": "bgcommon\/env\/sound\/dra_d2\/d2_alx\/sound_d2a3_l.essb",
+                "Transform": {
+                    "X": 56.21683,
+                    "Y": -5.751806,
+                    "Scale": 10.2196,
+                    "Coords": {
+                        "X": 12.375434584960937,
+                        "Y": 11.134851540039064
+                    },
+                    "Pixel": {
+                        "X": 1137.5434584960938,
+                        "Y": 1013.4851540039064
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5939808,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.7,
+                "Filter": 0,
+                "SoundAssetPath": "bgcommon\/env\/sound\/dra_d2\/d2_alx\/sound_d2a1_l.essb",
+                "Transform": {
+                    "X": 57.92839,
+                    "Y": -62.93157,
+                    "Scale": 44.1933,
+                    "Coords": {
+                        "X": 12.409699213867189,
+                        "Y": 9.990139467773437
+                    },
+                    "Pixel": {
+                        "X": 1140.9699213867189,
+                        "Y": 899.0139467773437
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5939809,
+                "AssetType": 13,
+                "Name": "envbox",
+                "EffectiveRange": 100,
+                "InterpolationTime": 2000,
+                "Reverb": 0.5,
+                "Filter": 1,
+                "SoundAssetPath": "bgcommon\/env\/sound\/dra_d2\/d2_alx\/sound_d2a1_l.essb",
+                "Transform": {
+                    "X": 112.1974,
+                    "Y": -66.6629,
+                    "Scale": 9.751338,
+                    "Coords": {
+                        "X": 13.49613935546875,
+                        "Y": 9.915439990234376
+                    },
+                    "Pixel": {
+                        "X": 1249.6139355468752,
+                        "Y": 891.5439990234376
+                    }
+                }
+            }
+        ],
+        "PopRange": [
+            {
+                "LGB_ID": 5787956,
+                "AssetType": 40,
+                "Name": "LVD_gimmick_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 57,
+                    "Y": -41.80518,
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 12.39111328125,
+                        "Y": 10.413079892578125
+                    },
+                    "Pixel": {
+                        "X": 1139.111328125,
+                        "Y": 941.3079892578126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787957,
+                "AssetType": 40,
+                "Name": "LVD_gimmick_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 59,
+                    "Y": -41.80518,
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 12.43115234375,
+                        "Y": 10.413079892578125
+                    },
+                    "Pixel": {
+                        "X": 1143.115234375,
+                        "Y": 941.3079892578126
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5873480,
+                "AssetType": 40,
+                "Name": "LVD_gimmick_02",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 58,
+                    "Y": -41.8052,
+                    "Scale": 0.125,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.4130794921875
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 941.30794921875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787960,
+                "AssetType": 40,
+                "Name": "LVD_gimmick_03",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 45.55234,
+                    "Y": -0.01063979,
+                    "Scale": 0.45,
+                    "Coords": {
+                        "X": 12.161936494140624,
+                        "Y": 11.2497869963916
+                    },
+                    "Pixel": {
+                        "X": 1116.1936494140625,
+                        "Y": 1024.9786996391601
+                    }
+                }
+            },
+            {
+                "LGB_ID": 7405355,
+                "AssetType": 40,
+                "Name": "LVD_gimmick_03",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 58,
+                    "Y": -43,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.38916015625
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 938.916015625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6540444,
+                "AssetType": 40,
+                "Name": "LVD_zone_0102",
+                "relativePosCount": 20,
+                "Transform": {
+                    "X": 65.32739,
+                    "Y": -63.95223,
+                    "Scale": 0.5,
+                    "Coords": {
+                        "X": 12.557823725585939,
+                        "Y": 9.969706333007812
+                    },
+                    "Pixel": {
+                        "X": 1155.7823725585938,
+                        "Y": 896.9706333007812
+                    }
+                }
+            }
+        ],
+        "exitrange": [],
+        "MapRange": [
+            {
+                "LGB_ID": 5858521,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 1,
+                "PlaceName": 1639,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 2.292768,
+                    "Y": 50.77233,
+                    "Scale": 3.07427,
+                    "Coords": {
+                        "X": 11.295900140625001,
+                        "Y": 12.266438247070313
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1017.2929340625001,
+                            "Y": 1116.2931847070313
+                        },
+                        "2": {
+                            "X": 1041.8870940625002,
+                            "Y": 1116.2931847070313
+                        },
+                        "3": {
+                            "X": 1041.8870940625002,
+                            "Y": 1136.9944647070315
+                        },
+                        "4": {
+                            "X": 1017.2929340625001,
+                            "Y": 1136.9944647070315
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5858527,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 3,
+                "PlaceName": 1640,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0.285593,
+                    "Y": 0.605751,
+                    "Scale": 10.11257,
+                    "Coords": {
+                        "X": 11.255717437988281,
+                        "Y": 11.26212685107422
+                    },
+                    "Pixel": {
+                        "X": 1025.571743798828,
+                        "Y": 1026.212685107422
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5858539,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 3,
+                "PlaceName": 1641,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 10.0411725,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5858540,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 3,
+                "PlaceName": 1642,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 10.0411725,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5858542,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 3,
+                "PlaceName": 1644,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 58,
+                    "Y": -63,
+                    "Scale": 10.60545,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 9.98876953125
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 898.876953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5910300,
+                "AssetType": 43,
+                "Name": "LVD_maprange_01",
+                "TriggerBoxType": 3,
+                "PlaceName": 1643,
+                "PlaceNameSpot": 0,
+                "Transform": {
+                    "X": 0,
+                    "Y": 1.490116e-9,
+                    "Scale": 10.0411725,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 11.25000000002983
+                    },
+                    "Pixel": {
+                        "X": 1025,
+                        "Y": 1025.0000000029831
+                    }
+                }
+            }
+        ],
+        "EventObject": [
+            {
+                "LGB_ID": 5857859,
+                "AssetType": 45,
+                "Name": "LVD_BOSS_h",
+                "EobjId": "2005400",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/btl\/shared\/for_vfx\/sgvf_w_btl_b0665.sgb"
+                },
+                "Transform": {
+                    "X": 39.63893,
+                    "Y": -67.17319,
+                    "Coords": {
+                        "X": 12.04355279785156,
+                        "Y": 9.905224223632812
+                    },
+                    "Pixel": {
+                        "X": 1104.3552797851562,
+                        "Y": 890.5224223632812
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5788019,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2005314",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 17.83952,
+                    "Y": 14.68199,
+                    "Coords": {
+                        "X": 11.607138828125,
+                        "Y": 11.543926557617189
+                    },
+                    "Pixel": {
+                        "X": 1060.7138828125,
+                        "Y": 1054.392655761719
+                    }
+                }
+            },
+            {
+                "LGB_ID": 6051134,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_01",
+                "EobjId": "2005314",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 17.83952,
+                    "Y": 14.68199,
+                    "Coords": {
+                        "X": 11.607138828125,
+                        "Y": 11.543926557617189
+                    },
+                    "Pixel": {
+                        "X": 1060.7138828125,
+                        "Y": 1054.392655761719
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5908325,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_02",
+                "EobjId": "2006094",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 58.02749,
+                    "Y": -20.19315,
+                    "Coords": {
+                        "X": 12.411683149414062,
+                        "Y": 10.845742602539062
+                    },
+                    "Pixel": {
+                        "X": 1141.1683149414062,
+                        "Y": 984.5742602539062
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787961,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_03",
+                "EobjId": "2002735",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0094.sgb"
+                },
+                "Transform": {
+                    "X": 58,
+                    "Y": -20.94316,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.83072775390625
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 983.0727753906251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787962,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_03",
+                "EobjId": "2002872",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 58.04396,
+                    "Y": -20.10755,
+                    "Coords": {
+                        "X": 12.412012871093749,
+                        "Y": 10.847456274414062
+                    },
+                    "Pixel": {
+                        "X": 1141.2012871093748,
+                        "Y": 984.7456274414062
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787965,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_03",
+                "EobjId": "2000139",
+                "EobjName": "Exit",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0005.sgb"
+                },
+                "Transform": {
+                    "X": 100.9419,
+                    "Y": -63,
+                    "Coords": {
+                        "X": 13.270809521484376,
+                        "Y": 9.98876953125
+                    },
+                    "Pixel": {
+                        "X": 1227.0809521484375,
+                        "Y": 898.876953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787966,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_03",
+                "EobjId": "2002872",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 87.81413,
+                    "Y": -61.10986,
+                    "Coords": {
+                        "X": 13.007997719726562,
+                        "Y": 10.026609248046874
+                    },
+                    "Pixel": {
+                        "X": 1200.7997719726563,
+                        "Y": 902.6609248046874
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5894413,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_03",
+                "EobjId": "2005911",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 58,
+                    "Y": -63,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 9.98876953125
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 898.876953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5908489,
+                "AssetType": 45,
+                "Name": "LVD_gimmick_03",
+                "EobjId": "2006095",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 58,
+                    "Y": -63,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 9.98876953125
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 898.876953125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787945,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000182",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": -0.01531982,
+                    "Y": 43.03719,
+                    "Coords": {
+                        "X": 11.249693304384765,
+                        "Y": 12.111584370117187
+                    },
+                    "Pixel": {
+                        "X": 1024.9693304384766,
+                        "Y": 1111.1584370117187
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787947,
+                "AssetType": 45,
+                "Name": "LVD_zone_01",
+                "EobjId": "2000700",
+                "EobjName": "Shortcut",
+                "EobjData": {
+                    "VFX": "bgcommon\/world\/lvd\/shared\/for_vfx\/sgvf_w_lvd_b0144.sgb"
+                },
+                "Transform": {
+                    "X": 3.252589,
+                    "Y": 30.5238,
+                    "Coords": {
+                        "X": 11.315115307128906,
+                        "Y": 11.861072167968752
+                    },
+                    "Pixel": {
+                        "X": 1031.5115307128906,
+                        "Y": 1086.1072167968753
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5911893,
+                "AssetType": 45,
+                "Name": "LVD_zone_0102",
+                "EobjId": "2000182",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 58,
+                    "Y": -11.175,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 11.02628173828125
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 1002.628173828125
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5911926,
+                "AssetType": 45,
+                "Name": "LVD_zone_0102",
+                "EobjId": "2000608",
+                "EobjName": "",
+                "EobjData": {
+                    "ExportedSG": null
+                },
+                "Transform": {
+                    "X": 58,
+                    "Y": -1.705941,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 11.215847860839844
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 1021.5847860839845
+                    }
+                }
+            }
+        ],
+        "EnvLocation": [],
+        "Fate": [],
+        "EventRange": [
+            {
+                "LGB_ID": 5787968,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": -26.22624,
+                    "Y": 9.396008,
+                    "Scale": 2.68573,
+                    "Coords": {
+                        "X": 10.724962968749999,
+                        "Y": 11.438103675781251
+                    },
+                    "Pixel": {
+                        "X": 972.4962968749999,
+                        "Y": 1043.8103675781251
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787971,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": -1.131551,
+                    "Y": -26.81156,
+                    "Scale": 2.68573,
+                    "Coords": {
+                        "X": 11.227346879394531,
+                        "Y": 10.71324513671875
+                    },
+                    "Pixel": {
+                        "X": 1022.7346879394531,
+                        "Y": 971.324513671875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787977,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": -17.23051,
+                    "Y": 9.977799,
+                    "Scale": 1.98730825,
+                    "Coords": {
+                        "X": 10.905053266601563,
+                        "Y": 11.449750858886718
+                    },
+                    "Pixel": {
+                        "X": 990.5053266601562,
+                        "Y": 1044.9750858886719
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5820200,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": 21.04589,
+                    "Y": 5.375186,
+                    "Scale": 1.98730825,
+                    "Coords": {
+                        "X": 11.671328852539062,
+                        "Y": 11.357608704101562
+                    },
+                    "Pixel": {
+                        "X": 1067.1328852539064,
+                        "Y": 1035.7608704101563
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5873537,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": 44.48361,
+                    "Y": -0.0277127,
+                    "Scale": 0.88226675,
+                    "Coords": {
+                        "X": 12.140541020507813,
+                        "Y": 11.249445204736329
+                    },
+                    "Pixel": {
+                        "X": 1114.0541020507812,
+                        "Y": 1024.9445204736328
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787953,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 56.29853,
+                    "Y": -21.14576,
+                    "Scale": 0.30106925,
+                    "Coords": {
+                        "X": 12.377070180664063,
+                        "Y": 10.826671796875
+                    },
+                    "Pixel": {
+                        "X": 1137.7070180664064,
+                        "Y": 982.6671796875
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787954,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 59.67812,
+                    "Y": -21.13233,
+                    "Scale": 0.30106925,
+                    "Coords": {
+                        "X": 12.444727988281251,
+                        "Y": 10.826940659179687
+                    },
+                    "Pixel": {
+                        "X": 1144.4727988281252,
+                        "Y": 982.6940659179687
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5873481,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 57.98775,
+                    "Y": -21.1323,
+                    "Scale": 0.122492325,
+                    "Coords": {
+                        "X": 12.410887573242187,
+                        "Y": 10.826941259765626
+                    },
+                    "Pixel": {
+                        "X": 1141.0887573242187,
+                        "Y": 982.6941259765625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787964,
+                "AssetType": 49,
+                "Name": "LVD_gimmick_03",
+                "Transform": {
+                    "X": 58,
+                    "Y": -18.24541,
+                    "Scale": 0.92429775,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.884735444335938
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 988.4735444335938
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787952,
+                "AssetType": 49,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": 0.01093,
+                    "Y": 56.51712,
+                    "Scale": 0.525094,
+                    "Coords": {
+                        "X": 11.250218813476563,
+                        "Y": 12.38144625
+                    },
+                    "Pixel": {
+                        "X": 1025.0218813476563,
+                        "Y": 1138.144625
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5911896,
+                "AssetType": 49,
+                "Name": "LVD_zone_02",
+                "Transform": {
+                    "X": 58,
+                    "Y": 0.3636665,
+                    "Scale": 0.525094,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 11.257280432861329
+                    },
+                    "Pixel": {
+                        "X": 1141.11328125,
+                        "Y": 1025.7280432861328
+                    }
+                }
+            }
+        ],
+        "CollisionBox": [
+            {
+                "LGB_ID": 5888410,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_01",
+                "Transform": {
+                    "X": 0,
+                    "Y": 0,
+                    "Scale": 0.88226675,
+                    "Coords": {
+                        "X": 11.25,
+                        "Y": 11.25
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1005,
+                            "Y": 1005
+                        },
+                        "2": {
+                            "X": 1045,
+                            "Y": 1005
+                        },
+                        "3": {
+                            "X": 1045,
+                            "Y": 1045
+                        },
+                        "4": {
+                            "X": 1005,
+                            "Y": 1045
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5873487,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 58,
+                    "Y": -21.47269,
+                    "Scale": 0.122492325,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.820126811523437
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1138.58122225,
+                            "Y": 981.5877200523437
+                        },
+                        "2": {
+                            "X": 1143.64534025,
+                            "Y": 981.5877200523437
+                        },
+                        "3": {
+                            "X": 1143.64534025,
+                            "Y": 982.4376422523437
+                        },
+                        "4": {
+                            "X": 1138.58122225,
+                            "Y": 982.4376422523437
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5873490,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 60.60077,
+                    "Y": -21.87124,
+                    "Scale": 0.122492325,
+                    "Coords": {
+                        "X": 12.463199008789063,
+                        "Y": 10.81214802734375
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1145.8656199789064,
+                            "Y": 980.5676193343749
+                        },
+                        "2": {
+                            "X": 1146.7741817789063,
+                            "Y": 980.5676193343749
+                        },
+                        "3": {
+                            "X": 1146.7741817789063,
+                            "Y": 981.8619861343749
+                        },
+                        "4": {
+                            "X": 1145.8656199789064,
+                            "Y": 981.8619861343749
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5873491,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 55.38853,
+                    "Y": -21.87124,
+                    "Scale": 0.122492325,
+                    "Coords": {
+                        "X": 12.35885240722656,
+                        "Y": 10.81214802734375
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1135.4309598226562,
+                            "Y": 980.5676193343749
+                        },
+                        "2": {
+                            "X": 1136.339521622656,
+                            "Y": 980.5676193343749
+                        },
+                        "3": {
+                            "X": 1136.339521622656,
+                            "Y": 981.8619861343749
+                        },
+                        "4": {
+                            "X": 1135.4309598226562,
+                            "Y": 981.8619861343749
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5927569,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 58,
+                    "Y": -21.4264,
+                    "Scale": 0.122492325,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.821053515625
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1140.11328125,
+                            "Y": 981.1053515625
+                        },
+                        "2": {
+                            "X": 1142.11328125,
+                            "Y": 981.1053515625
+                        },
+                        "3": {
+                            "X": 1142.11328125,
+                            "Y": 983.1053515625
+                        },
+                        "4": {
+                            "X": 1140.11328125,
+                            "Y": 983.1053515625
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5927498,
+                "AssetType": 57,
+                "Name": "LVD_gimmick_03",
+                "Transform": {
+                    "X": 103.2183,
+                    "Y": -63,
+                    "Scale": 0.92429775,
+                    "Coords": {
+                        "X": 13.316381982421875,
+                        "Y": 9.98876953125
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1230.6381982421876,
+                            "Y": 896.876953125
+                        },
+                        "2": {
+                            "X": 1232.6381982421876,
+                            "Y": 896.876953125
+                        },
+                        "3": {
+                            "X": 1232.6381982421876,
+                            "Y": 900.876953125
+                        },
+                        "4": {
+                            "X": 1230.6381982421876,
+                            "Y": 900.876953125
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5787951,
+                "AssetType": 57,
+                "Name": "LVD_zone_01",
+                "Transform": {
+                    "X": 0.06560349,
+                    "Y": 57.47662,
+                    "Scale": 10.0411725,
+                    "Coords": {
+                        "X": 11.251313351118164,
+                        "Y": 12.400654990234376
+                    },
+                    "Pixel": {
+                        "Rotation": -0,
+                        "1": {
+                            "X": 1020.9488541118162,
+                            "Y": 1137.7485780234374
+                        },
+                        "2": {
+                            "X": 1029.3138161118163,
+                            "Y": 1137.7485780234374
+                        },
+                        "3": {
+                            "X": 1029.3138161118163,
+                            "Y": 1142.3824200234376
+                        },
+                        "4": {
+                            "X": 1020.9488541118162,
+                            "Y": 1142.3824200234376
+                        }
+                    }
+                }
+            }
+        ],
+        "LineVfx": [],
+        "ClientPath": [
+            {
+                "LGB_ID": 5787958,
+                "AssetType": 65,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 57,
+                    "Y": -22.24741,
+                    "Coords": {
+                        "X": 12.39111328125,
+                        "Y": 10.425661967773438
+                    },
+                    "Pixel": {
+                        "1": {
+                            "X": 1139.111328125,
+                            "Y": 980.4617280273437
+                        },
+                        "2": {
+                            "X": 1139.111328125,
+                            "Y": 978.4519092285157
+                        },
+                        "3": {
+                            "X": 1139.111328125,
+                            "Y": 976.4241429199219
+                        },
+                        "4": {
+                            "X": 1139.111328125,
+                            "Y": 970.2683272460938
+                        },
+                        "6": {
+                            "X": 1139.111328125,
+                            "Y": 960.2766953125
+                        },
+                        "7": {
+                            "X": 1139.111328125,
+                            "Y": 942.5661967773439
+                        },
+                        "5": {
+                            "X": 1139.111328125,
+                            "Y": 966.9339802246094
+                        },
+                        "8": {
+                            "X": 1139.111328125,
+                            "Y": 973.4424599609374
+                        },
+                        "9": {
+                            "X": 1025,
+                            "Y": 776.195583984375
+                        },
+                        "10": {
+                            "X": 1025,
+                            "Y": 794.9249765625
+                        },
+                        "11": {
+                            "X": 1025,
+                            "Y": 791.9127758300782
+                        },
+                        "12": {
+                            "X": 1025,
+                            "Y": 801.0226014648438
+                        },
+                        "13": {
+                            "X": 1025,
+                            "Y": 742.9593583984374
+                        },
+                        "14": {
+                            "X": 1025,
+                            "Y": 783.3289633789062
+                        },
+                        "15": {
+                            "X": 1025,
+                            "Y": 780.2464560546875
+                        },
+                        "17": {
+                            "X": 987.4993239746095,
+                            "Y": 1484.6324218750003
+                        },
+                        "20": {
+                            "X": 1259.0454069824218,
+                            "Y": 1107.4534523925781
+                        },
+                        "21": {
+                            "X": 1268.8801618652344,
+                            "Y": 1096.8200783691407
+                        },
+                        "18": {
+                            "X": 1197.4277622070313,
+                            "Y": 1251.7148852539062
+                        },
+                        "19": {
+                            "X": 1258.5935661621093,
+                            "Y": 1110.7404392089843
+                        },
+                        "27": {
+                            "X": 1428.2131086425784,
+                            "Y": 985.0312060546875
+                        },
+                        "28": {
+                            "X": 1440.0110588378907,
+                            "Y": 978.7080371093749
+                        },
+                        "29": {
+                            "X": 992.6591059082032,
+                            "Y": 1450.1980273437503
+                        },
+                        "31": {
+                            "X": 1527.3075861816408,
+                            "Y": 965.7415869140625
+                        },
+                        "32": {
+                            "X": 1029.0360616210937,
+                            "Y": 1439.7021875000003
+                        },
+                        "33": {
+                            "X": 1117.651721923828,
+                            "Y": 1370.257937011719
+                        },
+                        "35": {
+                            "X": 944.9186818847655,
+                            "Y": 1067.5228567138672
+                        },
+                        "36": {
+                            "X": 1472.910956298828,
+                            "Y": 873.6478393554687
+                        },
+                        "37": {
+                            "X": 1428.8559057617188,
+                            "Y": 1104.5741333007813
+                        },
+                        "38": {
+                            "X": 1530.5973657226564,
+                            "Y": 1188.0015058593751
+                        },
+                        "39": {
+                            "X": 1197.9582897949217,
+                            "Y": 1259.4952758789066
+                        },
+                        "40": {
+                            "X": 1223.0555749511718,
+                            "Y": 1185.5071923828125
+                        },
+                        "43": {
+                            "X": 979.0829688964843,
+                            "Y": 1565.2417651367186
+                        },
+                        "49": {
+                            "X": 1047.007280517578,
+                            "Y": 1431.8530297851562
+                        },
+                        "56": {
+                            "X": 1686.2044475097655,
+                            "Y": 758.6492456054689
+                        },
+                        "71": {
+                            "X": 1075.854704345703,
+                            "Y": 1407.5236938476562
+                        },
+                        "73": {
+                            "X": 1032.6351689453124,
+                            "Y": 1622.1519646826173
+                        },
+                        "23": {
+                            "X": 1169.144869140625,
+                            "Y": 1321.58775390625
+                        },
+                        "41": {
+                            "X": 1527.906210205078,
+                            "Y": 876.2020312500001
+                        },
+                        "95": {
+                            "X": 698.5212241210936,
+                            "Y": 633.1219799804688
+                        },
+                        "61": {
+                            "X": 1407.2139416503908,
+                            "Y": 996.1904931640624
+                        },
+                        "75": {
+                            "X": 840.8206127929689,
+                            "Y": 1366.7624768066405
+                        },
+                        "84": {
+                            "X": 832.1959384765626,
+                            "Y": 393.50811035156255
+                        },
+                        "91": {
+                            "X": 838.8149960937501,
+                            "Y": 354.7313793945313
+                        },
+                        "93": {
+                            "X": 905.4246811523437,
+                            "Y": 230.98775390625005
+                        },
+                        "16": {
+                            "X": 1025,
+                            "Y": 754.6514052734375
+                        },
+                        "45": {
+                            "X": 989.1548180908203,
+                            "Y": 1593.6767065429688
+                        },
+                        "74": {
+                            "X": 1003.7599279785157,
+                            "Y": 1609.8412468261718
+                        },
+                        "92": {
+                            "X": 851.3165927734375,
+                            "Y": 308.16054443359377
+                        },
+                        "83": {
+                            "X": 823.0121787109375,
+                            "Y": 415.2701416015625
+                        },
+                        "50": {
+                            "X": 1130.000279296875,
+                            "Y": 1161.0096923828123
+                        },
+                        "46": {
+                            "X": 1442.8146240234375,
+                            "Y": 1175.842473388672
+                        },
+                        "42": {
+                            "X": 986.9544562763672,
+                            "Y": 1491.1522827148438
+                        },
+                        "26": {
+                            "X": 988.2684443359375,
+                            "Y": 1459.2489575195311
+                        },
+                        "47": {
+                            "X": 1576.6185344238281,
+                            "Y": 858.0723437500002
+                        },
+                        "30": {
+                            "X": 1534.399905517578,
+                            "Y": 952.0271069335937
+                        },
+                        "34": {
+                            "X": 1141.0419616699219,
+                            "Y": 1351.5823168945312
+                        },
+                        "22": {
+                            "X": 1307.3672502441407,
+                            "Y": 1068.6034899902345
+                        },
+                        "54": {
+                            "X": 1640.2933562011717,
+                            "Y": 789.7664038085939
+                        },
+                        "55": {
+                            "X": 1311.5661267089845,
+                            "Y": 1064.4690063476562
+                        },
+                        "67": {
+                            "X": 1521.6998352050782,
+                            "Y": 957.8451831054688
+                        },
+                        "68": {
+                            "X": 1494.0942028808593,
+                            "Y": 967.3355419921876
+                        },
+                        "65": {
+                            "X": 1162.4409387207031,
+                            "Y": 1329.7611279296875
+                        },
+                        "69": {
+                            "X": 1016.9133716064453,
+                            "Y": 1619.0991939697267
+                        },
+                        "48": {
+                            "X": 1222.5751062011718,
+                            "Y": 1143.982780761719
+                        },
+                        "52": {
+                            "X": 1258.9588024902343,
+                            "Y": 1110.1505737304688
+                        },
+                        "64": {
+                            "X": 1533.3990490722656,
+                            "Y": 950.3908105468751
+                        },
+                        "70": {
+                            "X": 1527.2805798339843,
+                            "Y": 961.4268774414063
+                        },
+                        "72": {
+                            "X": 1535.7641564941407,
+                            "Y": 951.6340234375001
+                        },
+                        "51": {
+                            "X": 1197.6651938476562,
+                            "Y": 1219.6593916015624
+                        },
+                        "24": {
+                            "X": 1337.1118693847657,
+                            "Y": 1034.5795458984376
+                        },
+                        "62": {
+                            "X": 1712.1227336425782,
+                            "Y": 723.2294897460938
+                        },
+                        "60": {
+                            "X": 1413.2570373535157,
+                            "Y": 987.405322265625
+                        },
+                        "57": {
+                            "X": 1329.3457727050782,
+                            "Y": 1045.1327416992187
+                        },
+                        "66": {
+                            "X": 1012.6142193115234,
+                            "Y": 1446.674990234375
+                        },
+                        "44": {
+                            "X": 1342.3053662109376,
+                            "Y": 1231.2362060546877
+                        },
+                        "25": {
+                            "X": 1335.2230236083983,
+                            "Y": 1234.867335620117
+                        },
+                        "63": {
+                            "X": 1216.1334716796875,
+                            "Y": 979.1170761718749
+                        },
+                        "53": {
+                            "X": 873.7525415039063,
+                            "Y": 1294.0618994140625
+                        },
+                        "65535": {
+                            "X": 1207.80282421875,
+                            "Y": 1175.6196660156252
+                        },
+                        "59": {
+                            "X": 713.687880859375,
+                            "Y": 1429.4860205078126
+                        },
+                        "58": {
+                            "X": 894.9754467773438,
+                            "Y": 1370.0773107910156
+                        },
+                        "76": {
+                            "X": 838.8212622070313,
+                            "Y": 1389.0798498535157
+                        },
+                        "77": {
+                            "X": 822.2510961914063,
+                            "Y": 1366.018651123047
+                        },
+                        "78": {
+                            "X": 818.7489794921876,
+                            "Y": 1367.309510498047
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5927629,
+                "AssetType": 65,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 59,
+                    "Y": -22.24741,
+                    "Coords": {
+                        "X": 12.43115234375,
+                        "Y": 10.425661967773438
+                    },
+                    "Pixel": {
+                        "1": {
+                            "X": 1143.115234375,
+                            "Y": 980.4617280273437
+                        },
+                        "2": {
+                            "X": 1143.115234375,
+                            "Y": 978.4519092285157
+                        },
+                        "3": {
+                            "X": 1143.115234375,
+                            "Y": 976.4241429199219
+                        },
+                        "4": {
+                            "X": 1143.115234375,
+                            "Y": 970.2683272460938
+                        },
+                        "6": {
+                            "X": 1143.115234375,
+                            "Y": 960.2766953125
+                        },
+                        "7": {
+                            "X": 1143.115234375,
+                            "Y": 942.5661967773439
+                        },
+                        "5": {
+                            "X": 1143.115234375,
+                            "Y": 966.9339802246094
+                        },
+                        "8": {
+                            "X": 1143.115234375,
+                            "Y": 973.4424599609374
+                        },
+                        "9": {
+                            "X": 1025,
+                            "Y": 776.195583984375
+                        },
+                        "10": {
+                            "X": 1025,
+                            "Y": 794.9249765625
+                        },
+                        "11": {
+                            "X": 1025,
+                            "Y": 791.9127758300782
+                        },
+                        "12": {
+                            "X": 1025,
+                            "Y": 801.0226014648438
+                        },
+                        "13": {
+                            "X": 1025,
+                            "Y": 742.9593583984374
+                        },
+                        "14": {
+                            "X": 1025,
+                            "Y": 783.3289633789062
+                        },
+                        "15": {
+                            "X": 1025,
+                            "Y": 780.2464560546875
+                        },
+                        "17": {
+                            "X": 987.4993239746095,
+                            "Y": 1484.6324218750003
+                        },
+                        "20": {
+                            "X": 1259.0454069824218,
+                            "Y": 1107.4534523925781
+                        },
+                        "21": {
+                            "X": 1268.8801618652344,
+                            "Y": 1096.8200783691407
+                        },
+                        "18": {
+                            "X": 1197.4277622070313,
+                            "Y": 1251.7148852539062
+                        },
+                        "19": {
+                            "X": 1258.5935661621093,
+                            "Y": 1110.7404392089843
+                        },
+                        "27": {
+                            "X": 1428.2131086425784,
+                            "Y": 985.0312060546875
+                        },
+                        "28": {
+                            "X": 1440.0110588378907,
+                            "Y": 978.7080371093749
+                        },
+                        "29": {
+                            "X": 992.6591059082032,
+                            "Y": 1450.1980273437503
+                        },
+                        "31": {
+                            "X": 1527.3075861816408,
+                            "Y": 965.7415869140625
+                        },
+                        "32": {
+                            "X": 1029.0360616210937,
+                            "Y": 1439.7021875000003
+                        },
+                        "33": {
+                            "X": 1117.651721923828,
+                            "Y": 1370.257937011719
+                        },
+                        "35": {
+                            "X": 944.9186818847655,
+                            "Y": 1067.5228567138672
+                        },
+                        "36": {
+                            "X": 1472.910956298828,
+                            "Y": 873.6478393554687
+                        },
+                        "37": {
+                            "X": 1428.8559057617188,
+                            "Y": 1104.5741333007813
+                        },
+                        "38": {
+                            "X": 1530.5973657226564,
+                            "Y": 1188.0015058593751
+                        },
+                        "39": {
+                            "X": 1197.9582897949217,
+                            "Y": 1259.4952758789066
+                        },
+                        "40": {
+                            "X": 1223.0555749511718,
+                            "Y": 1185.5071923828125
+                        },
+                        "43": {
+                            "X": 979.0829688964843,
+                            "Y": 1565.2417651367186
+                        },
+                        "49": {
+                            "X": 1047.007280517578,
+                            "Y": 1431.8530297851562
+                        },
+                        "56": {
+                            "X": 1686.2044475097655,
+                            "Y": 758.6492456054689
+                        },
+                        "71": {
+                            "X": 1075.854704345703,
+                            "Y": 1407.5236938476562
+                        },
+                        "73": {
+                            "X": 1032.6351689453124,
+                            "Y": 1622.1519646826173
+                        },
+                        "23": {
+                            "X": 1169.144869140625,
+                            "Y": 1321.58775390625
+                        },
+                        "41": {
+                            "X": 1527.906210205078,
+                            "Y": 876.2020312500001
+                        },
+                        "95": {
+                            "X": 698.5212241210936,
+                            "Y": 633.1219799804688
+                        },
+                        "61": {
+                            "X": 1407.2139416503908,
+                            "Y": 996.1904931640624
+                        },
+                        "75": {
+                            "X": 840.8206127929689,
+                            "Y": 1366.7624768066405
+                        },
+                        "84": {
+                            "X": 832.1959384765626,
+                            "Y": 393.50811035156255
+                        },
+                        "91": {
+                            "X": 838.8149960937501,
+                            "Y": 354.7313793945313
+                        },
+                        "93": {
+                            "X": 905.4246811523437,
+                            "Y": 230.98775390625005
+                        },
+                        "16": {
+                            "X": 1025,
+                            "Y": 754.6514052734375
+                        },
+                        "45": {
+                            "X": 989.1548180908203,
+                            "Y": 1593.6767065429688
+                        },
+                        "74": {
+                            "X": 1003.7599279785157,
+                            "Y": 1609.8412468261718
+                        },
+                        "92": {
+                            "X": 851.3165927734375,
+                            "Y": 308.16054443359377
+                        },
+                        "83": {
+                            "X": 823.0121787109375,
+                            "Y": 415.2701416015625
+                        },
+                        "50": {
+                            "X": 1130.000279296875,
+                            "Y": 1161.0096923828123
+                        },
+                        "46": {
+                            "X": 1442.8146240234375,
+                            "Y": 1175.842473388672
+                        },
+                        "42": {
+                            "X": 986.9544562763672,
+                            "Y": 1491.1522827148438
+                        },
+                        "26": {
+                            "X": 988.2684443359375,
+                            "Y": 1459.2489575195311
+                        },
+                        "47": {
+                            "X": 1576.6185344238281,
+                            "Y": 858.0723437500002
+                        },
+                        "30": {
+                            "X": 1534.399905517578,
+                            "Y": 952.0271069335937
+                        },
+                        "34": {
+                            "X": 1141.0419616699219,
+                            "Y": 1351.5823168945312
+                        },
+                        "22": {
+                            "X": 1307.3672502441407,
+                            "Y": 1068.6034899902345
+                        },
+                        "54": {
+                            "X": 1640.2933562011717,
+                            "Y": 789.7664038085939
+                        },
+                        "55": {
+                            "X": 1311.5661267089845,
+                            "Y": 1064.4690063476562
+                        },
+                        "67": {
+                            "X": 1521.6998352050782,
+                            "Y": 957.8451831054688
+                        },
+                        "68": {
+                            "X": 1494.0942028808593,
+                            "Y": 967.3355419921876
+                        },
+                        "65": {
+                            "X": 1162.4409387207031,
+                            "Y": 1329.7611279296875
+                        },
+                        "69": {
+                            "X": 1016.9133716064453,
+                            "Y": 1619.0991939697267
+                        },
+                        "48": {
+                            "X": 1222.5751062011718,
+                            "Y": 1143.982780761719
+                        },
+                        "52": {
+                            "X": 1258.9588024902343,
+                            "Y": 1110.1505737304688
+                        },
+                        "64": {
+                            "X": 1533.3990490722656,
+                            "Y": 950.3908105468751
+                        },
+                        "70": {
+                            "X": 1527.2805798339843,
+                            "Y": 961.4268774414063
+                        },
+                        "72": {
+                            "X": 1535.7641564941407,
+                            "Y": 951.6340234375001
+                        },
+                        "51": {
+                            "X": 1197.6651938476562,
+                            "Y": 1219.6593916015624
+                        },
+                        "24": {
+                            "X": 1337.1118693847657,
+                            "Y": 1034.5795458984376
+                        },
+                        "62": {
+                            "X": 1712.1227336425782,
+                            "Y": 723.2294897460938
+                        },
+                        "60": {
+                            "X": 1413.2570373535157,
+                            "Y": 987.405322265625
+                        },
+                        "57": {
+                            "X": 1329.3457727050782,
+                            "Y": 1045.1327416992187
+                        },
+                        "66": {
+                            "X": 1012.6142193115234,
+                            "Y": 1446.674990234375
+                        },
+                        "44": {
+                            "X": 1342.3053662109376,
+                            "Y": 1231.2362060546877
+                        },
+                        "25": {
+                            "X": 1335.2230236083983,
+                            "Y": 1234.867335620117
+                        },
+                        "63": {
+                            "X": 1216.1334716796875,
+                            "Y": 979.1170761718749
+                        },
+                        "53": {
+                            "X": 873.7525415039063,
+                            "Y": 1294.0618994140625
+                        },
+                        "65535": {
+                            "X": 1207.80282421875,
+                            "Y": 1175.6196660156252
+                        },
+                        "59": {
+                            "X": 713.687880859375,
+                            "Y": 1429.4860205078126
+                        },
+                        "58": {
+                            "X": 894.9754467773438,
+                            "Y": 1370.0773107910156
+                        },
+                        "76": {
+                            "X": 838.8212622070313,
+                            "Y": 1389.0798498535157
+                        },
+                        "77": {
+                            "X": 822.2510961914063,
+                            "Y": 1366.018651123047
+                        },
+                        "78": {
+                            "X": 818.7489794921876,
+                            "Y": 1367.309510498047
+                        }
+                    }
+                }
+            },
+            {
+                "LGB_ID": 5927630,
+                "AssetType": 65,
+                "Name": "LVD_gimmick_02",
+                "Transform": {
+                    "X": 58,
+                    "Y": -22.24741,
+                    "Coords": {
+                        "X": 12.4111328125,
+                        "Y": 10.425661967773438
+                    },
+                    "Pixel": {
+                        "1": {
+                            "X": 1141.11328125,
+                            "Y": 980.4617280273437
+                        },
+                        "2": {
+                            "X": 1141.11328125,
+                            "Y": 978.4519092285157
+                        },
+                        "3": {
+                            "X": 1141.11328125,
+                            "Y": 976.4241429199219
+                        },
+                        "4": {
+                            "X": 1141.11328125,
+                            "Y": 970.2683272460938
+                        },
+                        "6": {
+                            "X": 1141.11328125,
+                            "Y": 960.2766953125
+                        },
+                        "7": {
+                            "X": 1141.11328125,
+                            "Y": 942.5661967773439
+                        },
+                        "5": {
+                            "X": 1141.11328125,
+                            "Y": 966.9339802246094
+                        },
+                        "8": {
+                            "X": 1141.11328125,
+                            "Y": 973.4424599609374
+                        },
+                        "9": {
+                            "X": 1025,
+                            "Y": 776.195583984375
+                        },
+                        "10": {
+                            "X": 1025,
+                            "Y": 794.9249765625
+                        },
+                        "11": {
+                            "X": 1025,
+                            "Y": 791.9127758300782
+                        },
+                        "12": {
+                            "X": 1025,
+                            "Y": 801.0226014648438
+                        },
+                        "13": {
+                            "X": 1025,
+                            "Y": 742.9593583984374
+                        },
+                        "14": {
+                            "X": 1025,
+                            "Y": 783.3289633789062
+                        },
+                        "15": {
+                            "X": 1025,
+                            "Y": 780.2464560546875
+                        },
+                        "17": {
+                            "X": 987.4993239746095,
+                            "Y": 1484.6324218750003
+                        },
+                        "20": {
+                            "X": 1259.0454069824218,
+                            "Y": 1107.4534523925781
+                        },
+                        "21": {
+                            "X": 1268.8801618652344,
+                            "Y": 1096.8200783691407
+                        },
+                        "18": {
+                            "X": 1197.4277622070313,
+                            "Y": 1251.7148852539062
+                        },
+                        "19": {
+                            "X": 1258.5935661621093,
+                            "Y": 1110.7404392089843
+                        },
+                        "27": {
+                            "X": 1428.2131086425784,
+                            "Y": 985.0312060546875
+                        },
+                        "28": {
+                            "X": 1440.0110588378907,
+                            "Y": 978.7080371093749
+                        },
+                        "29": {
+                            "X": 992.6591059082032,
+                            "Y": 1450.1980273437503
+                        },
+                        "31": {
+                            "X": 1527.3075861816408,
+                            "Y": 965.7415869140625
+                        },
+                        "32": {
+                            "X": 1029.0360616210937,
+                            "Y": 1439.7021875000003
+                        },
+                        "33": {
+                            "X": 1117.651721923828,
+                            "Y": 1370.257937011719
+                        },
+                        "35": {
+                            "X": 944.9186818847655,
+                            "Y": 1067.5228567138672
+                        },
+                        "36": {
+                            "X": 1472.910956298828,
+                            "Y": 873.6478393554687
+                        },
+                        "37": {
+                            "X": 1428.8559057617188,
+                            "Y": 1104.5741333007813
+                        },
+                        "38": {
+                            "X": 1530.5973657226564,
+                            "Y": 1188.0015058593751
+                        },
+                        "39": {
+                            "X": 1197.9582897949217,
+                            "Y": 1259.4952758789066
+                        },
+                        "40": {
+                            "X": 1223.0555749511718,
+                            "Y": 1185.5071923828125
+                        },
+                        "43": {
+                            "X": 979.0829688964843,
+                            "Y": 1565.2417651367186
+                        },
+                        "49": {
+                            "X": 1047.007280517578,
+                            "Y": 1431.8530297851562
+                        },
+                        "56": {
+                            "X": 1686.2044475097655,
+                            "Y": 758.6492456054689
+                        },
+                        "71": {
+                            "X": 1075.854704345703,
+                            "Y": 1407.5236938476562
+                        },
+                        "73": {
+                            "X": 1032.6351689453124,
+                            "Y": 1622.1519646826173
+                        },
+                        "23": {
+                            "X": 1169.144869140625,
+                            "Y": 1321.58775390625
+                        },
+                        "41": {
+                            "X": 1527.906210205078,
+                            "Y": 876.2020312500001
+                        },
+                        "95": {
+                            "X": 698.5212241210936,
+                            "Y": 633.1219799804688
+                        },
+                        "61": {
+                            "X": 1407.2139416503908,
+                            "Y": 996.1904931640624
+                        },
+                        "75": {
+                            "X": 840.8206127929689,
+                            "Y": 1366.7624768066405
+                        },
+                        "84": {
+                            "X": 832.1959384765626,
+                            "Y": 393.50811035156255
+                        },
+                        "91": {
+                            "X": 838.8149960937501,
+                            "Y": 354.7313793945313
+                        },
+                        "93": {
+                            "X": 905.4246811523437,
+                            "Y": 230.98775390625005
+                        },
+                        "16": {
+                            "X": 1025,
+                            "Y": 754.6514052734375
+                        },
+                        "45": {
+                            "X": 989.1548180908203,
+                            "Y": 1593.6767065429688
+                        },
+                        "74": {
+                            "X": 1003.7599279785157,
+                            "Y": 1609.8412468261718
+                        },
+                        "92": {
+                            "X": 851.3165927734375,
+                            "Y": 308.16054443359377
+                        },
+                        "83": {
+                            "X": 823.0121787109375,
+                            "Y": 415.2701416015625
+                        },
+                        "50": {
+                            "X": 1130.000279296875,
+                            "Y": 1161.0096923828123
+                        },
+                        "46": {
+                            "X": 1442.8146240234375,
+                            "Y": 1175.842473388672
+                        },
+                        "42": {
+                            "X": 986.9544562763672,
+                            "Y": 1491.1522827148438
+                        },
+                        "26": {
+                            "X": 988.2684443359375,
+                            "Y": 1459.2489575195311
+                        },
+                        "47": {
+                            "X": 1576.6185344238281,
+                            "Y": 858.0723437500002
+                        },
+                        "30": {
+                            "X": 1534.399905517578,
+                            "Y": 952.0271069335937
+                        },
+                        "34": {
+                            "X": 1141.0419616699219,
+                            "Y": 1351.5823168945312
+                        },
+                        "22": {
+                            "X": 1307.3672502441407,
+                            "Y": 1068.6034899902345
+                        },
+                        "54": {
+                            "X": 1640.2933562011717,
+                            "Y": 789.7664038085939
+                        },
+                        "55": {
+                            "X": 1311.5661267089845,
+                            "Y": 1064.4690063476562
+                        },
+                        "67": {
+                            "X": 1521.6998352050782,
+                            "Y": 957.8451831054688
+                        },
+                        "68": {
+                            "X": 1494.0942028808593,
+                            "Y": 967.3355419921876
+                        },
+                        "65": {
+                            "X": 1162.4409387207031,
+                            "Y": 1329.7611279296875
+                        },
+                        "69": {
+                            "X": 1016.9133716064453,
+                            "Y": 1619.0991939697267
+                        },
+                        "48": {
+                            "X": 1222.5751062011718,
+                            "Y": 1143.982780761719
+                        },
+                        "52": {
+                            "X": 1258.9588024902343,
+                            "Y": 1110.1505737304688
+                        },
+                        "64": {
+                            "X": 1533.3990490722656,
+                            "Y": 950.3908105468751
+                        },
+                        "70": {
+                            "X": 1527.2805798339843,
+                            "Y": 961.4268774414063
+                        },
+                        "72": {
+                            "X": 1535.7641564941407,
+                            "Y": 951.6340234375001
+                        },
+                        "51": {
+                            "X": 1197.6651938476562,
+                            "Y": 1219.6593916015624
+                        },
+                        "24": {
+                            "X": 1337.1118693847657,
+                            "Y": 1034.5795458984376
+                        },
+                        "62": {
+                            "X": 1712.1227336425782,
+                            "Y": 723.2294897460938
+                        },
+                        "60": {
+                            "X": 1413.2570373535157,
+                            "Y": 987.405322265625
+                        },
+                        "57": {
+                            "X": 1329.3457727050782,
+                            "Y": 1045.1327416992187
+                        },
+                        "66": {
+                            "X": 1012.6142193115234,
+                            "Y": 1446.674990234375
+                        },
+                        "44": {
+                            "X": 1342.3053662109376,
+                            "Y": 1231.2362060546877
+                        },
+                        "25": {
+                            "X": 1335.2230236083983,
+                            "Y": 1234.867335620117
+                        },
+                        "63": {
+                            "X": 1216.1334716796875,
+                            "Y": 979.1170761718749
+                        },
+                        "53": {
+                            "X": 873.7525415039063,
+                            "Y": 1294.0618994140625
+                        },
+                        "65535": {
+                            "X": 1207.80282421875,
+                            "Y": 1175.6196660156252
+                        },
+                        "59": {
+                            "X": 713.687880859375,
+                            "Y": 1429.4860205078126
+                        },
+                        "58": {
+                            "X": 894.9754467773438,
+                            "Y": 1370.0773107910156
+                        },
+                        "76": {
+                            "X": 838.8212622070313,
+                            "Y": 1389.0798498535157
+                        },
+                        "77": {
+                            "X": 822.2510961914063,
+                            "Y": 1366.018651123047
+                        },
+                        "78": {
+                            "X": 818.7489794921876,
+                            "Y": 1367.309510498047
+                        }
+                    }
+                }
+            }
+        ],
+        "TargetMarker": [],
+        "ChairMarker": [],
+        "PrefetchRange": [],
+        "Treasure": [],
+        "BNPC": [],
+        "Gathering": []
+    }
+}
